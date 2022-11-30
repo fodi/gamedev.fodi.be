@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Fodi&#x27;s blog",
+    "description": "",
+    "home_page_url": "https://blog.fodi.be",
+    "feed_url": "https://blog.fodi.be/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Fodi"
+    },
+    "items": [
+    ]
+}
