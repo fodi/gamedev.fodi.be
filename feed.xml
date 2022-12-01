@@ -3,10 +3,34 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2022-12-01T10:26:09+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day One</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-one/"/>
+        <id>https://blog.fodi.be/day-one/</id>
+
+        <updated>2022-12-01T10:26:09+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it. Google Keep notes, text files all over my Dropbox, freaking audio recordings on my phone...</p>
+<p>About a month ago I decided that I have to put a pause on making money (working on other people's stuff) because I clearly failed at my attempt to mix jobs with pet projects / creative hobbies in a healthy ratio. So I'm designating this December as "get your (own) shit together" month.</p>
+<p>Today I'm starting this blog and I'll update it every day in December, hoping that publicly logging my progress helps me stay on track.</p>
+<p>As first order of business I'm taking inventory and organizing all ideas, abandoned projects and half-assed attempts and putting them on either a "might do" or "probably won't do" pile. After that's done, I'm going to choose the first one either by preference or at random and get hacking and blogging.</p>
+<p>Although I'm slightly terrified of it, but I'm also planning to stream stuff (especially game development), but I'm not quite sure that's a good idea at this point. We'll see.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>
