@@ -10,6 +10,89 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-2/",
+            "url": "https://blog.fodi.be/day-2/",
+            "title": "Day Two",
+            "summary": "I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the&hellip;",
+            "content_html": "<p>I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the same today. I'll be mostly AFK this weekend so the next update will be on Monday.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Blog"
+            ],
+            "date_published": "2022-12-02T11:59:41+01:00",
+            "date_modified": "2022-12-02T12:02:53+01:00"
+        },
+        {
+            "id": "https://blog.fodi.be/copterfields/",
+            "url": "https://blog.fodi.be/copterfields/",
+            "title": "Copterfields",
+            "summary": "Background As Lasermagnet Games (my friend Tibor and me) we've joined the Toy Box Jam 3 in early Feb 2022&hellip;",
+            "content_html": "<h2>Background</h2>\n<p>As <strong>Lasermagnet Games</strong> (my friend Tibor and me) we've joined the <a href=\"https://itch.io/jam/toy-box-jam-3\"></a><a href=\"https://itch.io/jam/toy-box-jam-3\" target=\"_blank\" rel=\"noopener noreferrer\">Toy Box Jam 3</a> in early Feb 2022 and this time we didn't fail time management miserably and were able to maintain focus quite well, especially compared to most of our game jam attempts.</p>\n<p>Although I'd still call Copterfields just a prototype due to the lack of content and suboptimal balance, I was (and frankly still am) quite satisfied with the end result. The game received a couple post-jam updates (including local multiplayer support), but development was halted in March 2022.</p>\n<p>The last build is playable on Itch and I've kept a devlog during development too.</p>\n<h2>Future plans</h2>\n<p>I have no plans to continue development.</p>",
+            "image": "https://blog.fodi.be/media/posts/5/coperfields.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "GameDev",
+                   "Ended"
+            ],
+            "date_published": "2022-12-01T15:24:25+01:00",
+            "date_modified": "2022-12-02T12:01:52+01:00"
+        },
+        {
+            "id": "https://blog.fodi.be/video-game-remakes/",
+            "url": "https://blog.fodi.be/video-game-remakes/",
+            "title": "Video game remakes",
+            "summary": "I have a growing list of existing (mostly popular) games that have main mechanics that I admire and want to&hellip;",
+            "content_html": "<p>I have a growing list of existing (mostly popular) games that have main mechanics that I admire and want to implement for various reasons.</p>\n<ul>\n<li>The challenge: I want to see if I can do it, in what timeframe and what aspects do I underestimate during the process.</li>\n<li>Educational value: I can learn new things while implementing already existing, proven and well thought out mechanics. If I document the process others can learn too.</li>\n<li>In some cases – if I'm satisfied with the result – I might release the source project (essentially a template) either for free or maybe for a fee.</li>\n</ul>\n<p>Here's the list of games I might attempt to partially remake.</p>\n<h3>Wizard of Wor</h3>\n<p>This was probably the first video game I got addicted to in Commodore 64 times. If I ever implement the base mechanics I'd love to add a few new ones, like destructible walls, 4 player support (with larger maps, maybe TDM/CTF modes).</p>\n<h3>Plants vs Zombies</h3>\n<p>I spent countless hours playing PvZ on PC and Android as well, I absolutely love the concept and I already started hacking together a template which uses roughly the same controls / mechanics but with a 2.5D side view where lanes are stacked on top of each other. I also have an idea for a fork: controlling the game completely by the keyboard, but not with the arrows, but by typing keywords (think Typing of the Dead or Epistory - Typing Chronicles).</p>\n<h3>Heroes of Might and Magic 2±1</h3>\n<p>I'd love to play a game with the same base mechanics but in a completely different world. Maybe a WWII or futuristic robot war theme?</p>\n<h3>Airmech</h3>\n<p>During the development of the Copterfields prototype / game jam entry I already implemented similar player movement (and beaming / building capabilities), but not combat. An Airmech clone would also be a great opportunity to venture into networked multiplayer territory, something that I haven't done yet.</p>\n<h3>Kingdom series</h3>\n<p>I had a lot of fun playing Kingdom: New Lands, until I didn't. The gorgeous art style and amazing audio probably played a huge part on why I spent over 50 hours playing a game that's so unforgiving at times. I didn't like the huge difference in stress levels between runs because of the RNG, but there are parts of the base mechanics that I'd love to implement. With a twist (that might or might not work): I'd like to try to make the whole level fit on the screen by placing multiple \"rows\" of it vertically and either adding vertical travel (think SimTower) or teleportation so it doesn't take minutes to get from one end of the level to the other. Making the whole level visible would unlock the possibility to add local multiplayer.</p>\n<h3>Smash TV (or a similar twin stick action game)</h3>\n<p>Even though I've never played Smash TV, I'd love to do a similar twin stick fighter/shooter with local multiplayer. I don't have an idea for the theme/lore yet though.</p>\n<h3>QuizUp</h3>\n<p>Back in 2014 (iirc) or 2015 I had a blast playing this (sometimes fake-)multiplayer trivia game. I had a quite competitive knowledge about certain TV shows (like The Office, Family Guy, South Park, The Sopranos, etc) and I was able to showcase that due to public scoreboards. When I started playing QuizUp also had player profiles and social features like chat which I thought probably could've been a great way to make new friends by allowing people of similar interested connect to each other, but it was removed later. A friend of mine also approached me years later with an idea very similar to QuizUp (including monetizable community-made question packs) - now that QuizUp is long gone (shut down in 2021) it might be worth a try to go after its market.</p>\n<h3>Dr Mario</h3>\n<p>This is a project I already started hacking together but abandoned. The base mechanics are brilliant and so simple that there are room for forks. One idea I have is to have low resolution pictures of objects in the background of a level (made up from the same colors of the \"pills\") and target would be to place pills so the right colors overlap to complete a picture (essentially a very hard drawing game).</p>\n<h3>Ballance</h3>\n<p>...just in 2D. I think the same mechanics (switching ball material / weight) would work great either in a top-down (similar to <a href=\"https://en.wikipedia.org/wiki/Rollin_(video_game)\" target=\"_blank\" rel=\"noopener noreferrer\">Rollin</a>) or side view.</p>\n<h3>The Incredible Machine</h3>\n<p>It was perfect the way it was, but I admit that I loved the second one even more because of the wacky cartoon characters. I'd just love to implement a bunch of objects, a level editor and let it loose on the unsuspecting public - that's you.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Idea phase",
+                   "GameDev"
+            ],
+            "date_published": "2022-12-01T15:10:51+01:00",
+            "date_modified": "2022-12-02T12:02:00+01:00"
+        },
+        {
+            "id": "https://blog.fodi.be/level-editor-mayhem/",
+            "url": "https://blog.fodi.be/level-editor-mayhem/",
+            "title": "Level Editor Mayhem",
+            "summary": "Background Back in July 2021 I've started working on a competitive local multiplayer platformer under the working title Level Editor&hellip;",
+            "content_html": "<h2>Background</h2>\n<p>Back in July 2021 I've started working on a competitive local multiplayer platformer under the working title Level Editor Mayhem. After having so much fun playing Ultimate Chicken Horse with friends on a big screen I wanted to make something similar, but with the twist of not having rounds or build phases, just doing everything real time. My friend <a href=\"https://teebor9.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Tibor</a> joined the development early on providing graphics, new ideas and helping with the testing.</p>\n<p>Development slowed down a bit after a month and a half and I died down gradually around the 3 month mark (last update was on September 24).</p>\n<p>I meticulously ran a <a href=\"https://fodi.itch.io/level-editor-mayhem-prototype/devlog\"></a><a href=\"https://fodi.itch.io/level-editor-mayhem-prototype/devlog\" target=\"_blank\" rel=\"noopener noreferrer\">devlog</a> back in the day and all builds were made public from the start. The la(te)st version is available on <a href=\"https://fodi.itch.io/level-editor-mayhem-prototype\"></a><a href=\"https://fodi.itch.io/level-editor-mayhem-prototype\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a>.</p>\n<h2>Future plans</h2>\n<p>This is a project that I really want to pursue (and possibly rewrite, not sure how the code aged). It probably has enough mechanics as is, it just needs boring stuff (menu, lobby, settings, etc), some more polish, playtesting and maybe a few more levels. Oh and a proper title.</p>",
+            "image": "https://blog.fodi.be/media/posts/3/lem.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "GameDev",
+                   "Continuing"
+            ],
+            "date_published": "2022-12-01T14:49:31+01:00",
+            "date_modified": "2022-12-02T12:02:28+01:00"
+        },
+        {
+            "id": "https://blog.fodi.be/main-themes-for-video-games/",
+            "url": "https://blog.fodi.be/main-themes-for-video-games/",
+            "title": "Main themes for video games",
+            "summary": "This list contains \"main themes\" for video games. Some were dreamt, some were designated to be on theme for a&hellip;",
+            "content_html": "<p>This list contains \"main themes\" for video games. Some were dreamt, some were designated to be on theme for a specific game jam, but most of them were manifested while drinking beers with my good friend <a href=\"https://itch.io/profile/teebor9\" target=\"_blank\" rel=\"noopener noreferrer\">Tibor</a> (by either him or me).</p>\n<h3>Windy (physics puzzle)</h3>\n<ul>\n<li>2D side or top-down view</li>\n<li>Player places permanent or switchable wind generators (like fans in The Incredible Machine) on a level that already includes walls and hazards, entry and exit point(s).</li>\n<li>Objects (balls of various size/weight) will start appearing at the entry point(s) and their movement will be affected by gravity, wind generators and other objects (collision). The objective is to guide (the right type of) objects (to the right type of) exit point(s).</li>\n</ul>\n<h3>Junk tower defense</h3>\n<ul>\n<li>Player collects various household scrap parts during the day, builds towers, enemies will invade during the night (the player can fight them also, but is quite vulnerable)</li>\n<li>Basic materials: iron scrap, electronic scrap, plastic, wood, glass, household supplies, chemicals, water</li>\n<li>Special materials: vacuum cleaner, buzz saw, glue, tennis/pool balls, lighter fluid, flint, microwave ovens (magnetron)</li>\n<li>Player finds blueprints or invents new stuff, can dismantle towers</li>\n</ul>\n<h3>Tower defense at sea</h3>\n<ul>\n<li>Build static or movable platforms on sea</li>\n<li>Extract oil / mine minerals</li>\n</ul>\n<h3>Reverse city builder</h3>\n<ul>\n<li>Strategically destroy/dismantle dense (previously overpopulated, now abandoned), badly planned parts of cities</li>\n</ul>\n<h3>Dungeon Bouncer (dungeon crawler / physics puzzle)</h3>\n<ul>\n<li>Top down dungeon crawler view</li>\n<li>You move the player by touch/drag aiming (adjusting angle and maybe \"power\" too): when released, the player will start moving in the specified direction bouncing off walls, colliding with enemies (attacking them), collecting items, destroying barrels/boxes, etc.</li>\n<li>The number of bounces or the length of a \"run\" is limited but can be extended by items or spending XP.</li>\n</ul>\n<p> </p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Idea phase",
+                   "GameDev"
+            ],
+            "date_published": "2022-12-01T13:14:54+01:00",
+            "date_modified": "2022-12-02T12:02:15+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-one/",
             "url": "https://blog.fodi.be/day-one/",
             "title": "Day One",
@@ -19,9 +102,10 @@
                 "name": "Fodi"
             },
             "tags": [
+                   "Blog"
             ],
             "date_published": "2022-12-01T10:11:43+01:00",
-            "date_modified": "2022-12-01T10:26:09+01:00"
+            "date_modified": "2022-12-01T13:25:44+01:00"
         }
     ]
 }
