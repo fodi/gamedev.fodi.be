@@ -3,12 +3,60 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-02T12:02:53+01:00</updated>
+    <updated>2022-12-05T22:08:21+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day Three</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-three/"/>
+        <id>https://blog.fodi.be/day-three/</id>
+            <category term="Blog"/>
+
+        <updated>2022-12-05T22:08:21+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Today was unproductive. I've added a post about using weird tech in games though, but it's just a stub at&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Today was unproductive. I've added a post about <a href="https://blog.fodi.be/uncommon-tech-for-video-games/">using weird tech in games</a> though, but it's just a stub at this point and will be extended later.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Uncommon tech for video games</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/uncommon-tech-for-video-games/"/>
+        <id>https://blog.fodi.be/uncommon-tech-for-video-games/</id>
+            <category term="Idea phase"/>
+            <category term="GameDev"/>
+
+        <updated>2022-12-05T22:04:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                    A few of my video game ideas are based on or based around some tech that is not very common&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>A few of my video game ideas are based on or based around some tech that is not very common in video games. I considered using the term "gimmickware" to describe this category, but that sounds a bit negative. But yeah, these might sound gimmicky.</p>
+<h2>Fiducial markers (ArUco and friends)</h2>
+<p>Shortly after I started working for <a href="https://kollabor.hu/" target="_blank" rel="noopener noreferrer">Kollabor</a> I came across a very nice educational board game / video game mix called <a href="https://scottiego.com/en/" target="_blank" rel="noopener noreferrer">Scottie Go!</a> by a Polish company. It introduces basic programming concepts like commands, variables, functions and loops in a similar vein to <a href="https://en.wikipedia.org/wiki/Logo_(programming_language)" target="_blank" rel="noopener noreferrer">Logo</a>: the player can tell a nice cartoon character where to go on screen (and there are increasingly difficult levels to beat). They also added a twist: there are physical pieces of "blocks" printed with the commands and the player has to lay them out on a table, then take a picture of it with a device camera to "execute the code". Those blocks used inverted ArUco markers as I've found out and I quickly stumbled upon an <a href="https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html" target="_blank" rel="noopener noreferrer">OpenCV based implementation</a> (I hacked together an Android app to stream detected markers over the WebSocket protocol) and <a href="https://github.com/jcmellado/js-aruco" target="_blank" rel="noopener noreferrer">one that is pure Javascript</a>. I've used <a href="https://github.com/damianofalcioni/js-aruco2/" target="_blank" rel="noopener noreferrer">a fork of the latter</a> to create a <a href="https://fodi.itch.io/arucontrol-construct3" target="_blank" rel="noopener noreferrer">basic Construct 3 template project</a>. Essentially this is a new input method: you can move different markers in front of a camera and based on their position and unique ID, things happen.</p>
+<p>I also have a few ideas on how to utilize ArUco marker detection in video and/or tabletop games - I'll add them later.</p>
+<h2>Multiplayer games without wireless networks</h2>
+<p>I'm absolutely fascinated by <a href="https://en.wikipedia.org/wiki/Procedural_generation" target="_blank" rel="noopener noreferrer">procedural generation</a> in general, <a href="https://github.com/bryc/code/blob/master/jshash/PRNGs.md" target="_blank" rel="noopener noreferrer">PRNGs</a>, <a href="https://github.com/mxgmn/WaveFunctionCollapse" target="_blank" rel="noopener noreferrer">wave function collapse</a> and stuff like that. I can totally imagine a local multiplayer game, where people in the same room need to communicate by saying stuff to each other (think <a href="https://spaceteam.ca/" target="_blank" rel="noopener noreferrer">Spaceteam</a>, but not necessarily that chaotic), controlling their own players on their phone and making joint progress... all without the need for a Bluetooth or wifi connection. They just enter the same (short) seed at the beginning of the game (which predetermines what events will take place in the game and when) and then all "network communication" is carried out by the players as they talk to each other and enter stuff on their own device.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day Two</title>
         <author>
@@ -71,7 +119,7 @@
             <category term="Idea phase"/>
             <category term="GameDev"/>
 
-        <updated>2022-12-02T12:02:00+01:00</updated>
+        <updated>2022-12-02T14:00:36+01:00</updated>
             <summary>
                 <![CDATA[
                     I have a growing list of existing (mostly popular) games that have main mechanics that I admire and want to&hellip;
@@ -106,6 +154,8 @@
 <p>...just in 2D. I think the same mechanics (switching ball material / weight) would work great either in a top-down (similar to <a href="https://en.wikipedia.org/wiki/Rollin_(video_game)" target="_blank" rel="noopener noreferrer">Rollin</a>) or side view.</p>
 <h3>The Incredible Machine</h3>
 <p>It was perfect the way it was, but I admit that I loved the second one even more because of the wacky cartoon characters. I'd just love to implement a bunch of objects, a level editor and let it loose on the unsuspecting public - that's you.</p>
+<h3>Mahjong solitaire</h3>
+<p>I already have a basic implementation, but I want to mix the gameplay with something totally different. Either by turning it into an action game (eg. you have to gather various resources - stone, wood, gold, whatever - against a time limit and build stuff to defend against waves of enemy attacks) or maybe something educational (use it as a language learning tool - pair up the same phrases/words in two different languages - an alternative flash card technique).</p>
             ]]>
         </content>
     </entry>
