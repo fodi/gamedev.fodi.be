@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-four/",
+            "url": "https://blog.fodi.be/day-four/",
+            "title": "Day Four",
+            "summary": "I've updated the Uncommon tech for video games post with a few more ideas and there are still more to&hellip;",
+            "content_html": "<p>I've updated the <a href=\"https://blog.fodi.be/uncommon-tech-for-video-games/\">Uncommon tech for video games</a> post with a few more ideas and there are still more to come. This afternoon I'm going to pick (probably an easy) one of those and start some actual development.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Blog"
+            ],
+            "date_published": "2022-12-06T10:57:42+01:00",
+            "date_modified": "2022-12-06T10:59:51+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-three/",
             "url": "https://blog.fodi.be/day-three/",
             "title": "Day Three",
