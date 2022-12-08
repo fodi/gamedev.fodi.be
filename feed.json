@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-five/",
+            "url": "https://blog.fodi.be/day-five/",
+            "title": "Day Five",
+            "summary": "Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;",
+            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-12-08T11:04:41+01:00",
+            "date_modified": "2022-12-08T11:05:07+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-four/",
             "url": "https://blog.fodi.be/day-four/",
             "title": "Day Four",

@@ -3,12 +3,33 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-06T16:10:27+01:00</updated>
+    <updated>2022-12-08T11:05:07+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day Five</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-five/"/>
+        <id>https://blog.fodi.be/day-five/</id>
+
+        <updated>2022-12-08T11:05:07+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>
+<p>But today I'm working on a pet project, an idea one from the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">uncommon tech list</a>. I'll update this post later with my progress.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day Four</title>
         <author>
