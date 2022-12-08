@@ -14,7 +14,7 @@
             "url": "https://blog.fodi.be/day-five/",
             "title": "Day Five",
             "summary": "Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;",
-            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>",
+            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>\n<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic Yoha based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>",
             "author": {
                 "name": "Fodi"
             },
@@ -22,7 +22,7 @@
                    "Changelog"
             ],
             "date_published": "2022-12-08T11:04:41+01:00",
-            "date_modified": "2022-12-08T11:06:21+01:00"
+            "date_modified": "2022-12-08T15:56:52+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-four/",
