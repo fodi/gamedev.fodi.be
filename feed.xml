@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-08T11:05:07+01:00</updated>
+    <updated>2022-12-08T11:06:21+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://blog.fodi.be/day-five/"/>
         <id>https://blog.fodi.be/day-five/</id>
+            <category term="Changelog"/>
 
-        <updated>2022-12-08T11:05:07+01:00</updated>
+        <updated>2022-12-08T11:06:21+01:00</updated>
             <summary>
                 <![CDATA[
                     Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;
