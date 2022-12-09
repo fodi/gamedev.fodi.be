@@ -3,12 +3,56 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-08T15:56:52+01:00</updated>
+    <updated>2022-12-09T11:10:45+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Dungeon Bouncer</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/dungeon-bouncer/"/>
+        <id>https://blog.fodi.be/dungeon-bouncer/</id>
+            <category term="Prototype phase"/>
+            <category term="GameDev"/>
+            <category term="Continuing"/>
+
+        <updated>2022-12-09T11:09:57+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Dungeon Bouncer is the working title of a fairly simple idea <a href="https://blog.fodi.be/list-main-themes-for-video-games/">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Day Six</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-six/"/>
+        <id>https://blog.fodi.be/day-six/</id>
+            <category term="Changelog"/>
+
+        <updated>2022-12-09T11:10:45+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Today I'm starting a new video game prototype from scratch with the working title Dungeon Bouncer. It's from this list&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Today I'm starting a new video game prototype from scratch with the working title <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a>. It's from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a> and I'm hoping to publish the first version this afternoon - I'll update this post later.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day Five</title>
         <author>
@@ -18,7 +62,7 @@
         <id>https://blog.fodi.be/day-five/</id>
             <category term="Changelog"/>
 
-        <updated>2022-12-08T15:56:52+01:00</updated>
+        <updated>2022-12-08T18:23:59+01:00</updated>
             <summary>
                 <![CDATA[
                     Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;
@@ -28,7 +72,7 @@
             <![CDATA[
                 <p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>
 <p>But today I'm working on a pet project, an idea one from the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">uncommon tech list</a>. I'll update this post later with my progress.</p>
-<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic Yoha based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>
+<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href="https://github.com/handtracking-io/yoha" target="_blank" rel="noopener noreferrer">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>
             ]]>
         </content>
     </entry>
@@ -196,7 +240,7 @@
             <category term="GameDev"/>
             <category term="Ended"/>
 
-        <updated>2022-12-02T12:01:52+01:00</updated>
+        <updated>2022-12-09T11:10:36+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/5/coperfields.png" alt="" />
@@ -294,7 +338,7 @@
             <category term="GameDev"/>
             <category term="Continuing"/>
 
-        <updated>2022-12-02T12:02:28+01:00</updated>
+        <updated>2022-12-09T11:10:28+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/3/lem.png" alt="Level Editor Mayhem (working title)" />
@@ -310,93 +354,6 @@
 <p>I meticulously ran a <a href="https://fodi.itch.io/level-editor-mayhem-prototype/devlog"></a><a href="https://fodi.itch.io/level-editor-mayhem-prototype/devlog" target="_blank" rel="noopener noreferrer">devlog</a> back in the day and all builds were made public from the start. The la(te)st version is available on <a href="https://fodi.itch.io/level-editor-mayhem-prototype"></a><a href="https://fodi.itch.io/level-editor-mayhem-prototype" target="_blank" rel="noopener noreferrer">Itch</a>.</p>
 <h2>Future plans</h2>
 <p>This is a project that I really want to pursue (and possibly rewrite, not sure how the code aged). It probably has enough mechanics as is, it just needs boring stuff (menu, lobby, settings, etc), some more polish, playtesting and maybe a few more levels. Oh and a proper title.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>[List] Main themes for video games</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/list-main-themes-for-video-games/"/>
-        <id>https://blog.fodi.be/list-main-themes-for-video-games/</id>
-            <category term="List"/>
-            <category term="Idea phase"/>
-            <category term="GameDev"/>
-
-        <updated>2022-12-06T12:48:57+01:00</updated>
-            <summary>
-                <![CDATA[
-                    This list contains "main themes" for video games. Some were dreamt, some were designated to be on theme for a&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This list contains "main themes" for video games. Some were dreamt, some were designated to be on theme for a specific game jam, but most of them were manifested while drinking beers with my good friend <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a> (by either him or me).</p>
-<div class="post__toc">
-<h3>Table of Contents</h3>
-<ul>
-<li><a href="#mcetoc_1gjjk02ke1gj">Windy (physics puzzle)</a></li>
-<li><a href="#mcetoc_1gjjk02ke1gk">Junk tower defense</a></li>
-<li><a href="#mcetoc_1gjjk02ke1gl">Tower defense at sea</a></li>
-<li><a href="#mcetoc_1gjjk02ke1gm">Reverse city builder</a></li>
-<li><a href="#mcetoc_1gjjk02ke1gn">Dungeon Bouncer (dungeon crawler / physics puzzle)</a></li>
-</ul>
-</div>
-<h3 id="mcetoc_1gjjk02ke1gj">Windy (physics puzzle)</h3>
-<ul>
-<li>2D side or top-down view</li>
-<li>Player places permanent or switchable wind generators (like fans in The Incredible Machine) on a level that already includes walls and hazards, entry and exit point(s).</li>
-<li>Objects (balls of various size/weight) will start appearing at the entry point(s) and their movement will be affected by gravity, wind generators and other objects (collision). The objective is to guide (the right type of) objects (to the right type of) exit point(s).</li>
-</ul>
-<h3 id="mcetoc_1gjjk02ke1gk">Junk tower defense</h3>
-<ul>
-<li>Player collects various household scrap parts during the day, builds towers, enemies will invade during the night (the player can fight them also, but is quite vulnerable)</li>
-<li>Basic materials: iron scrap, electronic scrap, plastic, wood, glass, household supplies, chemicals, water</li>
-<li>Special materials: vacuum cleaner, buzz saw, glue, tennis/pool balls, lighter fluid, flint, microwave ovens (magnetron)</li>
-<li>Player finds blueprints or invents new stuff, can dismantle towers</li>
-</ul>
-<h3 id="mcetoc_1gjjk02ke1gl">Tower defense at sea</h3>
-<ul>
-<li>Build static or movable platforms on sea</li>
-<li>Extract oil / mine minerals</li>
-</ul>
-<h3 id="mcetoc_1gjjk02ke1gm">Reverse city builder</h3>
-<ul>
-<li>Strategically destroy/dismantle dense (previously overpopulated, now abandoned), badly planned parts of cities</li>
-</ul>
-<h3 id="mcetoc_1gjjk02ke1gn">Dungeon Bouncer (dungeon crawler / physics puzzle)</h3>
-<ul>
-<li>Top down dungeon crawler view</li>
-<li>You move the player by touch/drag aiming (adjusting angle and maybe "power" too): when released, the player will start moving in the specified direction bouncing off walls, colliding with enemies (attacking them), collecting items, destroying barrels/boxes, etc.</li>
-<li>The number of bounces or the length of a "run" is limited but can be extended by items or spending XP.</li>
-</ul>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day One</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-one/"/>
-        <id>https://blog.fodi.be/day-one/</id>
-            <category term="Changelog"/>
-
-        <updated>2022-12-01T13:25:44+01:00</updated>
-            <summary>
-                <![CDATA[
-                    I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it. Google Keep notes, text files all over my Dropbox, freaking audio recordings on my phone...</p>
-<p>About a month ago I decided that I have to put a pause on making money (working on other people's stuff) because I clearly failed at my attempt to mix jobs with pet projects / creative hobbies in a healthy ratio. So I'm designating this December as "get your (own) shit together" month.</p>
-<p>Today I'm starting this blog and I'll update it every day in December, hoping that publicly logging my progress helps me stay on track.</p>
-<p>As first order of business I'm taking inventory and organizing all ideas, abandoned projects and half-assed attempts and putting them on either a "might do" or "probably won't do" pile. After that's done, I'm going to choose the first one either by preference or at random and get hacking and blogging.</p>
-<p>Although I'm slightly terrified of it, but I'm also planning to stream stuff (especially game development), but I'm not quite sure that's a good idea at this point. We'll see.</p>
             ]]>
         </content>
     </entry>

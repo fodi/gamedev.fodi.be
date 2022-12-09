@@ -10,11 +10,43 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/dungeon-bouncer/",
+            "url": "https://blog.fodi.be/dungeon-bouncer/",
+            "title": "Dungeon Bouncer",
+            "summary": "Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;",
+            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "GameDev",
+                   "Continuing"
+            ],
+            "date_published": "2022-12-09T11:07:43+01:00",
+            "date_modified": "2022-12-09T11:09:57+01:00"
+        },
+        {
+            "id": "https://blog.fodi.be/day-six/",
+            "url": "https://blog.fodi.be/day-six/",
+            "title": "Day Six",
+            "summary": "Today I'm starting a new video game prototype from scratch with the working title Dungeon Bouncer. It's from this list&hellip;",
+            "content_html": "<p>Today I'm starting a new video game prototype from scratch with the working title <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a>. It's from <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">this list</a> and I'm hoping to publish the first version this afternoon - I'll update this post later.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-09T11:04:50+01:00",
+            "date_modified": "2022-12-09T11:10:45+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-five/",
             "url": "https://blog.fodi.be/day-five/",
             "title": "Day Five",
             "summary": "Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;",
-            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>\n<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic Yoha based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>",
+            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>\n<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href=\"https://github.com/handtracking-io/yoha\" target=\"_blank\" rel=\"noopener noreferrer\">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>",
             "author": {
                 "name": "Fodi"
             },
@@ -22,7 +54,7 @@
                    "Changelog"
             ],
             "date_published": "2022-12-08T11:04:41+01:00",
-            "date_modified": "2022-12-08T15:56:52+01:00"
+            "date_modified": "2022-12-08T18:23:59+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-four/",
@@ -102,7 +134,7 @@
                    "Ended"
             ],
             "date_published": "2022-12-01T15:24:25+01:00",
-            "date_modified": "2022-12-02T12:01:52+01:00"
+            "date_modified": "2022-12-09T11:10:36+01:00"
         },
         {
             "id": "https://blog.fodi.be/list-video-game-remakes/",
@@ -137,39 +169,7 @@
                    "Continuing"
             ],
             "date_published": "2022-12-01T14:49:31+01:00",
-            "date_modified": "2022-12-02T12:02:28+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/list-main-themes-for-video-games/",
-            "url": "https://blog.fodi.be/list-main-themes-for-video-games/",
-            "title": "[List] Main themes for video games",
-            "summary": "This list contains \"main themes\" for video games. Some were dreamt, some were designated to be on theme for a&hellip;",
-            "content_html": "<p>This list contains \"main themes\" for video games. Some were dreamt, some were designated to be on theme for a specific game jam, but most of them were manifested while drinking beers with my good friend <a href=\"https://itch.io/profile/teebor9\" target=\"_blank\" rel=\"noopener noreferrer\">Tibor</a> (by either him or me).</p>\n<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li><a href=\"#mcetoc_1gjjk02ke1gj\">Windy (physics puzzle)</a></li>\n<li><a href=\"#mcetoc_1gjjk02ke1gk\">Junk tower defense</a></li>\n<li><a href=\"#mcetoc_1gjjk02ke1gl\">Tower defense at sea</a></li>\n<li><a href=\"#mcetoc_1gjjk02ke1gm\">Reverse city builder</a></li>\n<li><a href=\"#mcetoc_1gjjk02ke1gn\">Dungeon Bouncer (dungeon crawler / physics puzzle)</a></li>\n</ul>\n</div>\n<h3 id=\"mcetoc_1gjjk02ke1gj\">Windy (physics puzzle)</h3>\n<ul>\n<li>2D side or top-down view</li>\n<li>Player places permanent or switchable wind generators (like fans in The Incredible Machine) on a level that already includes walls and hazards, entry and exit point(s).</li>\n<li>Objects (balls of various size/weight) will start appearing at the entry point(s) and their movement will be affected by gravity, wind generators and other objects (collision). The objective is to guide (the right type of) objects (to the right type of) exit point(s).</li>\n</ul>\n<h3 id=\"mcetoc_1gjjk02ke1gk\">Junk tower defense</h3>\n<ul>\n<li>Player collects various household scrap parts during the day, builds towers, enemies will invade during the night (the player can fight them also, but is quite vulnerable)</li>\n<li>Basic materials: iron scrap, electronic scrap, plastic, wood, glass, household supplies, chemicals, water</li>\n<li>Special materials: vacuum cleaner, buzz saw, glue, tennis/pool balls, lighter fluid, flint, microwave ovens (magnetron)</li>\n<li>Player finds blueprints or invents new stuff, can dismantle towers</li>\n</ul>\n<h3 id=\"mcetoc_1gjjk02ke1gl\">Tower defense at sea</h3>\n<ul>\n<li>Build static or movable platforms on sea</li>\n<li>Extract oil / mine minerals</li>\n</ul>\n<h3 id=\"mcetoc_1gjjk02ke1gm\">Reverse city builder</h3>\n<ul>\n<li>Strategically destroy/dismantle dense (previously overpopulated, now abandoned), badly planned parts of cities</li>\n</ul>\n<h3 id=\"mcetoc_1gjjk02ke1gn\">Dungeon Bouncer (dungeon crawler / physics puzzle)</h3>\n<ul>\n<li>Top down dungeon crawler view</li>\n<li>You move the player by touch/drag aiming (adjusting angle and maybe \"power\" too): when released, the player will start moving in the specified direction bouncing off walls, colliding with enemies (attacking them), collecting items, destroying barrels/boxes, etc.</li>\n<li>The number of bounces or the length of a \"run\" is limited but can be extended by items or spending XP.</li>\n</ul>\n<p> </p>",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "List",
-                   "Idea phase",
-                   "GameDev"
-            ],
-            "date_published": "2022-12-01T13:14:54+01:00",
-            "date_modified": "2022-12-06T12:48:57+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-one/",
-            "url": "https://blog.fodi.be/day-one/",
-            "title": "Day One",
-            "summary": "I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it.",
-            "content_html": "<p>I'm starting an experiment today. My virtual idea drawer is a mess and I need to do something about it. Google Keep notes, text files all over my Dropbox, freaking audio recordings on my phone...</p>\n<p>About a month ago I decided that I have to put a pause on making money (working on other people's stuff) because I clearly failed at my attempt to mix jobs with pet projects / creative hobbies in a healthy ratio. So I'm designating this December as \"get your (own) shit together\" month.</p>\n<p>Today I'm starting this blog and I'll update it every day in December, hoping that publicly logging my progress helps me stay on track.</p>\n<p>As first order of business I'm taking inventory and organizing all ideas, abandoned projects and half-assed attempts and putting them on either a \"might do\" or \"probably won't do\" pile. After that's done, I'm going to choose the first one either by preference or at random and get hacking and blogging.</p>\n<p>Although I'm slightly terrified of it, but I'm also planning to stream stuff (especially game development), but I'm not quite sure that's a good idea at this point. We'll see.</p>",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-01T10:11:43+01:00",
-            "date_modified": "2022-12-01T13:25:44+01:00"
+            "date_modified": "2022-12-09T11:10:28+01:00"
         }
     ]
 }
