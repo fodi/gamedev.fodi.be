@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-09T11:10:45+01:00</updated>
+    <updated>2022-12-09T14:39:02+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,19 +16,23 @@
         </author>
         <link href="https://blog.fodi.be/dungeon-bouncer/"/>
         <id>https://blog.fodi.be/dungeon-bouncer/</id>
+        <media:content url="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="GameDev"/>
             <category term="Continuing"/>
 
-        <updated>2022-12-09T11:09:57+01:00</updated>
+        <updated>2022-12-09T14:39:02+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" alt="" />
                     Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" class="type:primaryImage" alt="" /></p>
                 <p>Dungeon Bouncer is the working title of a fairly simple idea <a href="https://blog.fodi.be/list-main-themes-for-video-games/">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>
+<p><strong>Update 1</strong>: <a href="https://fodi.itch.io/dungeon-bouncer-working-title" target="_blank" rel="noopener noreferrer">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>
             ]]>
         </content>
     </entry>

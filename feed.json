@@ -14,7 +14,8 @@
             "url": "https://blog.fodi.be/dungeon-bouncer/",
             "title": "Dungeon Bouncer",
             "summary": "Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;",
-            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>",
+            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>\n<p><strong>Update 1</strong>: <a href=\"https://fodi.itch.io/dungeon-bouncer-working-title\" target=\"_blank\" rel=\"noopener noreferrer\">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>",
+            "image": "https://blog.fodi.be/media/posts/15/dungeonbouncer.png",
             "author": {
                 "name": "Fodi"
             },
@@ -24,7 +25,7 @@
                    "Continuing"
             ],
             "date_published": "2022-12-09T11:07:43+01:00",
-            "date_modified": "2022-12-09T11:09:57+01:00"
+            "date_modified": "2022-12-09T14:39:02+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-six/",
