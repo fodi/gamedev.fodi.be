@@ -3,12 +3,61 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-09T14:39:02+01:00</updated>
+    <updated>2022-12-14T10:01:25+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Video Hut Shack</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/video-hut-shack/"/>
+        <id>https://blog.fodi.be/video-hut-shack/</id>
+            <category term="Idea phase"/>
+            <category term="GameDev"/>
+            <category term="Continuing"/>
+
+        <updated>2022-12-14T09:58:56+01:00</updated>
+            <summary>
+                <![CDATA[
+                    This idea originates from this list, because it aspires to use an uncommon gimmick: local multiplayer gameplay without a conventional&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This idea originates from <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">this list</a>, because it aspires to use an uncommon gimmick: local multiplayer gameplay without a conventional network connection. It's like a board game, where people send stuff to each other, but they don't physically pass cards around. They play on their mobile phones, but they don't need Bluetooth, Wi-Fi or any other Internet connection. There are timed events and players need to react quickly and work together, just like in <a href="https://spaceteam.ca/" target="_blank" rel="noopener noreferrer">Spaceteam</a>.</p>
+<p>The game is set in the 90s when renting movies from Blockbuster et al was the thing. The players work at a big video rental chain called Video Hut Shack (a cheeky reference to <a href="https://regularshow.fandom.com/wiki/Movie_Shack_Hut" target="_blank" rel="noopener noreferrer">Movie Shack Hut from Regular Show</a> but with the added twist that it abbreviates as VHS), all of them in different stores far away from each other. When their store opens, people queue up and ask for videos that are not in at the moment, but they might be available at a different store (at another player's), so they need to ask the others if they have it: they need to look it up and if found, they can send it to the player who requested it by putting it in a pneumatic tube. The sender gets a code (eg. 3-8-1-6) from the delivery system which the requester needs to retrieve the tape, so this code needs to be communicated also. The requester enters the code on their phone, gets the right tape, gives it to the customer and ka-ching. Next!</p>
+<p>This is the basic concept. It's probably gets pretty dull by its own, so I'll have to add some twists here and there and also figure out the UI to make the first prototype.</p>
+<p>To be continued.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Day Seven</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-seven/"/>
+        <id>https://blog.fodi.be/day-seven/</id>
+            <category term="Changelog"/>
+
+        <updated>2022-12-14T10:01:25+01:00</updated>
+            <summary>
+                <![CDATA[
+                    This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>
+<p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>
+<p>I'm trying again today. I want to work a little on the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Dungeon Bouncer</title>
         <author>
@@ -260,104 +309,6 @@
 <p>The last build is playable on Itch and I've kept a devlog during development too.</p>
 <h2>Future plans</h2>
 <p>I have no plans to continue development.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>[List] Video game remakes</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/list-video-game-remakes/"/>
-        <id>https://blog.fodi.be/list-video-game-remakes/</id>
-            <category term="List"/>
-            <category term="Idea phase"/>
-            <category term="GameDev"/>
-
-        <updated>2022-12-06T12:48:43+01:00</updated>
-            <summary>
-                <![CDATA[
-                    I have a growing list of existing (mostly popular) games that have main mechanics that I admire and want to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>I have a growing list of existing (mostly popular) games that have main mechanics that I admire and want to implement for various reasons.</p>
-<ul>
-<li>The challenge: I want to see if I can do it, in what timeframe and what aspects do I underestimate during the process.</li>
-<li>Educational value: I can learn new things while implementing already existing, proven and well thought out mechanics. If I document the process others can learn too.</li>
-<li>In some cases – if I'm satisfied with the result – I might release the source project (essentially a template) either for free or maybe for a fee.</li>
-</ul>
-<p>Here's the list of games I might attempt to partially remake.</p>
-<div class="post__toc">
-<h3>Table of Contents</h3>
-<ul>
-<li><a href="#mcetoc_1gjjjvj411fp">Wizard of Wor</a></li>
-<li><a href="#mcetoc_1gjjjvj411fq">Plants vs Zombies</a></li>
-<li><a href="#mcetoc_1gjjjvj411fr">Heroes of Might and Magic 2±1</a></li>
-<li><a href="#mcetoc_1gjjjvj411fs">Airmech</a></li>
-<li><a href="#mcetoc_1gjjjvj411ft">Kingdom series</a></li>
-<li><a href="#mcetoc_1gjjjvj411fu">Smash TV (or a similar twin stick action game)</a></li>
-<li><a href="#mcetoc_1gjjjvj411fv">QuizUp</a></li>
-<li><a href="#mcetoc_1gjjjvj411g0">Dr Mario</a></li>
-<li><a href="#mcetoc_1gjjjvj411g1">Ballance</a></li>
-<li><a href="#mcetoc_1gjjjvj411g2">The Incredible Machine</a></li>
-<li><a href="#mcetoc_1gjjjvj411g3">Mahjong solitaire</a></li>
-</ul>
-</div>
-<h3 id="mcetoc_1gjjjvj411fp">Wizard of Wor</h3>
-<p>This was probably the first video game I got addicted to in Commodore 64 times. If I ever implement the base mechanics I'd love to add a few new ones, like destructible walls, 4 player support (with larger maps, maybe TDM/CTF modes).</p>
-<h3 id="mcetoc_1gjjjvj411fq">Plants vs Zombies</h3>
-<p>I spent countless hours playing PvZ on PC and Android as well, I absolutely love the concept and I already started hacking together a template which uses roughly the same controls / mechanics but with a 2.5D side view where lanes are stacked on top of each other. I also have an idea for a fork: controlling the game completely by the keyboard, but not with the arrows, but by typing keywords (think Typing of the Dead or Epistory - Typing Chronicles).</p>
-<h3 id="mcetoc_1gjjjvj411fr">Heroes of Might and Magic 2±1</h3>
-<p>I'd love to play a game with the same base mechanics but in a completely different world. Maybe a WWII or futuristic robot war theme?</p>
-<h3 id="mcetoc_1gjjjvj411fs">Airmech</h3>
-<p>During the development of the Copterfields prototype / game jam entry I already implemented similar player movement (and beaming / building capabilities), but not combat. An Airmech clone would also be a great opportunity to venture into networked multiplayer territory, something that I haven't done yet.</p>
-<h3 id="mcetoc_1gjjjvj411ft">Kingdom series</h3>
-<p>I had a lot of fun playing Kingdom: New Lands, until I didn't. The gorgeous art style and amazing audio probably played a huge part on why I spent over 50 hours playing a game that's so unforgiving at times. I didn't like the huge difference in stress levels between runs because of the RNG, but there are parts of the base mechanics that I'd love to implement. With a twist (that might or might not work): I'd like to try to make the whole level fit on the screen by placing multiple "rows" of it vertically and either adding vertical travel (think SimTower) or teleportation so it doesn't take minutes to get from one end of the level to the other. Making the whole level visible would unlock the possibility to add local multiplayer.</p>
-<h3 id="mcetoc_1gjjjvj411fu">Smash TV (or a similar twin stick action game)</h3>
-<p>Even though I've never played Smash TV, I'd love to do a similar twin stick fighter/shooter with local multiplayer. I don't have an idea for the theme/lore yet though.</p>
-<h3 id="mcetoc_1gjjjvj411fv">QuizUp</h3>
-<p>Back in 2014 (iirc) or 2015 I had a blast playing this (sometimes fake-)multiplayer trivia game. I had a quite competitive knowledge about certain TV shows (like The Office, Family Guy, South Park, The Sopranos, etc) and I was able to showcase that due to public scoreboards. When I started playing QuizUp also had player profiles and social features like chat which I thought probably could've been a great way to make new friends by allowing people of similar interested connect to each other, but it was removed later. A friend of mine also approached me years later with an idea very similar to QuizUp (including monetizable community-made question packs) - now that QuizUp is long gone (shut down in 2021) it might be worth a try to go after its market.</p>
-<h3 id="mcetoc_1gjjjvj411g0">Dr Mario</h3>
-<p>This is a project I already started hacking together but abandoned. The base mechanics are brilliant and so simple that there are room for forks. One idea I have is to have low resolution pictures of objects in the background of a level (made up from the same colors of the "pills") and target would be to place pills so the right colors overlap to complete a picture (essentially a very hard drawing game).</p>
-<h3 id="mcetoc_1gjjjvj411g1">Ballance</h3>
-<p>...just in 2D. I think the same mechanics (switching ball material / weight) would work great either in a top-down (similar to <a href="https://en.wikipedia.org/wiki/Rollin_(video_game)" target="_blank" rel="noopener noreferrer">Rollin</a>) or side view.</p>
-<h3 id="mcetoc_1gjjjvj411g2">The Incredible Machine</h3>
-<p>It was perfect the way it was, but I admit that I loved the second one even more because of the wacky cartoon characters. I'd just love to implement a bunch of objects, a level editor and let it loose on the unsuspecting public - that's you.</p>
-<h3 id="mcetoc_1gjjjvj411g3">Mahjong solitaire</h3>
-<p>I already have a basic implementation, but I want to mix the gameplay with something totally different. Either by turning it into an action game (eg. you have to gather various resources - stone, wood, gold, whatever - against a time limit and build stuff to defend against waves of enemy attacks) or maybe something educational (use it as a language learning tool - pair up the same phrases/words in two different languages - an alternative flash card technique).</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Level Editor Mayhem</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/level-editor-mayhem/"/>
-        <id>https://blog.fodi.be/level-editor-mayhem/</id>
-        <media:content url="https://blog.fodi.be/media/posts/3/lem.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="GameDev"/>
-            <category term="Continuing"/>
-
-        <updated>2022-12-09T11:10:28+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/3/lem.png" alt="Level Editor Mayhem (working title)" />
-                    Background Back in July 2021 I've started working on a competitive local multiplayer platformer under the working title Level Editor&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/3/lem.png" class="type:primaryImage" alt="Level Editor Mayhem (working title)" /></p>
-                <h2>Background</h2>
-<p>Back in July 2021 I've started working on a competitive local multiplayer platformer under the working title Level Editor Mayhem. After having so much fun playing Ultimate Chicken Horse with friends on a big screen I wanted to make something similar, but with the twist of not having rounds or build phases, just doing everything real time. My friend <a href="https://teebor9.itch.io/" target="_blank" rel="noopener noreferrer">Tibor</a> joined the development early on providing graphics, new ideas and helping with the testing.</p>
-<p>Development slowed down a bit after a month and a half and I died down gradually around the 3 month mark (last update was on September 24).</p>
-<p>I meticulously ran a <a href="https://fodi.itch.io/level-editor-mayhem-prototype/devlog"></a><a href="https://fodi.itch.io/level-editor-mayhem-prototype/devlog" target="_blank" rel="noopener noreferrer">devlog</a> back in the day and all builds were made public from the start. The la(te)st version is available on <a href="https://fodi.itch.io/level-editor-mayhem-prototype"></a><a href="https://fodi.itch.io/level-editor-mayhem-prototype" target="_blank" rel="noopener noreferrer">Itch</a>.</p>
-<h2>Future plans</h2>
-<p>This is a project that I really want to pursue (and possibly rewrite, not sure how the code aged). It probably has enough mechanics as is, it just needs boring stuff (menu, lobby, settings, etc), some more polish, playtesting and maybe a few more levels. Oh and a proper title.</p>
             ]]>
         </content>
     </entry>
