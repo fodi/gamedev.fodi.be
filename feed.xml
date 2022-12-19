@@ -3,12 +3,34 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-14T10:01:25+01:00</updated>
+    <updated>2022-12-19T20:20:14+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day Eight</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-eight/"/>
+        <id>https://blog.fodi.be/day-eight/</id>
+            <category term="Changelog"/>
+
+        <updated>2022-12-19T20:20:14+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I've made some progress in the last few days, although it's not a lot. I added a basic moving enemy&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I've made some progress in the last few days, although it's not a lot.</p>
+<p>I added a basic moving enemy to the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href="https://blog.fodi.be/tags/list/">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Video Hut Shack</title>
         <author>
@@ -70,7 +92,7 @@
             <category term="GameDev"/>
             <category term="Continuing"/>
 
-        <updated>2022-12-09T14:39:02+01:00</updated>
+        <updated>2022-12-19T20:06:25+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" alt="" />
@@ -82,6 +104,7 @@
                     <p><img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" class="type:primaryImage" alt="" /></p>
                 <p>Dungeon Bouncer is the working title of a fairly simple idea <a href="https://blog.fodi.be/list-main-themes-for-video-games/">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>
 <p><strong>Update 1</strong>: <a href="https://fodi.itch.io/dungeon-bouncer-working-title" target="_blank" rel="noopener noreferrer">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>
+<p><strong>Update 2:</strong> added the first moving enemies.</p>
             ]]>
         </content>
     </entry>
@@ -278,37 +301,6 @@
         <content type="html">
             <![CDATA[
                 <p>I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the same today. I'll be mostly AFK this weekend so the next update will be on Monday.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Copterfields</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/copterfields/"/>
-        <id>https://blog.fodi.be/copterfields/</id>
-        <media:content url="https://blog.fodi.be/media/posts/5/coperfields.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="GameDev"/>
-            <category term="Ended"/>
-
-        <updated>2022-12-09T11:10:36+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/5/coperfields.png" alt="" />
-                    Background As Lasermagnet Games (my friend Tibor and me) we've joined the Toy Box Jam 3 in early Feb 2022&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/5/coperfields.png" class="type:primaryImage" alt="" /></p>
-                <h2>Background</h2>
-<p>As <strong>Lasermagnet Games</strong> (my friend Tibor and me) we've joined the <a href="https://itch.io/jam/toy-box-jam-3"></a><a href="https://itch.io/jam/toy-box-jam-3" target="_blank" rel="noopener noreferrer">Toy Box Jam 3</a> in early Feb 2022 and this time we didn't fail time management miserably and were able to maintain focus quite well, especially compared to most of our game jam attempts.</p>
-<p>Although I'd still call Copterfields just a prototype due to the lack of content and suboptimal balance, I was (and frankly still am) quite satisfied with the end result. The game received a couple post-jam updates (including local multiplayer support), but development was halted in March 2022.</p>
-<p>The last build is playable on Itch and I've kept a devlog during development too.</p>
-<h2>Future plans</h2>
-<p>I have no plans to continue development.</p>
             ]]>
         </content>
     </entry>

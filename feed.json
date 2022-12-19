@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-eight/",
+            "url": "https://blog.fodi.be/day-eight/",
+            "title": "Day Eight",
+            "summary": "I've made some progress in the last few days, although it's not a lot. I added a basic moving enemy&hellip;",
+            "content_html": "<p>I've made some progress in the last few days, although it's not a lot.</p>\n<p>I added a basic moving enemy to the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href=\"https://blog.fodi.be/tags/list/\">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-19T12:00:22+01:00",
+            "date_modified": "2022-12-19T20:20:14+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/video-hut-shack/",
             "url": "https://blog.fodi.be/video-hut-shack/",
             "title": "Video Hut Shack",
@@ -46,7 +61,7 @@
             "url": "https://blog.fodi.be/dungeon-bouncer/",
             "title": "Dungeon Bouncer",
             "summary": "Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;",
-            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>\n<p><strong>Update 1</strong>: <a href=\"https://fodi.itch.io/dungeon-bouncer-working-title\" target=\"_blank\" rel=\"noopener noreferrer\">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>",
+            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>\n<p><strong>Update 1</strong>: <a href=\"https://fodi.itch.io/dungeon-bouncer-working-title\" target=\"_blank\" rel=\"noopener noreferrer\">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>\n<p><strong>Update 2:</strong> added the first moving enemies.</p>",
             "image": "https://blog.fodi.be/media/posts/15/dungeonbouncer.png",
             "author": {
                 "name": "Fodi"
@@ -57,7 +72,7 @@
                    "Continuing"
             ],
             "date_published": "2022-12-09T11:07:43+01:00",
-            "date_modified": "2022-12-09T14:39:02+01:00"
+            "date_modified": "2022-12-19T20:06:25+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-six/",
@@ -150,24 +165,6 @@
             ],
             "date_published": "2022-12-02T11:59:41+01:00",
             "date_modified": "2022-12-02T12:02:53+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/copterfields/",
-            "url": "https://blog.fodi.be/copterfields/",
-            "title": "Copterfields",
-            "summary": "Background As Lasermagnet Games (my friend Tibor and me) we've joined the Toy Box Jam 3 in early Feb 2022&hellip;",
-            "content_html": "<h2>Background</h2>\n<p>As <strong>Lasermagnet Games</strong> (my friend Tibor and me) we've joined the <a href=\"https://itch.io/jam/toy-box-jam-3\"></a><a href=\"https://itch.io/jam/toy-box-jam-3\" target=\"_blank\" rel=\"noopener noreferrer\">Toy Box Jam 3</a> in early Feb 2022 and this time we didn't fail time management miserably and were able to maintain focus quite well, especially compared to most of our game jam attempts.</p>\n<p>Although I'd still call Copterfields just a prototype due to the lack of content and suboptimal balance, I was (and frankly still am) quite satisfied with the end result. The game received a couple post-jam updates (including local multiplayer support), but development was halted in March 2022.</p>\n<p>The last build is playable on Itch and I've kept a devlog during development too.</p>\n<h2>Future plans</h2>\n<p>I have no plans to continue development.</p>",
-            "image": "https://blog.fodi.be/media/posts/5/coperfields.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Prototype phase",
-                   "GameDev",
-                   "Ended"
-            ],
-            "date_published": "2022-12-01T15:24:25+01:00",
-            "date_modified": "2022-12-09T11:10:36+01:00"
         }
     ]
 }
