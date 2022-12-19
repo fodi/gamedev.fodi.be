@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-19T20:20:14+01:00</updated>
+    <updated>2022-12-19T21:03:05+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://blog.fodi.be/day-eight/"/>
         <id>https://blog.fodi.be/day-eight/</id>
+        <media:content url="https://blog.fodi.be/media/posts/18/day-8.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-19T20:20:14+01:00</updated>
+        <updated>2022-12-19T21:03:05+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/18/day-8.svg" alt="" />
                     I've made some progress in the last few days, although it's not a lot. I added a basic moving enemy&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/18/day-8.svg" class="type:primaryImage" alt="" /></p>
                 <p>I've made some progress in the last few days, although it's not a lot.</p>
 <p>I added a basic moving enemy to the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href="https://blog.fodi.be/tags/list/">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>
             ]]>
@@ -64,16 +67,19 @@
         </author>
         <link href="https://blog.fodi.be/day-seven/"/>
         <id>https://blog.fodi.be/day-seven/</id>
+        <media:content url="https://blog.fodi.be/media/posts/16/day-7.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-14T10:01:25+01:00</updated>
+        <updated>2022-12-19T21:02:44+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/16/day-7.svg" alt="" />
                     This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/16/day-7.svg" class="type:primaryImage" alt="" /></p>
                 <p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>
 <p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>
 <p>I'm trying again today. I want to work a little on the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project.</p>
@@ -115,16 +121,19 @@
         </author>
         <link href="https://blog.fodi.be/day-six/"/>
         <id>https://blog.fodi.be/day-six/</id>
+        <media:content url="https://blog.fodi.be/media/posts/14/day-6.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-09T11:10:45+01:00</updated>
+        <updated>2022-12-19T21:02:33+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/14/day-6.svg" alt="" />
                     Today I'm starting a new video game prototype from scratch with the working title Dungeon Bouncer. It's from this list&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/14/day-6.svg" class="type:primaryImage" alt="" /></p>
                 <p>Today I'm starting a new video game prototype from scratch with the working title <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a>. It's from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a> and I'm hoping to publish the first version this afternoon - I'll update this post later.</p>
             ]]>
         </content>
@@ -136,16 +145,19 @@
         </author>
         <link href="https://blog.fodi.be/day-five/"/>
         <id>https://blog.fodi.be/day-five/</id>
+        <media:content url="https://blog.fodi.be/media/posts/13/day-5.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-08T18:23:59+01:00</updated>
+        <updated>2022-12-19T21:02:18+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/13/day-5.svg" alt="" />
                     Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/13/day-5.svg" class="type:primaryImage" alt="" /></p>
                 <p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>
 <p>But today I'm working on a pet project, an idea one from the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">uncommon tech list</a>. I'll update this post later with my progress.</p>
 <p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href="https://github.com/handtracking-io/yoha" target="_blank" rel="noopener noreferrer">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>
@@ -159,16 +171,19 @@
         </author>
         <link href="https://blog.fodi.be/day-four/"/>
         <id>https://blog.fodi.be/day-four/</id>
+        <media:content url="https://blog.fodi.be/media/posts/9/day-4.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-06T10:59:51+01:00</updated>
+        <updated>2022-12-19T21:02:00+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/9/day-4.svg" alt="" />
                     I've updated the Uncommon tech for video games post with a few more ideas and there are still more to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/9/day-4.svg" class="type:primaryImage" alt="" /></p>
                 <p>I've updated the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">Uncommon tech for video games</a> post with a few more ideas and there are still more to come. This afternoon I'm going to pick (probably an easy) one of those and start some actual development.</p>
             ]]>
         </content>
@@ -180,16 +195,19 @@
         </author>
         <link href="https://blog.fodi.be/day-three/"/>
         <id>https://blog.fodi.be/day-three/</id>
+        <media:content url="https://blog.fodi.be/media/posts/8/day-3.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-05T22:08:21+01:00</updated>
+        <updated>2022-12-19T21:01:47+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/8/day-3.svg" alt="" />
                     Today was unproductive. I've added a post about using weird tech in games though, but it's just a stub at&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/8/day-3.svg" class="type:primaryImage" alt="" /></p>
                 <p>Today was unproductive. I've added a post about <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">using weird tech in games</a> though, but it's just a stub at this point and will be extended later.</p>
             ]]>
         </content>
@@ -290,16 +308,19 @@
         </author>
         <link href="https://blog.fodi.be/day-2/"/>
         <id>https://blog.fodi.be/day-2/</id>
+        <media:content url="https://blog.fodi.be/media/posts/6/day-2.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-02T12:02:53+01:00</updated>
+        <updated>2022-12-19T21:01:34+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/6/day-2.svg" alt="" />
                     I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/6/day-2.svg" class="type:primaryImage" alt="" /></p>
                 <p>I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the same today. I'll be mostly AFK this weekend so the next update will be on Monday.</p>
             ]]>
         </content>
