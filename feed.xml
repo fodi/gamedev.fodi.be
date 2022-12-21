@@ -3,12 +3,38 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-19T21:03:05+01:00</updated>
+    <updated>2022-12-21T12:23:40+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day Nine</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-nine/"/>
+        <id>https://blog.fodi.be/day-nine/</id>
+        <media:content url="https://blog.fodi.be/media/posts/19/day-9.svg" medium="image" />
+            <category term="Changelog"/>
+
+        <updated>2022-12-21T12:23:40+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/19/day-9.svg" alt="" />
+                    I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek. It&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/19/day-9.svg" class="type:primaryImage" alt="" /></p>
+                <figure class="post__image post__image--right"><img loading="lazy"  style="margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://blog.fodi.be/media/posts/19//vhs-menu.png" alt="" width="528" height="780" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w"></figure>
+<p>I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek.</p>
+<p>It works okay, tomorrow I'll continue with the level / UI design.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day Eight</title>
         <author>
@@ -19,17 +45,17 @@
         <media:content url="https://blog.fodi.be/media/posts/18/day-8.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-19T21:03:05+01:00</updated>
+        <updated>2022-12-19T21:10:39+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/18/day-8.svg" alt="" />
-                    I've made some progress in the last few days, although it's not a lot. I added a basic moving enemy&hellip;
+                    I've made some progress in the last few days, but not a lot. I added a basic moving enemy to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.fodi.be/media/posts/18/day-8.svg" class="type:primaryImage" alt="" /></p>
-                <p>I've made some progress in the last few days, although it's not a lot.</p>
+                <p>I've made some progress in the last few days, but not a lot.</p>
 <p>I added a basic moving enemy to the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href="https://blog.fodi.be/tags/list/">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>
             ]]>
         </content>
@@ -298,30 +324,6 @@
 <p>In 2022 I revisited the idea from a different angle after finding out just how easy it is to use the Multiplayer plugin in Construct 3. It's based on WebRTC and it's quite comfortable to use, not to mention it's fast and "wide" enough for more uses; probably not right for controlling time-critical platformers, but definitely okay for anything turn based. A Scorched Earth / Pocket Tanks clone should be probably feasible, or maybe something like The Incredible Machine.</p>
 <h3 id="mcetoc_1gjjlh3nf1i8">An extra common screen</h3>
 <p>A fork of this idea: make a mobile multiplayer game (each player controls stuff on their phone) and extend it with a common functional display (a TV) where joint progress can be monitored (stats, an overview map, etc).</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day Two</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-2/"/>
-        <id>https://blog.fodi.be/day-2/</id>
-        <media:content url="https://blog.fodi.be/media/posts/6/day-2.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-19T21:01:34+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/6/day-2.svg" alt="" />
-                    I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/6/day-2.svg" class="type:primaryImage" alt="" /></p>
-                <p>I've spent yesterday organizing notes and converting them to posts (check them out if you want) and I'm doing the same today. I'll be mostly AFK this weekend so the next update will be on Monday.</p>
             ]]>
         </content>
     </entry>
