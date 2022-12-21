@@ -10,11 +10,27 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-10/",
+            "url": "https://blog.fodi.be/day-10/",
+            "title": "Day 10",
+            "summary": "Some more progress on the VHS project: string localisation is now possible and main UI is starting to look okay.",
+            "content_html": "<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"https://blog.fodi.be/media/posts/20/vhs-main.png\" alt=\"\" width=\"593\" height=\"1080\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://blog.fodi.be/media/posts/20/responsive/vhs-main-xs.png 300w ,https://blog.fodi.be/media/posts/20/responsive/vhs-main-sm.png 480w ,https://blog.fodi.be/media/posts/20/responsive/vhs-main-md.png 768w\"></figure>Some more progress on the <a href=\"https://blog.fodi.be/video-hut-shack/\">VHS project</a>: string localisation is now possible and main UI is starting to look okay.</p>\n<p>Check out the screenshot!</p>\n<p>Yeah I choose the <a href=\"https://kenney.nl/assets/tiny-dungeon\" target=\"_blank\" rel=\"noopener noreferrer\">Kenney Tiny Dungeon</a> asset pack to get started, otherwise I would've spent way too much time and possibly money fishing for slightly better assets on the 'net, and in the end I'll probably replace all of it later. If the game even passes the first playtest anyway.</p>\n<p>In the afternoon I took a break and uploaded an alternative version of the <a href=\"https://fodi.itch.io/arucontrol-construct3\" target=\"_blank\" rel=\"noopener noreferrer\">AruControl template project for Construct 3</a>, which uses a DrawingCanvas to display the video feed instead of an HTMLElement (which is still needed though, but now invisible). This allows placing objects on top of the camera input, since HTMLElement is always on top of everything else and does not respect Z index (at the time of writing).</p>",
+            "image": "https://blog.fodi.be/media/posts/20/day-10.svg",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-21T12:37:40+01:00",
+            "date_modified": "2022-12-21T23:38:59+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-nine/",
             "url": "https://blog.fodi.be/day-nine/",
-            "title": "Day Nine",
+            "title": "Day 9",
             "summary": "I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek. It&hellip;",
-            "content_html": "<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  style=\"margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;\" src=\"https://blog.fodi.be/media/posts/19//vhs-menu.png\" alt=\"\" width=\"528\" height=\"780\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w\"></figure>\n<p>I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek.</p>\n<p>It works okay, tomorrow I'll continue with the level / UI design.</p>",
+            "content_html": "<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  style=\"margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;\" src=\"https://blog.fodi.be/media/posts/19//vhs-menu.png\" alt=\"\" width=\"528\" height=\"780\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w\"></figure>\n<p>I started working on the menu system for <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> - see the screenshot for a sneak peek.</p>\n<p>It works okay, tomorrow I'll continue with the level / UI design.</p>",
             "image": "https://blog.fodi.be/media/posts/19/day-9.svg",
             "author": {
                 "name": "Fodi"
@@ -23,12 +39,12 @@
                    "Changelog"
             ],
             "date_published": "2022-12-20T23:49:00+01:00",
-            "date_modified": "2022-12-21T12:23:40+01:00"
+            "date_modified": "2022-12-21T15:55:38+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-eight/",
             "url": "https://blog.fodi.be/day-eight/",
-            "title": "Day Eight",
+            "title": "Day 8",
             "summary": "I've made some progress in the last few days, but not a lot. I added a basic moving enemy to&hellip;",
             "content_html": "<p>I've made some progress in the last few days, but not a lot.</p>\n<p>I added a basic moving enemy to the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href=\"https://blog.fodi.be/tags/list/\">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>",
             "image": "https://blog.fodi.be/media/posts/18/day-8.svg",
@@ -39,7 +55,7 @@
                    "Changelog"
             ],
             "date_published": "2022-12-19T12:00:22+01:00",
-            "date_modified": "2022-12-19T21:10:39+01:00"
+            "date_modified": "2022-12-21T15:55:43+01:00"
         },
         {
             "id": "https://blog.fodi.be/video-hut-shack/",
@@ -61,7 +77,7 @@
         {
             "id": "https://blog.fodi.be/day-seven/",
             "url": "https://blog.fodi.be/day-seven/",
-            "title": "Day Seven",
+            "title": "Day 7",
             "summary": "This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The&hellip;",
             "content_html": "<p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>\n<p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>\n<p>I'm trying again today. I want to work a little on the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> project.</p>",
             "image": "https://blog.fodi.be/media/posts/16/day-7.svg",
@@ -72,7 +88,7 @@
                    "Changelog"
             ],
             "date_published": "2022-12-14T09:18:12+01:00",
-            "date_modified": "2022-12-19T21:02:44+01:00"
+            "date_modified": "2022-12-21T15:55:47+01:00"
         },
         {
             "id": "https://blog.fodi.be/dungeon-bouncer/",
@@ -95,7 +111,7 @@
         {
             "id": "https://blog.fodi.be/day-six/",
             "url": "https://blog.fodi.be/day-six/",
-            "title": "Day Six",
+            "title": "Day 6",
             "summary": "Today I'm starting a new video game prototype from scratch with the working title Dungeon Bouncer. It's from this list&hellip;",
             "content_html": "<p>Today I'm starting a new video game prototype from scratch with the working title <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a>. It's from <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">this list</a> and I'm hoping to publish the first version this afternoon - I'll update this post later.</p>",
             "image": "https://blog.fodi.be/media/posts/14/day-6.svg",
@@ -106,12 +122,12 @@
                    "Changelog"
             ],
             "date_published": "2022-12-09T11:04:50+01:00",
-            "date_modified": "2022-12-19T21:02:33+01:00"
+            "date_modified": "2022-12-21T15:55:51+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-five/",
             "url": "https://blog.fodi.be/day-five/",
-            "title": "Day Five",
+            "title": "Day 5",
             "summary": "Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;",
             "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>\n<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href=\"https://github.com/handtracking-io/yoha\" target=\"_blank\" rel=\"noopener noreferrer\">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>",
             "image": "https://blog.fodi.be/media/posts/13/day-5.svg",
@@ -122,12 +138,12 @@
                    "Changelog"
             ],
             "date_published": "2022-12-08T11:04:41+01:00",
-            "date_modified": "2022-12-19T21:02:18+01:00"
+            "date_modified": "2022-12-21T15:56:00+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-four/",
             "url": "https://blog.fodi.be/day-four/",
-            "title": "Day Four",
+            "title": "Day 4",
             "summary": "I've updated the Uncommon tech for video games post with a few more ideas and there are still more to&hellip;",
             "content_html": "<p>I've updated the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">Uncommon tech for video games</a> post with a few more ideas and there are still more to come. This afternoon I'm going to pick (probably an easy) one of those and start some actual development.</p>",
             "image": "https://blog.fodi.be/media/posts/9/day-4.svg",
@@ -138,12 +154,12 @@
                    "Changelog"
             ],
             "date_published": "2022-12-06T10:57:42+01:00",
-            "date_modified": "2022-12-19T21:02:00+01:00"
+            "date_modified": "2022-12-21T15:56:05+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-three/",
             "url": "https://blog.fodi.be/day-three/",
-            "title": "Day Three",
+            "title": "Day 3",
             "summary": "Today was unproductive. I've added a post about using weird tech in games though, but it's just a stub at&hellip;",
             "content_html": "<p>Today was unproductive. I've added a post about <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">using weird tech in games</a> though, but it's just a stub at this point and will be extended later.</p>",
             "image": "https://blog.fodi.be/media/posts/8/day-3.svg",
@@ -154,24 +170,7 @@
                    "Changelog"
             ],
             "date_published": "2022-12-05T21:14:36+01:00",
-            "date_modified": "2022-12-19T21:01:47+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/list-uncommon-tech-for-video-games/",
-            "url": "https://blog.fodi.be/list-uncommon-tech-for-video-games/",
-            "title": "[List] Uncommon tech for video games",
-            "summary": "A few of my video game ideas are based around some tech that is not very common in video games.",
-            "content_html": "<p>A few of my video game ideas are based around some tech that is not very common in video games. I considered using the term \"gimmickware\" to describe this category, but that sounds a bit negative. But yeah, these might sound gimmicky.</p>\n<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li><a href=\"#mcetoc_1gjjjuo3o1eg\">Fiducial markers (ArUco and friends)</a>\n<ul>\n<li><a href=\"#mcetoc_1gjjljdpb1ii\">ArUco as an input device</a></li>\n<li><a href=\"#mcetoc_1gjjljdpb1ij\">Head tracking</a></li>\n<li><a href=\"#mcetoc_1gjjljdpb1ik\">Tabletop games</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1gjjjuo3o1eh\">Hand tracking</a></li>\n<li><a href=\"#mcetoc_1gjjjuo3o1ei\">Multiplayer games without wireless networks</a>\n<ul>\n<li><a href=\"#mcetoc_1gjjjuo3o1ej\">Co-operative dungeon crawler with item teleportation</a></li>\n<li><a href=\"#mcetoc_1gjjjuo3o1ek\">Video rental chain</a></li>\n<li><a href=\"#mcetoc_1gjjjuo3o1el\">Escape room</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1gjjjuo3o1em\">Real maps to game maps</a></li>\n<li><a href=\"#mcetoc_1gjjjuo3o1en\">Geolocation based games</a>\n<ul>\n<li><a href=\"#mcetoc_1gjjvomvlk\">Geospotting</a></li>\n<li><a href=\"#mcetoc_1gjjvomvll\">GPS drawing</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1gjjl4o5j1hf\">A \"Public Console\"</a>\n<ul>\n<li><a href=\"#mcetoc_1gjjlh3nf1i6\">Pub quiz</a></li>\n<li><a href=\"#mcetoc_1gjjlh3nf1i7\">Phone as a game controller (via network)</a></li>\n<li><a href=\"#mcetoc_1gjjlh3nf1i8\">An extra common screen</a></li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"mcetoc_1gjjjuo3o1eg\">Fiducial markers (ArUco and friends)</h2>\n<h3 id=\"mcetoc_1gjjljdpb1ii\">ArUco as an input device</h3>\n<p>Shortly after I started working for <a href=\"https://kollabor.hu/\" target=\"_blank\" rel=\"noopener noreferrer\">Kollabor</a> I came across a very nice educational board game / video game mix called <a href=\"https://scottiego.com/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Scottie Go!</a> by a Polish company. It introduces basic programming concepts like commands, variables, functions and loops in a similar vein to <a href=\"https://en.wikipedia.org/wiki/Logo_(programming_language)\" target=\"_blank\" rel=\"noopener noreferrer\">Logo</a>: the player can tell a nice cartoon character where to go on screen (and there are increasingly difficult levels to beat). They also added a twist: there are physical pieces of \"blocks\" printed with the commands and the player has to lay them out on a table, then take a picture of it with a device camera to \"execute the code\". Those blocks used inverted ArUco markers as I've found out and I quickly stumbled upon an <a href=\"https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html\" target=\"_blank\" rel=\"noopener noreferrer\">OpenCV based implementation</a> (I hacked together an Android app to stream detected markers over the WebSocket protocol) and <a href=\"https://github.com/jcmellado/js-aruco\" target=\"_blank\" rel=\"noopener noreferrer\">one that is pure Javascript</a>. I've used <a href=\"https://github.com/damianofalcioni/js-aruco2/\" target=\"_blank\" rel=\"noopener noreferrer\">a fork of the latter</a> to create a <a href=\"https://fodi.itch.io/arucontrol-construct3\" target=\"_blank\" rel=\"noopener noreferrer\">basic Construct 3 template project</a>. Essentially this is a new input method: you can move different markers in front of a camera and based on their position and unique ID, things happen.</p>\n<h3 id=\"mcetoc_1gjjljdpb1ij\">Head tracking</h3>\n<p>Fiducial markers could also enable <a href=\"https://www.youtube.com/watch?v=Jd3-eiid-Uw\" target=\"_blank\" rel=\"noopener noreferrer\">head tracking</a>, there are folks already <a href=\"https://www.youtube.com/watch?v=ajoUzwe1bT0\" target=\"_blank\" rel=\"noopener noreferrer\">using OpenTrack</a> to achieve this. I have a super basic (no real math included) prototype in Construct 3 that moves the camera perspective via a single ArUco marker on screen.</p>\n<h3 id=\"mcetoc_1gjjljdpb1ik\">Tabletop games</h3>\n<p>I also have a few ideas on how to utilize ArUco marker detection in video and/or tabletop games: either by using a camera fixed above the table looking down, or one placed in the middle of the table with the display and front camera facing up. Players place cards with ArUco codes in front of the device camera and the app detects and progresses the game.</p>\n<h2 id=\"mcetoc_1gjjjuo3o1eh\">Hand tracking</h2>\n<p>Ever since I came across <a href=\"https://github.com/handtracking-io/yoha\" target=\"_blank\" rel=\"noopener noreferrer\">Yoha</a>, I wanted to use it in a game. At first I'd like to make free Construct 3 project template with it. Then maybe something like Draw Something or possibly use it for one of the \"level editor\" based games.</p>\n<h2 id=\"mcetoc_1gjjjuo3o1ei\">Multiplayer games without wireless networks</h2>\n<p>I'm absolutely fascinated by <a href=\"https://en.wikipedia.org/wiki/Procedural_generation\" target=\"_blank\" rel=\"noopener noreferrer\">procedural generation</a> in general, <a href=\"https://github.com/bryc/code/blob/master/jshash/PRNGs.md\" target=\"_blank\" rel=\"noopener noreferrer\">PRNGs</a>, <a href=\"https://github.com/mxgmn/WaveFunctionCollapse\" target=\"_blank\" rel=\"noopener noreferrer\">wave function collapse</a> and stuff like that. I can totally imagine a local multiplayer game, where people in the same room need to communicate by saying stuff to each other (think <a href=\"https://spaceteam.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Spaceteam</a>, but not necessarily that chaotic), controlling their own players on their phone and making joint progress... all without the need for a Bluetooth or wifi connection. They just enter the same (short) seed at the beginning of the game (which predetermines what events will take place in the game and when) and then all \"network communication\" is carried out by the players as they talk to each other and enter stuff on their own device. Some ideas for actual games:</p>\n<h3 id=\"mcetoc_1gjjjuo3o1ej\">Co-operative dungeon crawler with item teleportation</h3>\n<p>Players are all alone in different areas of a large procedurally generated dungeon but can magically send things that are requested by other players (verbally) by entering \"codes\" (think TOTP). For example: one player is in bad shape after a fight but has no health potions: they ask if anyone has any; a second player volunteers to send one. The second player goes to their inventory, select the potion and selects the target player (eg. by color): a unique, time limited code is generated consisting of symbols, eg. \"fire-water-stone-stone\" or \"4-1-2-7\" and the item disappears from the inventory. The second player enters the code, which is validated using the original seed, the recipient player's color (ID) and a timeframe and if it check out, the health potion appears in their inventory.</p>\n<h3 id=\"mcetoc_1gjjjuo3o1ek\">Video rental chain</h3>\n<p>This idea I've always wanted to debut on a Halloween-themed game jam, but haven't had time to do it. The setting: all players work in different branches of a huge VHS rental network (like Blockbuster back in the day) and it's the busiest day of the year, there are a huge line of people wanting to rent horror films. Some titles are not in and players need to ask other players if they have it in their store (yes, this is the same Spaceteam recipe for a shouting match). If they do, they can put the tape in a pneumatic tube and quickly send it to another store. This part works exactly the method described in the previous idea. There's also a huge opportunity to come up with a bunch of funny non-existent movie titles and puns for existing movies.</p>\n<h3 id=\"mcetoc_1gjjjuo3o1el\">Escape room</h3>\n<p>Nothing super innovative here: just take the premise of We Were Here and send items/codes to the other player(s) verbally.</p>\n<h2 id=\"mcetoc_1gjjjuo3o1em\">Real maps to game maps</h2>\n<p>Although it's probably not an easy task to accomplish, but I'd like to find a way to import maps of actual cities to games (probably via <a href=\"https://www.openstreetmap.org/\" target=\"_blank\" rel=\"noopener noreferrer\">OpenStreetMap</a> if licensing is possible). Players could take advantage of their local knowledge by planning their routes to marked places (think airdrops in Dying Light); open world exploration / survival games could benefit from using real working cities as base maps instead of procedurally generated ones.</p>\n<h2 id=\"mcetoc_1gjjjuo3o1en\">Geolocation based games</h2>\n<h3 id=\"mcetoc_1gjjvomvlk\">Geospotting</h3>\n<p>In the same neighborhood of the previous concept, I also have a few ideas (and even a prototype) for mobile games that require players to actually go to certain places. Back in 2016 I hacked together such a game that featured a bunch of images I shot around my hometown, coupled with short and cryptic text clues and players had to figure out where they were taken. The game showed the approximate distance of all targets and allowed players to request a further text clue (but this mean that they'll only get half of the points rewarded). When they figured out the location of a target they had to go there and the game only allowed marking one as found if they were within 10 meters of the target's recorded geolocation. I've started resurrecting this idea in 2022, it's about halfway done.</p>\n<h3 id=\"mcetoc_1gjjvomvll\">GPS drawing</h3>\n<p>I also hastily prototyped a proof of concept in the same domain that was based on an idea nicked from the excellent UK show <a href=\"https://www.youtube.com/watch?v=82c2y94BvEA&amp;t=994s\" title=\"Taskmaster UK S01E03@16:34\" target=\"_blank\" rel=\"noopener noreferrer\">Taskmaster</a>, where competitors had to draw something by walking around a field carrying a GPS device with a screen that allowed them to monitor their progress real time.</p>\n<h2 id=\"mcetoc_1gjjl4o5j1hf\">A \"Public Console\"</h2>\n<p>The TL;DR version: one big screen, a few small screens.</p>\n<h3 id=\"mcetoc_1gjjlh3nf1i6\">Pub quiz</h3>\n<p>A few years ago I had an idea to write a simple quiz-like game optimized for big screens with the intention of making it available in local pubs and allowing players to join in from their phones. Basically a pub quiz that can be played on demand either by a single player or teams. Control would require an Internet connection and a webapp or possibly a chatbot (eg. Telegram has a very nice bot API).</p>\n<h3 id=\"mcetoc_1gjjlh3nf1i7\">Phone as a game controller (via network)</h3>\n<p>In 2022 I revisited the idea from a different angle after finding out just how easy it is to use the Multiplayer plugin in Construct 3. It's based on WebRTC and it's quite comfortable to use, not to mention it's fast and \"wide\" enough for more uses; probably not right for controlling time-critical platformers, but definitely okay for anything turn based. A Scorched Earth / Pocket Tanks clone should be probably feasible, or maybe something like The Incredible Machine.</p>\n<h3 id=\"mcetoc_1gjjlh3nf1i8\">An extra common screen</h3>\n<p>A fork of this idea: make a mobile multiplayer game (each player controls stuff on their phone) and extend it with a common functional display (a TV) where joint progress can be monitored (stats, an overview map, etc).</p>",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "List",
-                   "Idea phase",
-                   "GameDev"
-            ],
-            "date_published": "2022-12-02T14:14:02+01:00",
-            "date_modified": "2022-12-06T16:10:27+01:00"
+            "date_modified": "2022-12-21T15:56:10+01:00"
         }
     ]
 }
