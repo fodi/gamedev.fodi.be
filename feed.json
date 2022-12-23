@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-11/",
+            "url": "https://blog.fodi.be/day-11/",
+            "title": "Day 11",
+            "summary": "The Video Hut Shack project is coming along. I'm focusing on making all core mechanics work in single player mode.",
+            "content_html": "<p>The <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> project is coming along. I'm focusing on making all core mechanics work in single player mode. If everything goes well, I'll add the seeded PRNG based multiplayer part.</p>\n<p>I'm going to take a few days off and continue next week.</p>",
+            "image": "https://blog.fodi.be/media/posts/21/day-11.svg",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-22T14:37:46+01:00",
+            "date_modified": "2022-12-23T18:44:38+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-10/",
             "url": "https://blog.fodi.be/day-10/",
             "title": "Day 10",
@@ -156,22 +172,6 @@
             ],
             "date_published": "2022-12-06T10:57:42+01:00",
             "date_modified": "2022-12-21T15:56:05+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-three/",
-            "url": "https://blog.fodi.be/day-three/",
-            "title": "Day 3",
-            "summary": "Today was unproductive. I've added a post about using weird tech in games though, but it's just a stub at&hellip;",
-            "content_html": "<p>Today was unproductive. I've added a post about <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">using weird tech in games</a> though, but it's just a stub at this point and will be extended later.</p>",
-            "image": "https://blog.fodi.be/media/posts/8/day-3.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-05T21:14:36+01:00",
-            "date_modified": "2022-12-21T15:56:10+01:00"
         }
     ]
 }

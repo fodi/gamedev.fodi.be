@@ -3,12 +3,37 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-21T23:40:55+01:00</updated>
+    <updated>2022-12-23T18:44:38+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day 11</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-11/"/>
+        <id>https://blog.fodi.be/day-11/</id>
+        <media:content url="https://blog.fodi.be/media/posts/21/day-11.svg" medium="image" />
+            <category term="Changelog"/>
+
+        <updated>2022-12-23T18:44:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/21/day-11.svg" alt="" />
+                    The Video Hut Shack project is coming along. I'm focusing on making all core mechanics work in single player mode.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/21/day-11.svg" class="type:primaryImage" alt="" /></p>
+                <p>The <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project is coming along. I'm focusing on making all core mechanics work in single player mode. If everything goes well, I'll add the seeded PRNG based multiplayer part.</p>
+<p>I'm going to take a few days off and continue next week.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day 10</title>
         <author>
@@ -241,30 +266,6 @@
             <![CDATA[
                     <p><img src="https://blog.fodi.be/media/posts/9/day-4.svg" class="type:primaryImage" alt="" /></p>
                 <p>I've updated the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">Uncommon tech for video games</a> post with a few more ideas and there are still more to come. This afternoon I'm going to pick (probably an easy) one of those and start some actual development.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 3</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-three/"/>
-        <id>https://blog.fodi.be/day-three/</id>
-        <media:content url="https://blog.fodi.be/media/posts/8/day-3.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:56:10+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/8/day-3.svg" alt="" />
-                    Today was unproductive. I've added a post about using weird tech in games though, but it's just a stub at&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/8/day-3.svg" class="type:primaryImage" alt="" /></p>
-                <p>Today was unproductive. I've added a post about <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">using weird tech in games</a> though, but it's just a stub at this point and will be extended later.</p>
             ]]>
         </content>
     </entry>
