@@ -28,6 +28,22 @@
             "date_modified": "2022-12-26T14:55:07+01:00"
         },
         {
+            "id": "https://blog.fodi.be/day-12/",
+            "url": "https://blog.fodi.be/day-12/",
+            "title": "Day 12",
+            "summary": "Instead of working on VHS, I've started prototyping a new item from a list with the working title Windy Physics. Why?&hellip;",
+            "content_html": "<p>Instead of working on VHS, I've started prototyping a new item from <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\" target=\"_blank\" rel=\"noopener noreferrer\">a list</a> with the working title <a href=\"https://blog.fodi.be/windy-physics/\">Windy Physics</a>.</p>\n<p>Why? Because the VHS todo list includes some more hairy tasks (gameplay loop, RNG stuff) that needs a clear head and I just don't have that at the moment. But I do want to spend time on something creative.</p>",
+            "image": "https://blog.fodi.be/media/posts/22/day-12.svg",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-26T10:57:08+01:00",
+            "date_modified": "2022-12-26T15:16:52+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-11/",
             "url": "https://blog.fodi.be/day-11/",
             "title": "Day 11",
@@ -158,22 +174,6 @@
             ],
             "date_published": "2022-12-09T11:04:50+01:00",
             "date_modified": "2022-12-21T15:55:51+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-five/",
-            "url": "https://blog.fodi.be/day-five/",
-            "title": "Day 5",
-            "summary": "Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;",
-            "content_html": "<p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>\n<p>But today I'm working on a pet project, an idea one from the <a href=\"https://blog.fodi.be/list-uncommon-tech-for-video-games/\">uncommon tech list</a>. I'll update this post later with my progress.</p>\n<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href=\"https://github.com/handtracking-io/yoha\" target=\"_blank\" rel=\"noopener noreferrer\">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>",
-            "image": "https://blog.fodi.be/media/posts/13/day-5.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-08T11:04:41+01:00",
-            "date_modified": "2022-12-21T15:56:00+01:00"
         }
     ]
 }

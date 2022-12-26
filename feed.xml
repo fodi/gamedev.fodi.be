@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-26T14:55:07+01:00</updated>
+    <updated>2022-12-26T15:16:52+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -33,6 +33,31 @@
                     <p><img src="https://blog.fodi.be/media/posts/23/windyphysics.png" class="type:primaryImage" alt="" /></p>
                 <p>As if two "active projects" (that's a generous term) are not enough; I've started building a prototype for a game from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a>. Windy Physics is essentially a 2D side-view physics puzzler mainly inspired by <a href="https://en.wikipedia.org/wiki/The_Incredible_Machine" target="_blank" rel="noopener noreferrer">The Incredible Machine</a> and <a href="https://en.wikipedia.org/wiki/Lemmings_(video_game)" target="null">Lemmings</a>.</p>
 <p>The first build should include ball spawners, bouncy balls that the player needs to guide to the right place by placing objects that affect their movement, static walls and maybe a few hazards and should be available some time today. Tomorrow tops.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Day 12</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-12/"/>
+        <id>https://blog.fodi.be/day-12/</id>
+        <media:content url="https://blog.fodi.be/media/posts/22/day-12.svg" medium="image" />
+            <category term="Changelog"/>
+
+        <updated>2022-12-26T15:16:52+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/22/day-12.svg" alt="" />
+                    Instead of working on VHS, I've started prototyping a new item from a list with the working title Windy Physics. Why?&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/22/day-12.svg" class="type:primaryImage" alt="" /></p>
+                <p>Instead of working on VHS, I've started prototyping a new item from <a href="https://blog.fodi.be/list-main-themes-for-video-games/" target="_blank" rel="noopener noreferrer">a list</a> with the working title <a href="https://blog.fodi.be/windy-physics/">Windy Physics</a>.</p>
+<p>Why? Because the VHS todo list includes some more hairy tasks (gameplay loop, RNG stuff) that needs a clear head and I just don't have that at the moment. But I do want to spend time on something creative.</p>
             ]]>
         </content>
     </entry>
@@ -243,32 +268,6 @@
             <![CDATA[
                     <p><img src="https://blog.fodi.be/media/posts/14/day-6.svg" class="type:primaryImage" alt="" /></p>
                 <p>Today I'm starting a new video game prototype from scratch with the working title <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a>. It's from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a> and I'm hoping to publish the first version this afternoon - I'll update this post later.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 5</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-five/"/>
-        <id>https://blog.fodi.be/day-five/</id>
-        <media:content url="https://blog.fodi.be/media/posts/13/day-5.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:56:00+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/13/day-5.svg" alt="" />
-                    Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/13/day-5.svg" class="type:primaryImage" alt="" /></p>
-                <p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>
-<p>But today I'm working on a pet project, an idea one from the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">uncommon tech list</a>. I'll update this post later with my progress.</p>
-<p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href="https://github.com/handtracking-io/yoha" target="_blank" rel="noopener noreferrer">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>
             ]]>
         </content>
     </entry>
