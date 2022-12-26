@@ -3,12 +3,39 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-23T18:44:38+01:00</updated>
+    <updated>2022-12-26T14:55:07+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Windy Physics</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/windy-physics/"/>
+        <id>https://blog.fodi.be/windy-physics/</id>
+        <media:content url="https://blog.fodi.be/media/posts/23/windyphysics.png" medium="image" />
+            <category term="Idea phase"/>
+            <category term="GameDev"/>
+            <category term="Continuing"/>
+
+        <updated>2022-12-26T14:55:07+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/23/windyphysics.png" alt="" />
+                    As if two "active projects" (that's a generous term) are not enough; I've started building a prototype for a game&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/23/windyphysics.png" class="type:primaryImage" alt="" /></p>
+                <p>As if two "active projects" (that's a generous term) are not enough; I've started building a prototype for a game from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a>. Windy Physics is essentially a 2D side-view physics puzzler mainly inspired by <a href="https://en.wikipedia.org/wiki/The_Incredible_Machine" target="_blank" rel="noopener noreferrer">The Incredible Machine</a> and <a href="https://en.wikipedia.org/wiki/Lemmings_(video_game)" target="null">Lemmings</a>.</p>
+<p>The first build should include ball spawners, bouncy balls that the player needs to guide to the right place by placing objects that affect their movement, static walls and maybe a few hazards and should be available some time today. Tomorrow tops.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day 11</title>
         <author>
@@ -242,30 +269,6 @@
                 <p>Yesterday I had to do work on jobs since I couldn't finish a few in November and I'll have to dedicate a few more days to complete all of them, possibly one tomorrow and at least one next week too.</p>
 <p>But today I'm working on a pet project, an idea one from the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">uncommon tech list</a>. I'll update this post later with my progress.</p>
 <p><strong>Update 1:</strong> I've spent a few hours trying to make a basic <a href="https://github.com/handtracking-io/yoha" target="_blank" rel="noopener noreferrer">Yoha</a> based hand tracking template for Construct 3 but gave up because I have almost no Node/NPM/WebPack knowledge and basically failed to make simple coordinate streaming work locally in a sustainable way. I'll probably contact the developer another day because the docs / getting started info is out of date. Moving on to a different topic.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 4</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-four/"/>
-        <id>https://blog.fodi.be/day-four/</id>
-        <media:content url="https://blog.fodi.be/media/posts/9/day-4.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:56:05+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/9/day-4.svg" alt="" />
-                    I've updated the Uncommon tech for video games post with a few more ideas and there are still more to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/9/day-4.svg" class="type:primaryImage" alt="" /></p>
-                <p>I've updated the <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">Uncommon tech for video games</a> post with a few more ideas and there are still more to come. This afternoon I'm going to pick (probably an easy) one of those and start some actual development.</p>
             ]]>
         </content>
     </entry>
