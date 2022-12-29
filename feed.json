@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/day-14/",
+            "url": "https://blog.fodi.be/day-14/",
+            "title": "Day 14",
+            "summary": "Windy Physics received an update today: I've added a timer, some flair and an objective: make X balls reach the&hellip;",
+            "content_html": "<p><a href=\"https://blog.fodi.be/windy-physics/\">Windy Physics</a> received an update today: I've added a timer, some flair and an objective: make X balls reach the exit as fast as possible.</p>\n<p>The new version is up on <a href=\"https://fodi.itch.io/windy-physics\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a> if you want to give it a go.</p>",
+            "image": "https://blog.fodi.be/media/posts/25/day-14.svg",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2022-12-29T20:47:14+01:00",
+            "date_modified": "2022-12-29T20:47:14+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-13/",
             "url": "https://blog.fodi.be/day-13/",
             "title": "Day 13",
@@ -30,7 +46,7 @@
             "url": "https://blog.fodi.be/windy-physics/",
             "title": "Windy Physics",
             "summary": "As if two \"active projects\" (that's a generous term) are not enough; I've started building a prototype for a game&hellip;",
-            "content_html": "<p>As if two \"active projects\" (that's a generous term) are not enough; I've started building a prototype for a game from <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">this list</a>. Windy Physics is essentially a 2D side-view physics puzzler mainly inspired by <a href=\"https://en.wikipedia.org/wiki/The_Incredible_Machine\" target=\"_blank\" rel=\"noopener noreferrer\">The Incredible Machine</a> and <a href=\"https://en.wikipedia.org/wiki/Lemmings_(video_game)\" target=\"null\">Lemmings</a>.</p>\n<p>The first build should include ball spawners, bouncy balls that the player needs to guide to the right place by placing objects that affect their movement, static walls and maybe a few hazards and should be available some time today. Tomorrow tops.</p>\n<p><strong>Update 1</strong>: the first public build is up on <a href=\"https://fodi.itch.io/windy-physics\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a>; it has basic editor features (tools for moving, rotating, deleting wind generators), walls, ball spawners and balls. More tools and actual level targets are coming soon.</p>",
+            "content_html": "<p>As if two \"active projects\" (that's a generous term) are not enough; I've started building a prototype for a game from <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">this list</a>. Windy Physics is essentially a 2D side-view physics puzzler mainly inspired by <a href=\"https://en.wikipedia.org/wiki/The_Incredible_Machine\" target=\"_blank\" rel=\"noopener noreferrer\">The Incredible Machine</a> and <a href=\"https://en.wikipedia.org/wiki/Lemmings_(video_game)\" target=\"null\">Lemmings</a>.</p>\n<p>The first build should include ball spawners, bouncy balls that the player needs to guide to the right place by placing objects that affect their movement, static walls and maybe a few hazards and should be available some time today. Tomorrow tops.</p>\n<p>The latest build can be found on <a href=\"https://fodi.itch.io/windy-physics\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a>.</p>\n<h2>Devlog</h2>\n<p><strong>Update 1</strong>: the first public build is up on Itch; it has basic editor features (tools for moving, rotating, deleting wind generators), walls, ball spawners and balls. More tools and actual level targets are coming soon.</p>\n<p><strong>Update 2</strong>: I've added an exit where balls should be directed and an objective (number of balls required to complete the level). There's also a timer and some visual flair (yeah, I like particle emitters). I should probably add an \"inventory\" next and figure out how to store and load level data (then probably make a basic level editor).</p>",
             "image": "https://blog.fodi.be/media/posts/23/windyphysics-2.png",
             "author": {
                 "name": "Fodi"
@@ -41,7 +57,7 @@
                    "Continuing"
             ],
             "date_published": "2022-12-26T14:55:07+01:00",
-            "date_modified": "2022-12-28T17:14:21+01:00"
+            "date_modified": "2022-12-29T20:52:26+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-12/",
@@ -156,24 +172,6 @@
             ],
             "date_published": "2022-12-14T09:18:12+01:00",
             "date_modified": "2022-12-21T15:55:47+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/dungeon-bouncer/",
-            "url": "https://blog.fodi.be/dungeon-bouncer/",
-            "title": "Dungeon Bouncer",
-            "summary": "Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;",
-            "content_html": "<p>Dungeon Bouncer is the working title of a fairly simple idea <a href=\"https://blog.fodi.be/list-main-themes-for-video-games/\">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>\n<p><strong>Update 1</strong>: <a href=\"https://fodi.itch.io/dungeon-bouncer-working-title\" target=\"_blank\" rel=\"noopener noreferrer\">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>\n<p><strong>Update 2:</strong> added the first moving enemies.</p>",
-            "image": "https://blog.fodi.be/media/posts/15/dungeonbouncer.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Prototype phase",
-                   "GameDev",
-                   "Continuing"
-            ],
-            "date_published": "2022-12-09T11:07:43+01:00",
-            "date_modified": "2022-12-19T20:06:25+01:00"
         }
     ]
 }

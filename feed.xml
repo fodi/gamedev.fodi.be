@@ -3,12 +3,37 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-28T17:14:21+01:00</updated>
+    <updated>2022-12-29T20:52:26+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Day 14</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/day-14/"/>
+        <id>https://blog.fodi.be/day-14/</id>
+        <media:content url="https://blog.fodi.be/media/posts/25/day-14.svg" medium="image" />
+            <category term="Changelog"/>
+
+        <updated>2022-12-29T20:47:14+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/25/day-14.svg" alt="" />
+                    Windy Physics received an update today: I've added a timer, some flair and an objective: make X balls reach the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/25/day-14.svg" class="type:primaryImage" alt="" /></p>
+                <p><a href="https://blog.fodi.be/windy-physics/">Windy Physics</a> received an update today: I've added a timer, some flair and an objective: make X balls reach the exit as fast as possible.</p>
+<p>The new version is up on <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">Itch</a> if you want to give it a go.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day 13</title>
         <author>
@@ -46,7 +71,7 @@
             <category term="GameDev"/>
             <category term="Continuing"/>
 
-        <updated>2022-12-28T17:14:21+01:00</updated>
+        <updated>2022-12-29T20:52:26+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/23/windyphysics-2.png" alt="" />
@@ -58,7 +83,10 @@
                     <p><img src="https://blog.fodi.be/media/posts/23/windyphysics-2.png" class="type:primaryImage" alt="" /></p>
                 <p>As if two "active projects" (that's a generous term) are not enough; I've started building a prototype for a game from <a href="https://blog.fodi.be/list-main-themes-for-video-games/">this list</a>. Windy Physics is essentially a 2D side-view physics puzzler mainly inspired by <a href="https://en.wikipedia.org/wiki/The_Incredible_Machine" target="_blank" rel="noopener noreferrer">The Incredible Machine</a> and <a href="https://en.wikipedia.org/wiki/Lemmings_(video_game)" target="null">Lemmings</a>.</p>
 <p>The first build should include ball spawners, bouncy balls that the player needs to guide to the right place by placing objects that affect their movement, static walls and maybe a few hazards and should be available some time today. Tomorrow tops.</p>
-<p><strong>Update 1</strong>: the first public build is up on <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">Itch</a>; it has basic editor features (tools for moving, rotating, deleting wind generators), walls, ball spawners and balls. More tools and actual level targets are coming soon.</p>
+<p>The latest build can be found on <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">Itch</a>.</p>
+<h2>Devlog</h2>
+<p><strong>Update 1</strong>: the first public build is up on Itch; it has basic editor features (tools for moving, rotating, deleting wind generators), walls, ball spawners and balls. More tools and actual level targets are coming soon.</p>
+<p><strong>Update 2</strong>: I've added an exit where balls should be directed and an objective (number of balls required to complete the level). There's also a timer and some visual flair (yeah, I like particle emitters). I should probably add an "inventory" next and figure out how to store and load level data (then probably make a basic level editor).</p>
             ]]>
         </content>
     </entry>
@@ -242,34 +270,6 @@
                 <p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>
 <p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>
 <p>I'm trying again today. I want to work a little on the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Dungeon Bouncer</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/dungeon-bouncer/"/>
-        <id>https://blog.fodi.be/dungeon-bouncer/</id>
-        <media:content url="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="GameDev"/>
-            <category term="Continuing"/>
-
-        <updated>2022-12-19T20:06:25+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" alt="" />
-                    Dungeon Bouncer is the working title of a fairly simple idea from this list: essentially a dungeon crawler / physics&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/15/dungeonbouncer.png" class="type:primaryImage" alt="" /></p>
-                <p>Dungeon Bouncer is the working title of a fairly simple idea <a href="https://blog.fodi.be/list-main-themes-for-video-games/">from this list</a>: essentially a dungeon crawler / physics puzzle, where you move the player like in 2D top down golf games.</p>
-<p><strong>Update 1</strong>: <a href="https://fodi.itch.io/dungeon-bouncer-working-title" target="_blank" rel="noopener noreferrer">the first build is up on Itch</a>. It has basic movement (touch/mouse drag aim, limited number of bounces), walls and pickups.</p>
-<p><strong>Update 2:</strong> added the first moving enemies.</p>
             ]]>
         </content>
     </entry>
