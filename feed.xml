@@ -3,12 +3,34 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2022-12-29T20:52:26+01:00</updated>
+    <updated>2023-01-23T11:45:29+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>A brief interval and a challenge</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/a-brief-interval-and-a-challenge/"/>
+        <id>https://blog.fodi.be/a-brief-interval-and-a-challenge/</id>
+            <category term="Changelog"/>
+
+        <updated>2023-01-23T11:45:29+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one and count it if I put in as many hours as I've had to reach their current state.</p>
+<p>I'll start around February. Just after we've finished redoing the fucking bathroom.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Day 14</title>
         <author>
@@ -244,32 +266,6 @@
 <p>The game is set in the 90s when renting movies from Blockbuster et al was the thing. The players work at a big video rental chain called Video Hut Shack (a cheeky reference to <a href="https://regularshow.fandom.com/wiki/Movie_Shack_Hut" target="_blank" rel="noopener noreferrer">Movie Shack Hut from Regular Show</a> but with the added twist that it abbreviates as VHS), all of them in different stores far away from each other. When their store opens, people queue up and ask for videos that are not in at the moment, but they might be available at a different store (at another player's), so they need to ask the others if they have it: they need to look it up and if found, they can send it to the player who requested it by putting it in a pneumatic tube. The sender gets a code (eg. 3-8-1-6) from the delivery system which the requester needs to retrieve the tape, so this code needs to be communicated also. The requester enters the code on their phone, gets the right tape, gives it to the customer and ka-ching. Next!</p>
 <p>This is the basic concept. It's probably gets pretty dull by its own, so I'll have to add some twists here and there and also figure out the UI to make the first prototype.</p>
 <p>To be continued.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 7</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-seven/"/>
-        <id>https://blog.fodi.be/day-seven/</id>
-        <media:content url="https://blog.fodi.be/media/posts/16/day-7.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:55:47+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/16/day-7.svg" alt="" />
-                    This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/16/day-7.svg" class="type:primaryImage" alt="" /></p>
-                <p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>
-<p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>
-<p>I'm trying again today. I want to work a little on the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project.</p>
             ]]>
         </content>
     </entry>

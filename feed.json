@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/a-brief-interval-and-a-challenge/",
+            "url": "https://blog.fodi.be/a-brief-interval-and-a-challenge/",
+            "title": "A brief interval and a challenge",
+            "summary": "I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one&hellip;",
+            "content_html": "<p>I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one and count it if I put in as many hours as I've had to reach their current state.</p>\n<p>I'll start around February. Just after we've finished redoing the fucking bathroom.</p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2023-01-23T11:44:43+01:00",
+            "date_modified": "2023-01-23T11:45:29+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/day-14/",
             "url": "https://blog.fodi.be/day-14/",
             "title": "Day 14",
@@ -156,22 +171,6 @@
             ],
             "date_published": "2022-12-14T09:58:56+01:00",
             "date_modified": "2022-12-21T23:40:55+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-seven/",
-            "url": "https://blog.fodi.be/day-seven/",
-            "title": "Day 7",
-            "summary": "This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The&hellip;",
-            "content_html": "<p>This experiment is not going so well. On Monday I was depressed for personal reasons, so I started re-watching The Wire just to distract myself. Then the issue was resolved, but on Tuesday I had spend time with an old job again (in the morning), then I once again failed to focus and do something I wanted to do in the afternoon.</p>\n<p>The issue is definitely me, but I have a convenient excuse: I haven't done anything like this before, which sounds like a perfectly reasonable explanation on why I'm shit at it.</p>\n<p>I'm trying again today. I want to work a little on the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> project (got a few ideas) and also rubber duck the concept, mechanics and UI of the <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> project.</p>",
-            "image": "https://blog.fodi.be/media/posts/16/day-7.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-14T09:18:12+01:00",
-            "date_modified": "2022-12-21T15:55:47+01:00"
         }
     ]
 }
