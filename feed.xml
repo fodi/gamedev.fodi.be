@@ -3,29 +3,32 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-01-23T11:45:29+01:00</updated>
+    <updated>2023-01-23T14:50:55+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
     <entry>
-        <title>A brief interval and a challenge</title>
+        <title>A brief intermission and a challenge</title>
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/a-brief-interval-and-a-challenge/"/>
-        <id>https://blog.fodi.be/a-brief-interval-and-a-challenge/</id>
+        <link href="https://blog.fodi.be/a-brief-intermission-and-a-challenge/"/>
+        <id>https://blog.fodi.be/a-brief-intermission-and-a-challenge/</id>
+        <media:content url="https://blog.fodi.be/media/posts/26/intermission.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2023-01-23T11:45:29+01:00</updated>
+        <updated>2023-01-23T14:50:55+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/26/intermission.svg" alt="" />
                     I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/26/intermission.svg" class="type:primaryImage" alt="" /></p>
                 <p>I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one and count it if I put in as many hours as I've had to reach their current state.</p>
 <p>I'll start around February. Just after we've finished redoing the fucking bathroom.</p>
             ]]>
