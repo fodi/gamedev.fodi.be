@@ -3,12 +3,33 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-01-23T14:59:00+01:00</updated>
+    <updated>2023-01-28T21:41:45+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Juicy Jam 2023</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/juicy-jam-2023/"/>
+        <id>https://blog.fodi.be/juicy-jam-2023/</id>
+            <category term="Changelog"/>
+
+        <updated>2023-01-28T21:41:45+01:00</updated>
+            <summary>
+                <![CDATA[
+                    We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href="https://lasermagnet.itch.io/juicy-jam-2023" target="_blank" rel="noopener noreferrer">try it here</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>A brief intermission and a challenge</title>
         <author>
@@ -240,35 +261,6 @@
                     <p><img src="https://blog.fodi.be/media/posts/18/day-8.svg" class="type:primaryImage" alt="" /></p>
                 <p>I've made some progress in the last few days, but not a lot.</p>
 <p>I added a basic moving enemy to the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href="https://blog.fodi.be/tags/list/">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Video Hut Shack</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/video-hut-shack/"/>
-        <id>https://blog.fodi.be/video-hut-shack/</id>
-        <media:content url="https://blog.fodi.be/media/posts/17/vhs-main-cover.png" medium="image" />
-            <category term="Idea phase"/>
-            <category term="GameDev"/>
-            <category term="Continuing"/>
-
-        <updated>2022-12-21T23:40:55+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/17/vhs-main-cover.png" alt="" />
-                    This idea originates from this list, because it aspires to use an uncommon gimmick: local multiplayer gameplay without a conventional&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/17/vhs-main-cover.png" class="type:primaryImage" alt="" /></p>
-                <p>This idea originates from <a href="https://blog.fodi.be/list-uncommon-tech-for-video-games/">this list</a>, because it aspires to use an uncommon gimmick: local multiplayer gameplay without a conventional network connection. It's like a board game, where people send stuff to each other, but they don't physically pass cards around. They play on their mobile phones, but they don't need Bluetooth, Wi-Fi or any other Internet connection. There are timed events and players need to react quickly and work together, just like in <a href="https://spaceteam.ca/" target="_blank" rel="noopener noreferrer">Spaceteam</a>.</p>
-<p>The game is set in the 90s when renting movies from Blockbuster et al was the thing. The players work at a big video rental chain called Video Hut Shack (a cheeky reference to <a href="https://regularshow.fandom.com/wiki/Movie_Shack_Hut" target="_blank" rel="noopener noreferrer">Movie Shack Hut from Regular Show</a> but with the added twist that it abbreviates as VHS), all of them in different stores far away from each other. When their store opens, people queue up and ask for videos that are not in at the moment, but they might be available at a different store (at another player's), so they need to ask the others if they have it: they need to look it up and if found, they can send it to the player who requested it by putting it in a pneumatic tube. The sender gets a code (eg. 3-8-1-6) from the delivery system which the requester needs to retrieve the tape, so this code needs to be communicated also. The requester enters the code on their phone, gets the right tape, gives it to the customer and ka-ching. Next!</p>
-<p>This is the basic concept. It's probably gets pretty dull by its own, so I'll have to add some twists here and there and also figure out the UI to make the first prototype.</p>
-<p>To be continued.</p>
             ]]>
         </content>
     </entry>
