@@ -10,11 +10,11 @@
     },
     "items": [
         {
-            "id": "https://blog.fodi.be/juicy-jam-2023/",
-            "url": "https://blog.fodi.be/juicy-jam-2023/",
-            "title": "Juicy Jam 2023",
-            "summary": "We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've&hellip;",
-            "content_html": "<p>We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href=\"https://lasermagnet.itch.io/juicy-jam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">try it here</a>.</p>",
+            "id": "https://blog.fodi.be/juice-jam-2023/",
+            "url": "https://blog.fodi.be/juice-jam-2023/",
+            "title": "Juice Jam 2023",
+            "summary": "We (as in Lasermagnet Games) are working on an action game for Juice Jam 2023. We don't even have a&hellip;",
+            "content_html": "<p>We (as in <a href=\"https://lasermagnet.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Lasermagnet Games</a>) are working on an action game for <a href=\"https://itch.io/jam/gdb-juice-jam-ii\" target=\"_blank\" rel=\"noopener noreferrer\">Juice Jam 2023</a>. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href=\"https://lasermagnet.itch.io/juicy-jam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">try it here</a>.</p>",
             "author": {
                 "name": "Fodi"
             },
@@ -22,7 +22,7 @@
                    "Changelog"
             ],
             "date_published": "2023-01-28T21:41:33+01:00",
-            "date_modified": "2023-01-28T21:41:45+01:00"
+            "date_modified": "2023-01-29T11:25:35+01:00"
         },
         {
             "id": "https://blog.fodi.be/a-brief-intermission-and-a-challenge/",

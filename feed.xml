@@ -3,30 +3,30 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-01-28T21:41:45+01:00</updated>
+    <updated>2023-01-29T11:25:35+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
     <entry>
-        <title>Juicy Jam 2023</title>
+        <title>Juice Jam 2023</title>
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/juicy-jam-2023/"/>
-        <id>https://blog.fodi.be/juicy-jam-2023/</id>
+        <link href="https://blog.fodi.be/juice-jam-2023/"/>
+        <id>https://blog.fodi.be/juice-jam-2023/</id>
             <category term="Changelog"/>
 
-        <updated>2023-01-28T21:41:45+01:00</updated>
+        <updated>2023-01-29T11:25:35+01:00</updated>
             <summary>
                 <![CDATA[
-                    We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've&hellip;
+                    We (as in Lasermagnet Games) are working on an action game for Juice Jam 2023. We don't even have a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>We're working on something for Juicy Jam 2023. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href="https://lasermagnet.itch.io/juicy-jam-2023" target="_blank" rel="noopener noreferrer">try it here</a>.</p>
+                <p>We (as in <a href="https://lasermagnet.itch.io/" target="_blank" rel="noopener noreferrer">Lasermagnet Games</a>) are working on an action game for <a href="https://itch.io/jam/gdb-juice-jam-ii" target="_blank" rel="noopener noreferrer">Juice Jam 2023</a>. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href="https://lasermagnet.itch.io/juicy-jam-2023" target="_blank" rel="noopener noreferrer">try it here</a>.</p>
             ]]>
         </content>
     </entry>
