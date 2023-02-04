@@ -3,12 +3,34 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-01-29T11:25:35+01:00</updated>
+    <updated>2023-02-04T20:20:35+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Juice Jam 2023: We&#x27;re getting there.</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/juice-jam-2023-were-getting-there/"/>
+        <id>https://blog.fodi.be/juice-jam-2023-were-getting-there/</id>
+            <category term="Changelog"/>
+
+        <updated>2023-02-04T20:20:35+01:00</updated>
+            <summary>
+                <![CDATA[
+                    We still have a fuckton to do, but our jam entry is starting to feel fun. https://lasermagnet.itch.io/juice-jam-2023
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>We still have a fuckton to do, but our jam entry is starting to feel fun.</p>
+<p><a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">https://lasermagnet.itch.io/juice-jam-2023</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Juice Jam 2023</title>
         <author>
@@ -236,31 +258,6 @@
                 <figure class="post__image post__image--right"><img loading="lazy"  style="margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://blog.fodi.be/media/posts/19//vhs-menu.png" alt="" width="528" height="780" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w"></figure>
 <p>I started working on the menu system for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> - see the screenshot for a sneak peek.</p>
 <p>It works okay, tomorrow I'll continue with the level / UI design.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 8</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-eight/"/>
-        <id>https://blog.fodi.be/day-eight/</id>
-        <media:content url="https://blog.fodi.be/media/posts/18/day-8.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:55:43+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/18/day-8.svg" alt="" />
-                    I've made some progress in the last few days, but not a lot. I added a basic moving enemy to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/18/day-8.svg" class="type:primaryImage" alt="" /></p>
-                <p>I've made some progress in the last few days, but not a lot.</p>
-<p>I added a basic moving enemy to the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href="https://blog.fodi.be/tags/list/">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>
             ]]>
         </content>
     </entry>

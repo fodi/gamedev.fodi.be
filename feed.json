@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/juice-jam-2023-were-getting-there/",
+            "url": "https://blog.fodi.be/juice-jam-2023-were-getting-there/",
+            "title": "Juice Jam 2023: We&#x27;re getting there.",
+            "summary": "We still have a fuckton to do, but our jam entry is starting to feel fun. https://lasermagnet.itch.io/juice-jam-2023",
+            "content_html": "<p>We still have a fuckton to do, but our jam entry is starting to feel fun.</p>\n<p><a href=\"https://lasermagnet.itch.io/juice-jam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">https://lasermagnet.itch.io/juice-jam-2023</a></p>",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2023-02-04T20:20:23+01:00",
+            "date_modified": "2023-02-04T20:20:35+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/juice-jam-2023/",
             "url": "https://blog.fodi.be/juice-jam-2023/",
             "title": "Juice Jam 2023",
@@ -153,22 +168,6 @@
             ],
             "date_published": "2022-12-20T23:49:00+01:00",
             "date_modified": "2022-12-21T15:55:38+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-eight/",
-            "url": "https://blog.fodi.be/day-eight/",
-            "title": "Day 8",
-            "summary": "I've made some progress in the last few days, but not a lot. I added a basic moving enemy to&hellip;",
-            "content_html": "<p>I've made some progress in the last few days, but not a lot.</p>\n<p>I added a basic moving enemy to the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> prototype, started putting together an UI with temporary assets for <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> (the first build is coming this week) and made a few changes to idea <a href=\"https://blog.fodi.be/tags/list/\">lists</a> and I'm nearly finished with a write-up on how I organize parts of Construct 3 projects (sort of a heavily opinionated best practice guide).</p>",
-            "image": "https://blog.fodi.be/media/posts/18/day-8.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-19T12:00:22+01:00",
-            "date_modified": "2022-12-21T15:55:43+01:00"
         }
     ]
 }
