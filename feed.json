@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/",
+            "url": "https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/",
+            "title": "PowerCharger 4269 (for Juice Jam II)",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "Continuing",
+                   "2023"
+            ],
+            "date_published": "2023-02-06T12:15:28+01:00",
+            "date_modified": "2023-02-06T12:15:28+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/juice-jam-2023-were-getting-there/",
             "url": "https://blog.fodi.be/juice-jam-2023-were-getting-there/",
             "title": "Juice Jam 2023: We&#x27;re getting there.",
@@ -99,7 +114,6 @@
             },
             "tags": [
                    "Prototype phase",
-                   "GameDev",
                    "Continuing"
             ],
             "date_published": "2022-12-26T14:55:07+01:00",
@@ -152,22 +166,6 @@
             ],
             "date_published": "2022-12-21T12:37:40+01:00",
             "date_modified": "2022-12-21T23:38:59+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-nine/",
-            "url": "https://blog.fodi.be/day-nine/",
-            "title": "Day 9",
-            "summary": "I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek. It&hellip;",
-            "content_html": "<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  style=\"margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;\" src=\"https://blog.fodi.be/media/posts/19//vhs-menu.png\" alt=\"\" width=\"528\" height=\"780\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w\"></figure>\n<p>I started working on the menu system for <a href=\"https://blog.fodi.be/video-hut-shack/\">Video Hut Shack</a> - see the screenshot for a sneak peek.</p>\n<p>It works okay, tomorrow I'll continue with the level / UI design.</p>",
-            "image": "https://blog.fodi.be/media/posts/19/day-9.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-20T23:49:00+01:00",
-            "date_modified": "2022-12-21T15:55:38+01:00"
         }
     ]
 }

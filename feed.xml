@@ -3,12 +3,27 @@
     <title>Fodi&#x27;s blog</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-02-04T20:20:35+01:00</updated>
+    <updated>2023-02-06T12:15:28+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>PowerCharger 4269 (for Juice Jam II)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/"/>
+        <id>https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/</id>
+            <category term="Prototype phase"/>
+            <category term="Continuing"/>
+            <category term="2023"/>
+
+        <updated>2023-02-06T12:15:28+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Juice Jam 2023: We&#x27;re getting there.</title>
         <author>
@@ -136,7 +151,6 @@
         <id>https://blog.fodi.be/windy-physics/</id>
         <media:content url="https://blog.fodi.be/media/posts/23/windyphysics-2.png" medium="image" />
             <category term="Prototype phase"/>
-            <category term="GameDev"/>
             <category term="Continuing"/>
 
         <updated>2022-12-29T20:52:26+01:00</updated>
@@ -232,32 +246,6 @@
 <p>Check out the screenshot!</p>
 <p>Yeah I choose the <a href="https://kenney.nl/assets/tiny-dungeon" target="_blank" rel="noopener noreferrer">Kenney Tiny Dungeon</a> asset pack to get started, otherwise I would've spent way too much time and possibly money fishing for slightly better assets on the 'net, and in the end I'll probably replace all of it later. If the game even passes the first playtest anyway.</p>
 <p>In the afternoon I took a break and uploaded an alternative version of the <a href="https://fodi.itch.io/arucontrol-construct3" target="_blank" rel="noopener noreferrer">AruControl template project for Construct 3</a>, which uses a DrawingCanvas to display the video feed instead of an HTMLElement (which is still needed though, but now invisible). This allows placing objects on top of the camera input, since HTMLElement is always on top of everything else and does not respect Z index (at the time of writing).</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 9</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-nine/"/>
-        <id>https://blog.fodi.be/day-nine/</id>
-        <media:content url="https://blog.fodi.be/media/posts/19/day-9.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T15:55:38+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/19/day-9.svg" alt="" />
-                    I started working on the menu system for Video Hut Shack - see the screenshot for a sneak peek. It&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/19/day-9.svg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image post__image--right"><img loading="lazy"  style="margin-bottom: 1.37143rem; margin-left: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55)  !important;" src="https://blog.fodi.be/media/posts/19//vhs-menu.png" alt="" width="528" height="780" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.fodi.be/media/posts/19//responsive/vhs-menu-xs.png 300w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-sm.png 480w ,https://blog.fodi.be/media/posts/19//responsive/vhs-menu-md.png 768w"></figure>
-<p>I started working on the menu system for <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> - see the screenshot for a sneak peek.</p>
-<p>It works okay, tomorrow I'll continue with the level / UI design.</p>
             ]]>
         </content>
     </entry>
