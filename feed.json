@@ -13,6 +13,9 @@
             "id": "https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/",
             "url": "https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/",
             "title": "PowerCharger 4269 (for Juice Jam II)",
+            "summary": "Our little \"studio\", Lasermagnet Games (i.e. Tibor and myself) participated in GDB Juice Jam II and produced a game prototype&hellip;",
+            "content_html": "<p>Our little \"studio\", Lasermagnet Games (i.e. <a href=\"https://itch.io/profile/teebor9\" target=\"_blank\" rel=\"noopener noreferrer\">Tibor</a> and myself) participated in GDB Juice Jam II and produced a game prototype that we are quite content with as is, even though it's far from finished.</p>\n<p>The main criteria was to make a game that is <strong>juicy</strong>, and after watching a <a href=\"https://www.youtube.com/watch?v=AJdEqssNZ-U\" target=\"_blank\" rel=\"noopener noreferrer\">couple</a> <a href=\"https://www.youtube.com/watch?v=216_5nu4aVQ\" target=\"_blank\" rel=\"noopener noreferrer\">of</a> <a href=\"https://www.youtube.com/watch?v=pmSAG51BybY\" target=\"_blank\" rel=\"noopener noreferrer\">videos</a> on the topic it was clear that juiciness or getting the right \"game feel\" is quite an important bit that we haven't really focused on before.</p>\n<p>Here are my main takeaways post-jam:</p>\n<ul>\n<li>From now on I'm going to use a bunch of juicy techniques from the Vlambeer cookbook in all our future games. For arcade games they should basically be mandatory.</li>\n<li>We are still quite bad at time management. The day before the deadline we've made major changes to the mechanics and added a bunch of (although planned) features. The last day was about bugfixes and a very limited playtesting which meant that the game was quite unbalanced (but thankfully it's on the easier side).</li>\n<li>We need to do more jams this year. It's great fun, rewarding and a great learning experience still.</li>\n</ul>\n<p>Without further ado: <a href=\"https://lasermagnet.itch.io/juice-jam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">check out PowerCharger 4269 on Itch</a>! We have plans for updates that might or might not happen.</p>",
+            "image": "https://blog.fodi.be/media/posts/29/powercharger4269.png",
             "author": {
                 "name": "Fodi"
             },
@@ -22,7 +25,7 @@
                    "2023"
             ],
             "date_published": "2023-02-06T12:15:28+01:00",
-            "date_modified": "2023-02-06T12:15:28+01:00"
+            "date_modified": "2023-02-11T20:19:54+01:00"
         },
         {
             "id": "https://blog.fodi.be/juice-jam-2023-were-getting-there/",
@@ -114,10 +117,11 @@
             },
             "tags": [
                    "Prototype phase",
-                   "Continuing"
+                   "Continuing",
+                   "2022"
             ],
             "date_published": "2022-12-26T14:55:07+01:00",
-            "date_modified": "2022-12-29T20:52:26+01:00"
+            "date_modified": "2023-02-11T19:55:46+01:00"
         },
         {
             "id": "https://blog.fodi.be/day-12/",

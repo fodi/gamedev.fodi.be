@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-02-06T12:15:28+01:00</updated>
+    <updated>2023-02-11T20:19:54+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,13 +16,32 @@
         </author>
         <link href="https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/"/>
         <id>https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/</id>
+        <media:content url="https://blog.fodi.be/media/posts/29/powercharger4269.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="Continuing"/>
             <category term="2023"/>
 
-        <updated>2023-02-06T12:15:28+01:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2023-02-11T20:19:54+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/29/powercharger4269.png" alt="" />
+                    Our little "studio", Lasermagnet Games (i.e. Tibor and myself) participated in GDB Juice Jam II and produced a game prototype&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/29/powercharger4269.png" class="type:primaryImage" alt="" /></p>
+                <p>Our little "studio", Lasermagnet Games (i.e. <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a> and myself) participated in GDB Juice Jam II and produced a game prototype that we are quite content with as is, even though it's far from finished.</p>
+<p>The main criteria was to make a game that is <strong>juicy</strong>, and after watching a <a href="https://www.youtube.com/watch?v=AJdEqssNZ-U" target="_blank" rel="noopener noreferrer">couple</a> <a href="https://www.youtube.com/watch?v=216_5nu4aVQ" target="_blank" rel="noopener noreferrer">of</a> <a href="https://www.youtube.com/watch?v=pmSAG51BybY" target="_blank" rel="noopener noreferrer">videos</a> on the topic it was clear that juiciness or getting the right "game feel" is quite an important bit that we haven't really focused on before.</p>
+<p>Here are my main takeaways post-jam:</p>
+<ul>
+<li>From now on I'm going to use a bunch of juicy techniques from the Vlambeer cookbook in all our future games. For arcade games they should basically be mandatory.</li>
+<li>We are still quite bad at time management. The day before the deadline we've made major changes to the mechanics and added a bunch of (although planned) features. The last day was about bugfixes and a very limited playtesting which meant that the game was quite unbalanced (but thankfully it's on the easier side).</li>
+<li>We need to do more jams this year. It's great fun, rewarding and a great learning experience still.</li>
+</ul>
+<p>Without further ado: <a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">check out PowerCharger 4269 on Itch</a>! We have plans for updates that might or might not happen.</p>
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Juice Jam 2023: We&#x27;re getting there.</title>
@@ -152,8 +171,9 @@
         <media:content url="https://blog.fodi.be/media/posts/23/windyphysics-2.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="Continuing"/>
+            <category term="2022"/>
 
-        <updated>2022-12-29T20:52:26+01:00</updated>
+        <updated>2023-02-11T19:55:46+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/23/windyphysics-2.png" alt="" />
