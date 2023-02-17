@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-02-17T13:06:27+01:00</updated>
+    <updated>2023-02-17T14:41:38+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -21,17 +21,17 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2023-02-17T13:04:21+01:00</updated>
+        <updated>2023-02-17T14:41:38+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" alt="" />
-                    At last I took part in last weekend's Trijam, the 3-hour single-theme game jam that takes place every weekend on&hellip;
+                    Last weekend I took part in Trijam #206, the 3-hour single-theme game jam that takes place every weekend on Itch.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" class="type:primaryImage" alt="" /></p>
-                <p>At last I took part in last weekend's <a href="https://itch.io/jam/trijam-206" target="_blank" rel="noopener noreferrer">Trijam</a>, the 3-hour single-theme game jam that takes place every weekend on Itch. It was super fun and quite challenging by itself, but I decided to kill multiple birds with one stone: I recorded the whole process (the screen and my actual fat face) and even narrated it (albeit in Hungarian). I'm still editing the footage, but hopefully it will be up in a few days.</p>
+                <p>Last weekend I took part in <a href="https://itch.io/jam/trijam-206" target="_blank" rel="noopener noreferrer">Trijam #206</a>, the 3-hour single-theme game jam that takes place every weekend on Itch. It was super fun and quite challenging by itself, but I decided to kill multiple birds with one stone: I recorded the whole process (the screen and my actual fat face) and even narrated it (albeit in Hungarian). I'm still editing the footage, but hopefully it will be up in a few days.</p>
 <p>Meanwhile, if you'd like to take a look at what I managed to put together in 3 hours, check out <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, the prototype of a wonky <a href="https://store.steampowered.com/app/212800/Super_Crate_Box/" target="_blank" rel="noopener noreferrer">Super Crate Box</a> clone. After the jam's voting period ended, I've pushed a minor update that fixes two issues and adds basic controller support too. The project file is also available on the Itch page if anyone is interested.</p>
             ]]>
         </content>
