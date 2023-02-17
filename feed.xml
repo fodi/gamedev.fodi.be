@@ -3,12 +3,39 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-02-11T20:19:54+01:00</updated>
+    <updated>2023-02-17T13:06:27+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Mediocre Container Package: my first attempt at Trijam</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/i-did-trijam-for-the-first-time/"/>
+        <id>https://blog.fodi.be/i-did-trijam-for-the-first-time/</id>
+        <media:content url="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Ended"/>
+            <category term="2023"/>
+
+        <updated>2023-02-17T13:04:21+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" alt="" />
+                    At last I took part in last weekend's Trijam, the 3-hour single-theme game jam that takes place every weekend on&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" class="type:primaryImage" alt="" /></p>
+                <p>At last I took part in last weekend's <a href="https://itch.io/jam/trijam-206" target="_blank" rel="noopener noreferrer">Trijam</a>, the 3-hour single-theme game jam that takes place every weekend on Itch. It was super fun and quite challenging by itself, but I decided to kill multiple birds with one stone: I recorded the whole process (the screen and my actual fat face) and even narrated it (albeit in Hungarian). I'm still editing the footage, but hopefully it will be up in a few days.</p>
+<p>Meanwhile, if you'd like to take a look at what I managed to put together in 3 hours, check out <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, the prototype of a wonky <a href="https://store.steampowered.com/app/212800/Super_Crate_Box/" target="_blank" rel="noopener noreferrer">Super Crate Box</a> clone. After the jam's voting period ended, I've pushed a minor update that fixes two issues and adds basic controller support too. The project file is also available on the Itch page if anyone is interested.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>PowerCharger 4269 (for Juice Jam II)</title>
         <author>
@@ -50,16 +77,19 @@
         </author>
         <link href="https://blog.fodi.be/juice-jam-2023-were-getting-there/"/>
         <id>https://blog.fodi.be/juice-jam-2023-were-getting-there/</id>
+        <media:content url="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2023-02-04T20:20:35+01:00</updated>
+        <updated>2023-02-17T13:06:17+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" alt="" />
                     We still have a fuckton to do, but our jam entry is starting to feel fun. https://lasermagnet.itch.io/juice-jam-2023
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" class="type:primaryImage" alt="" /></p>
                 <p>We still have a fuckton to do, but our jam entry is starting to feel fun.</p>
 <p><a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">https://lasermagnet.itch.io/juice-jam-2023</a></p>
             ]]>
@@ -72,16 +102,19 @@
         </author>
         <link href="https://blog.fodi.be/juice-jam-2023/"/>
         <id>https://blog.fodi.be/juice-jam-2023/</id>
+        <media:content url="https://blog.fodi.be/media/posts/27/juice-jam-2023-update.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2023-01-29T11:25:35+01:00</updated>
+        <updated>2023-02-17T13:06:27+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/27/juice-jam-2023-update.svg" alt="" />
                     We (as in Lasermagnet Games) are working on an action game for Juice Jam 2023. We don't even have a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/27/juice-jam-2023-update.svg" class="type:primaryImage" alt="" /></p>
                 <p>We (as in <a href="https://lasermagnet.itch.io/" target="_blank" rel="noopener noreferrer">Lasermagnet Games</a>) are working on an action game for <a href="https://itch.io/jam/gdb-juice-jam-ii" target="_blank" rel="noopener noreferrer">Juice Jam 2023</a>. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href="https://lasermagnet.itch.io/juicy-jam-2023" target="_blank" rel="noopener noreferrer">try it here</a>.</p>
             ]]>
         </content>
@@ -96,7 +129,7 @@
         <media:content url="https://blog.fodi.be/media/posts/26/intermission-2.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2023-01-23T14:59:00+01:00</updated>
+        <updated>2023-02-17T13:00:59+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/26/intermission-2.svg" alt="" />
@@ -121,7 +154,7 @@
         <media:content url="https://blog.fodi.be/media/posts/25/day-14.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-29T20:47:14+01:00</updated>
+        <updated>2023-02-17T13:01:03+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/25/day-14.svg" alt="" />
@@ -146,7 +179,7 @@
         <media:content url="https://blog.fodi.be/media/posts/24/day-13.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-28T16:59:22+01:00</updated>
+        <updated>2023-02-17T13:01:14+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/24/day-13.svg" alt="" />
@@ -202,7 +235,7 @@
         <media:content url="https://blog.fodi.be/media/posts/22/day-12.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-26T15:19:59+01:00</updated>
+        <updated>2023-02-17T13:01:19+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/22/day-12.svg" alt="" />
@@ -227,7 +260,7 @@
         <media:content url="https://blog.fodi.be/media/posts/21/day-11.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2022-12-23T18:44:38+01:00</updated>
+        <updated>2023-02-17T13:01:23+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/21/day-11.svg" alt="" />
@@ -239,33 +272,6 @@
                     <p><img src="https://blog.fodi.be/media/posts/21/day-11.svg" class="type:primaryImage" alt="" /></p>
                 <p>The <a href="https://blog.fodi.be/video-hut-shack/">Video Hut Shack</a> project is coming along. I'm focusing on making all core mechanics work in single player mode. If everything goes well, I'll add the seeded PRNG based multiplayer part.</p>
 <p>I'm going to take a few days off and continue next week.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 10</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-10/"/>
-        <id>https://blog.fodi.be/day-10/</id>
-        <media:content url="https://blog.fodi.be/media/posts/20/day-10.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2022-12-21T23:38:59+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/20/day-10.svg" alt="" />
-                    Some more progress on the VHS project: string localisation is now possible and main UI is starting to look okay.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/20/day-10.svg" class="type:primaryImage" alt="" /></p>
-                <figure class="post__image post__image--right"><img loading="lazy"  src="https://blog.fodi.be/media/posts/20/vhs-main.png" alt="" width="593" height="1080" sizes="(max-width: 48em) 100vw, 768px" srcset="https://blog.fodi.be/media/posts/20/responsive/vhs-main-xs.png 300w ,https://blog.fodi.be/media/posts/20/responsive/vhs-main-sm.png 480w ,https://blog.fodi.be/media/posts/20/responsive/vhs-main-md.png 768w"></figure>Some more progress on the <a href="https://blog.fodi.be/video-hut-shack/">VHS project</a>: string localisation is now possible and main UI is starting to look okay.</p>
-<p>Check out the screenshot!</p>
-<p>Yeah I choose the <a href="https://kenney.nl/assets/tiny-dungeon" target="_blank" rel="noopener noreferrer">Kenney Tiny Dungeon</a> asset pack to get started, otherwise I would've spent way too much time and possibly money fishing for slightly better assets on the 'net, and in the end I'll probably replace all of it later. If the game even passes the first playtest anyway.</p>
-<p>In the afternoon I took a break and uploaded an alternative version of the <a href="https://fodi.itch.io/arucontrol-construct3" target="_blank" rel="noopener noreferrer">AruControl template project for Construct 3</a>, which uses a DrawingCanvas to display the video feed instead of an HTMLElement (which is still needed though, but now invisible). This allows placing objects on top of the camera input, since HTMLElement is always on top of everything else and does not respect Z index (at the time of writing).</p>
             ]]>
         </content>
     </entry>
