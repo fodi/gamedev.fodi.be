@@ -3,12 +3,40 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-03-24T06:46:31+01:00</updated>
+    <updated>2023-04-01T14:30:31+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>TowerBall (working title)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/towerball-working-title/"/>
+        <id>https://blog.fodi.be/towerball-working-title/</id>
+        <media:content url="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Continuing"/>
+            <category term="2023"/>
+
+        <updated>2023-04-01T14:30:21+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" alt="" />
+                    After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" class="type:primaryImage" alt="" /></p>
+                <p>After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.</p>
+<p>The latest version is <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">available here</a>, it's optimized for touchscreen devices and portrait orientation, but it's playable with a mouse and a landscape viewport as well. Feel free "install" or "add it to home screen" on your phone (eg. with Google Chrome), it works offline and also lets you know if a new build is available. You just have to restart it to update to the latest version, there's no need to "reinstall it" .</p>
+<p>I'm going to keep playtesting it and ask a few friends to do the same. Once movement and the controls feel right, I'm going to finish the level editor so Tibor (or anyone) can get started with level design and I can add more stuff. Well, that's the plan anyway :)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Unable to decide, building in progress.</title>
         <author>
@@ -19,7 +47,7 @@
         <media:content url="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2023-03-24T06:46:31+01:00</updated>
+        <updated>2023-04-01T14:30:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" alt="" />
@@ -250,31 +278,6 @@
 <h2>Devlog</h2>
 <p><strong>Update 1</strong>: the first public build is up on Itch; it has basic editor features (tools for moving, rotating, deleting wind generators), walls, ball spawners and balls. More tools and actual level targets are coming soon.</p>
 <p><strong>Update 2</strong>: I've added an exit where balls should be directed and an objective (number of balls required to complete the level). There's also a timer and some visual flair (yeah, I like particle emitters). I should probably add an "inventory" next and figure out how to store and load level data (then probably make a basic level editor).</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 12</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-12/"/>
-        <id>https://blog.fodi.be/day-12/</id>
-        <media:content url="https://blog.fodi.be/media/posts/22/day-12.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-02-17T13:01:19+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/22/day-12.svg" alt="" />
-                    Instead of working on VHS, I've started prototyping a new item from a list with the working title Windy Physics. Why?&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/22/day-12.svg" class="type:primaryImage" alt="" /></p>
-                <p>Instead of working on VHS, I've started prototyping a new item from <a href="https://blog.fodi.be/list-main-themes-for-video-games/" target="_blank" rel="noopener noreferrer">a list</a> with the working title <a href="https://blog.fodi.be/windy-physics/">Windy Physics</a>.</p>
-<p>Why? Because the VHS todo list includes some more hairy tasks (gameplay loop, RNG stuff) that needs a clear head and I just don't have that at the moment. But I do want to spend time doing something creative.</p>
             ]]>
         </content>
     </entry>
