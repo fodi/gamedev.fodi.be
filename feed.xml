@@ -3,22 +3,25 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-05-27T13:22:25+02:00</updated>
+    <updated>2023-05-27T13:44:44+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
     <entry>
-        <title>Ludum Dare 53</title>
+        <title>Ludum Dare 53: Something Something Delivery Something</title>
         <author>
             <name>Fodi</name>
         </author>
         <link href="https://blog.fodi.be/ludum-dare-53/"/>
         <id>https://blog.fodi.be/ludum-dare-53/</id>
         <media:content url="https://blog.fodi.be/media/posts/33/ssds.jpg" medium="image" />
+            <category term="Ended"/>
+            <category term="Changelog"/>
+            <category term="2023"/>
 
-        <updated>2023-05-27T13:22:25+02:00</updated>
+        <updated>2023-05-27T13:44:44+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/33/ssds.jpg" alt="" />
