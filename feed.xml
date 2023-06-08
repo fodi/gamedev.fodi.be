@@ -3,12 +3,47 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-05-27T13:44:44+02:00</updated>
+    <updated>2023-06-08T08:30:11+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>[List] Twists and combinations</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/list-interesting-sounding-combinations/"/>
+        <id>https://blog.fodi.be/list-interesting-sounding-combinations/</id>
+            <category term="Lists"/>
+            <category term="Idea phase"/>
+
+        <updated>2023-06-08T08:30:11+02:00</updated>
+            <summary>
+                <![CDATA[
+                    No details, just one liners here. Airmech + Don't Starve: an open world exploration / crafting / survival game where&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>No details, just one liners here.</p>
+<ul>
+<li>Airmech + Don't Starve: an open world exploration / crafting / survival game where you can switch between ground and air travel at any time</li>
+<li>Mahjong with polyominos: match shapes and/or symbols</li>
+<li>Unrailed + Pipe Dream with polyominos: place polyomino shaped rails quickly so the train does not derail, can't choose the shape, but can place anywhere in any rotation</li>
+<li>Zuma (or something similar) with multiplayer: either PvP or co-op</li>
+<li>Snake + Osmos: small snakes are eaten by big ones</li>
+<li>Crimsonland, but you can teleport out of a sticky situation (press a button, quickly choose new location within time limit and radius)
+<ul>
+<li>additional twist: clone player instead of teleporting and control both of them (until one of them dies)</li>
+</ul>
+</li>
+<li>Katamari, but 2D: either side view or top-down, possibly featuring a bunch of googly eyes</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Ludum Dare 53: Something Something Delivery Something</title>
         <author>
@@ -256,31 +291,6 @@
                     <p><img src="https://blog.fodi.be/media/posts/25/day-14.svg" class="type:primaryImage" alt="" /></p>
                 <p><a href="https://blog.fodi.be/windy-physics/">Windy Physics</a> received an update today: I've added a timer, some flair and an objective: make X balls reach the exit as fast as possible.</p>
 <p>The new version is up on <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">Itch</a> if you want to give it a go.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 13</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-13/"/>
-        <id>https://blog.fodi.be/day-13/</id>
-        <media:content url="https://blog.fodi.be/media/posts/24/day-13.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-02-17T13:01:14+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/24/day-13.svg" alt="" />
-                    The first build of Windy Physics is up. It includes basic elements and allows the player to move wind generators&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/24/day-13.svg" class="type:primaryImage" alt="" /></p>
-                <p>The <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">first build</a> of Windy Physics is up. It includes basic elements and allows the player to move wind generators around.</p>
-<p>I have plans to add some more basic features this week (goals, hazards, different types of wind generators).</p>
             ]]>
         </content>
     </entry>
