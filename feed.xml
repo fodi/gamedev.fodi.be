@@ -3,12 +3,39 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-06-08T08:30:11+02:00</updated>
+    <updated>2023-07-02T12:47:30+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>SnakeyPong</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/snakeypong/"/>
+        <id>https://blog.fodi.be/snakeypong/</id>
+        <media:content url="https://blog.fodi.be/media/posts/35/snakeypong.png" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="2023"/>
+
+        <updated>2023-07-02T12:47:30+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/35/snakeypong.png" alt="" />
+                    About a week ago I've unearthed on old doodle (a simple "free angle" snake) and made the food bounce around.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/35/snakeypong.png" class="type:primaryImage" alt="" /></p>
+                <p>About a week ago I've unearthed on old doodle (a simple "free angle" snake) and made the food bounce around.</p>
+<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>
+<p>Check out where this project goes (usually nowhere, but who knows), <a href="https://fodi.itch.io/snakeypong" target="_blank" rel="noopener noreferrer">try SnakeyPong on Itch!</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>[List] Twists and combinations</title>
         <author>
@@ -56,7 +83,7 @@
             <category term="Changelog"/>
             <category term="2023"/>
 
-        <updated>2023-05-27T13:44:44+02:00</updated>
+        <updated>2023-07-02T12:43:49+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/33/ssds.jpg" alt="" />
@@ -266,31 +293,6 @@
                     <p><img src="https://blog.fodi.be/media/posts/26/intermission-2.svg" class="type:primaryImage" alt="" /></p>
                 <p>I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one and count it if I put in as many hours as I've had to reach their current state.</p>
 <p>I'll start around February. Just after we've finished redoing the fucking bathroom.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Day 14</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/day-14/"/>
-        <id>https://blog.fodi.be/day-14/</id>
-        <media:content url="https://blog.fodi.be/media/posts/25/day-14.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-02-17T13:01:03+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/25/day-14.svg" alt="" />
-                    Windy Physics received an update today: I've added a timer, some flair and an objective: make X balls reach the&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/25/day-14.svg" class="type:primaryImage" alt="" /></p>
-                <p><a href="https://blog.fodi.be/windy-physics/">Windy Physics</a> received an update today: I've added a timer, some flair and an objective: make X balls reach the exit as fast as possible.</p>
-<p>The new version is up on <a href="https://fodi.itch.io/windy-physics" target="_blank" rel="noopener noreferrer">Itch</a> if you want to give it a go.</p>
             ]]>
         </content>
     </entry>

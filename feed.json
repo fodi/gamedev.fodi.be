@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/snakeypong/",
+            "url": "https://blog.fodi.be/snakeypong/",
+            "title": "SnakeyPong",
+            "summary": "About a week ago I've unearthed on old doodle (a simple \"free angle\" snake) and made the food bounce around.",
+            "content_html": "<p>About a week ago I've unearthed on old doodle (a simple \"free angle\" snake) and made the food bounce around.</p>\n<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>\n<p>Check out where this project goes (usually nowhere, but who knows), <a href=\"https://fodi.itch.io/snakeypong\" target=\"_blank\" rel=\"noopener noreferrer\">try SnakeyPong on Itch!</a></p>",
+            "image": "https://blog.fodi.be/media/posts/35/snakeypong.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "2023"
+            ],
+            "date_published": "2023-07-02T12:43:01+02:00",
+            "date_modified": "2023-07-02T12:47:30+02:00"
+        },
+        {
             "id": "https://blog.fodi.be/list-interesting-sounding-combinations/",
             "url": "https://blog.fodi.be/list-interesting-sounding-combinations/",
             "title": "[List] Twists and combinations",
@@ -41,7 +58,7 @@
                    "2023"
             ],
             "date_published": "2023-05-02T08:20:06+02:00",
-            "date_modified": "2023-05-27T13:44:44+02:00"
+            "date_modified": "2023-07-02T12:43:49+02:00"
         },
         {
             "id": "https://blog.fodi.be/towerball-working-title/",
@@ -160,22 +177,6 @@
             ],
             "date_published": "2023-01-23T11:44:43+01:00",
             "date_modified": "2023-02-17T13:00:59+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/day-14/",
-            "url": "https://blog.fodi.be/day-14/",
-            "title": "Day 14",
-            "summary": "Windy Physics received an update today: I've added a timer, some flair and an objective: make X balls reach the&hellip;",
-            "content_html": "<p><a href=\"https://blog.fodi.be/windy-physics/\">Windy Physics</a> received an update today: I've added a timer, some flair and an objective: make X balls reach the exit as fast as possible.</p>\n<p>The new version is up on <a href=\"https://fodi.itch.io/windy-physics\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a> if you want to give it a go.</p>",
-            "image": "https://blog.fodi.be/media/posts/25/day-14.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2022-12-29T20:47:14+01:00",
-            "date_modified": "2023-02-17T13:01:03+01:00"
         }
     ]
 }
