@@ -10,21 +10,40 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/bouncy-block-buster/",
+            "url": "https://blog.fodi.be/bouncy-block-buster/",
+            "title": "Bouncy Block Buster",
+            "summary": "We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.",
+            "content_html": "<p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>\n<p>You can play it <a href=\"https://lasermagnet.itch.io/icojam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">on Itch</a> or <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>",
+            "image": "https://blog.fodi.be/media/posts/36/bbb-itch-cover.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "Continuing",
+                   "2023"
+            ],
+            "date_published": "2023-07-31T13:27:46+02:00",
+            "date_modified": "2023-07-31T13:29:51+02:00"
+        },
+        {
             "id": "https://blog.fodi.be/snakeypong/",
             "url": "https://blog.fodi.be/snakeypong/",
             "title": "SnakeyPong",
-            "summary": "About a week ago I've unearthed on old doodle (a simple \"free angle\" snake) and made the food bounce around.",
-            "content_html": "<p>About a week ago I've unearthed on old doodle (a simple \"free angle\" snake) and made the food bounce around.</p>\n<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>\n<p>Check out where this project goes (usually nowhere, but who knows), <a href=\"https://fodi.itch.io/snakeypong\" target=\"_blank\" rel=\"noopener noreferrer\">try SnakeyPong on Itch!</a></p>",
+            "summary": "About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.",
+            "content_html": "<p>About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.</p>\n<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>\n<p>Check out where this project goes (usually nowhere, but who knows), <a href=\"https://fodi.itch.io/snakeypong\" target=\"_blank\" rel=\"noopener noreferrer\">try SnakeyPong on Itch!</a></p>",
             "image": "https://blog.fodi.be/media/posts/35/snakeypong.png",
             "author": {
                 "name": "Fodi"
             },
             "tags": [
                    "Prototype phase",
+                   "Continuing",
                    "2023"
             ],
             "date_published": "2023-07-02T12:43:01+02:00",
-            "date_modified": "2023-07-02T12:47:30+02:00"
+            "date_modified": "2023-07-31T13:28:16+02:00"
         },
         {
             "id": "https://blog.fodi.be/list-interesting-sounding-combinations/",
@@ -53,12 +72,13 @@
                 "name": "Fodi"
             },
             "tags": [
+                   "Prototype phase",
                    "Ended",
                    "Changelog",
                    "2023"
             ],
             "date_published": "2023-05-02T08:20:06+02:00",
-            "date_modified": "2023-07-02T12:43:49+02:00"
+            "date_modified": "2023-07-31T13:28:33+02:00"
         },
         {
             "id": "https://blog.fodi.be/towerball-working-title/",
@@ -161,22 +181,6 @@
             ],
             "date_published": "2023-01-28T21:41:33+01:00",
             "date_modified": "2023-02-17T13:06:27+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/a-brief-intermission-and-a-challenge/",
-            "url": "https://blog.fodi.be/a-brief-intermission-and-a-challenge/",
-            "title": "A brief intermission and a challenge",
-            "summary": "I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one&hellip;",
-            "content_html": "<p>I'm going to make 20 prototypes this year. They don't have to be big. I can continue an existing one and count it if I put in as many hours as I've had to reach their current state.</p>\n<p>I'll start around February. Just after we've finished redoing the fucking bathroom.</p>",
-            "image": "https://blog.fodi.be/media/posts/26/intermission-2.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2023-01-23T11:44:43+01:00",
-            "date_modified": "2023-02-17T13:00:59+01:00"
         }
     ]
 }
