@@ -14,7 +14,7 @@
             "url": "https://blog.fodi.be/bouncy-block-buster/",
             "title": "Bouncy Block Buster",
             "summary": "We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.",
-            "content_html": "<p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>\n<p>You can play it <a href=\"https://lasermagnet.itch.io/icojam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">on Itch</a> or <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>",
+            "content_html": "<p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>\n<p>You can play it <a href=\"https://lasermagnet.itch.io/icojam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">on Itch</a> or <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>\n<p><strong>Update 1:</strong> I made a time-lapse video of the development process and <a href=\"https://www.youtube.com/watch?v=o56Y4H1mUqs\" target=\"_blank\" rel=\"noopener noreferrer\">uploaded it to YouTube</a>. Check it out if that's your thing!</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/o56Y4H1mUqs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n<p>Also, I fixed a couple of bugs, the post-jam version (1.0.9) can be found <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>",
             "image": "https://blog.fodi.be/media/posts/36/bbb-itch-cover.png",
             "author": {
                 "name": "Fodi"
@@ -25,7 +25,7 @@
                    "2023"
             ],
             "date_published": "2023-07-31T13:27:46+02:00",
-            "date_modified": "2023-07-31T13:29:51+02:00"
+            "date_modified": "2023-08-07T20:42:30+02:00"
         },
         {
             "id": "https://blog.fodi.be/snakeypong/",
