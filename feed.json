@@ -10,6 +10,23 @@
     },
     "items": [
         {
+            "id": "https://blog.fodi.be/hunjam-2023-tower-offense-2000/",
+            "url": "https://blog.fodi.be/hunjam-2023-tower-offense-2000/",
+            "title": "HunJam 2023: Tower Offense 2000",
+            "summary": "Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made&hellip;",
+            "content_html": "<p>Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made :)</p>\n<p><a href=\"https://www.facebook.com/events/2037711149909497/\" target=\"_blank\" rel=\"noopener noreferrer\">HunJam 2023</a> was freaking awesome! I might update this post later with a proper post mortem, but right now I'm freaking beat, sitting on the train home, so without further ado, here's what we built this weekend:</p>\n<p>Tower Offense 2000 on Itch: <a href=\"https://lasermagnet.itch.io/hunjam2023\">https://lasermagnet.itch.io/hunjam2023</a></p>\n<p>Or you can also play it here: <a href=\"https://play.lasermagnet.com/HunJam2023/\">https://play.lasermagnet.com/HunJam2023/</a></p>",
+            "image": "https://blog.fodi.be/media/posts/37/screenshot1.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Ended",
+                   "2023"
+            ],
+            "date_published": "2023-10-29T19:01:06+01:00",
+            "date_modified": "2023-10-30T09:53:13+01:00"
+        },
+        {
             "id": "https://blog.fodi.be/bouncy-block-buster/",
             "url": "https://blog.fodi.be/bouncy-block-buster/",
             "title": "Bouncy Block Buster",
@@ -25,7 +42,7 @@
                    "2023"
             ],
             "date_published": "2023-07-31T13:27:46+02:00",
-            "date_modified": "2023-08-07T20:42:30+02:00"
+            "date_modified": "2023-10-29T19:04:40+01:00"
         },
         {
             "id": "https://blog.fodi.be/snakeypong/",
@@ -165,22 +182,6 @@
             ],
             "date_published": "2023-02-04T20:20:23+01:00",
             "date_modified": "2023-02-17T13:06:17+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/juice-jam-2023/",
-            "url": "https://blog.fodi.be/juice-jam-2023/",
-            "title": "Juice Jam 2023",
-            "summary": "We (as in Lasermagnet Games) are working on an action game for Juice Jam 2023. We don't even have a&hellip;",
-            "content_html": "<p>We (as in <a href=\"https://lasermagnet.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Lasermagnet Games</a>) are working on an action game for <a href=\"https://itch.io/jam/gdb-juice-jam-ii\" target=\"_blank\" rel=\"noopener noreferrer\">Juice Jam 2023</a>. We don't even have a temporary name for the project, but I've uploaded the first version to Itch, you can <a href=\"https://lasermagnet.itch.io/juicy-jam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">try it here</a>.</p>",
-            "image": "https://blog.fodi.be/media/posts/27/juice-jam-2023-update.svg",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Changelog"
-            ],
-            "date_published": "2023-01-28T21:41:33+01:00",
-            "date_modified": "2023-02-17T13:06:27+01:00"
         }
     ]
 }
