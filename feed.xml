@@ -3,12 +3,42 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-11-18T11:12:41+01:00</updated>
+    <updated>2023-11-29T14:22:18+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Magic Pandemic (Trijam #247)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/magic-pandemic-for-trijam-247/"/>
+        <id>https://blog.fodi.be/magic-pandemic-for-trijam-247/</id>
+        <media:content url="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" medium="image" />
+            <category term="Ended"/>
+            <category term="2023"/>
+
+        <updated>2023-11-29T14:22:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
+                    Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, Trijam.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" class="type:primaryImage" alt="" /></p>
+                <p>Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, <a href="https://itch.io/jam/trijam-247" target="_blank" rel="noopener noreferrer">Trijam</a>.</p>
+<p>I was slightly nervous, but in the end I had a lot of fun and will probably do this sort of thing again. It's not my intention to grow a huge follower base and I currently have zero interest in taking streaming seriously, but I figured it could work as a coping strategy to mitigate some of my ADHD-like symptoms, like postponing fun hobby stuff indefinitely all the time. In the last few months I was checking out <a href="https://itch.io/jams" target="_blank" rel="noopener noreferrer">game jams on Itch</a> almost every weekend, writing little notes and ideas for the ones I found interesting, but I either didn't manage to get started on any of them, or if I did, I lost momentum after a few hours. I'm hoping live streaming could help with that, even if basically no one is watching it.</p>
+<p>I'm not sure it's worth anyone's time, but since it wasn't much additional effort, I put the edited stream up on YouTube. On the off chance you speak Hungarian and would like to check it out, it's <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">right here</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=ak8LVGw3EEc"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ak8LVGw3EEc?si=HidRHaiczEsIKCHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>The game turned out to be a pretty simple one (no surprise there), partly because I was narrating everything I was doing and because I wanted to stay inside the 3 hour window. You can <a href="https://fodi.itch.io/trijam-247" target="_blank" rel="noopener noreferrer">play Magic Pandemic it on Itch</a> if you want, the back story is on the page, instructions and controls are shown in-game. It supports 4 control schemes: gamepad, keyboard, touch and technically mouse control as well, but I do not recommend that. It seems to be running okay on mobile devices too, but the text UI glitches a little on my Android phone.</p>
+<p>If you feel the need to follow me on <a href="https://www.youtube.com/@Fodi_be" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a>, <a href="https://fodi.itch.io/" target="_blank" rel="noopener noreferrer">Itch</a>, <a href="https://www.youtube.com/watch?v=1iHG7YRorgM" target="_blank" rel="noopener noreferrer">Tich, Mick, Beaky, Dozy or Dave Dee</a>, please feel to do so! :)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>HunJam 2023: Tower Offense 2000</title>
         <author>
@@ -20,7 +50,7 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2023-11-18T11:12:41+01:00</updated>
+        <updated>2023-11-27T11:32:00+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/37/screenshot1.png" alt="" />
@@ -280,31 +310,6 @@
 <li>We need to do more jams this year. It's great fun, rewarding and a great learning experience still.</li>
 </ul>
 <p>Without further ado: <a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">check out PowerCharger 4269 on Itch</a>! We have plans for updates that might or might not happen.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Juice Jam 2023: We&#x27;re getting there.</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/juice-jam-2023-were-getting-there/"/>
-        <id>https://blog.fodi.be/juice-jam-2023-were-getting-there/</id>
-        <media:content url="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-02-17T13:06:17+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" alt="" />
-                    We still have a fuckton to do, but our jam entry is starting to feel fun. https://lasermagnet.itch.io/juice-jam-2023
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/28/juice-jam-2023-update.svg" class="type:primaryImage" alt="" /></p>
-                <p>We still have a fuckton to do, but our jam entry is starting to feel fun.</p>
-<p><a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">https://lasermagnet.itch.io/juice-jam-2023</a></p>
             ]]>
         </content>
     </entry>
