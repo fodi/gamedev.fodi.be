@@ -5,6 +5,14 @@
 <loc>https://blog.fodi.be/</loc>
 </url>
 <url>
+<loc>https://blog.fodi.be/2023-recap-and-a-new-challenge/</loc>
+<lastmod>2024-01-07T11:24:38+01:00</lastmod>
+<image:image>
+<image:loc>https://blog.fodi.be/media/posts/42/2023-recap.svg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.fodi.be/a-brief-intermission-and-a-challenge/</loc>
 <lastmod>2023-02-17T13:00:59+01:00</lastmod>
 <image:image>
@@ -222,7 +230,7 @@
 </url>
 <url>
 <loc>https://blog.fodi.be/magic-pandemic-for-trijam-247/</loc>
-<lastmod>2023-11-30T06:59:36+01:00</lastmod>
+<lastmod>2024-01-03T14:49:59+01:00</lastmod>
 <image:image>
 <image:loc>https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -239,6 +247,9 @@
 </url>
 <url>
 <loc>https://blog.fodi.be/page/5/</loc>
+</url>
+<url>
+<loc>https://blog.fodi.be/page/6/</loc>
 </url>
 <url>
 <loc>https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/</loc>

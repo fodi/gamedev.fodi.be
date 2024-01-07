@@ -3,12 +3,44 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2023-11-30T06:59:36+01:00</updated>
+    <updated>2024-01-07T11:24:38+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>2023 recap and a new challenge</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/2023-recap-and-a-new-challenge/"/>
+        <id>https://blog.fodi.be/2023-recap-and-a-new-challenge/</id>
+        <media:content url="https://blog.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
+            <category term="Changelog"/>
+
+        <updated>2024-01-07T11:24:38+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" alt="" />
+                    What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" class="type:primaryImage" alt="" /></p>
+                <div class="post__inner post__entry">
+<p>What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.</p>
+<p>Around the end of January last year <a href="file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/a-brief-intermission-and-a-challenge/index.html">I challenged myself</a> to build 20 video game prototypes in 2023. I only managed to build 8 on my own (some of them with <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a>), so one could say I failed to reach my target.</p>
+<p>In March I landed my first paid gamedev gig thanks to the guys over at <a href="https://bardtest.gg/" target="_blank" rel="noopener noreferrer">BardTest.gg.</a> They provide tools for members of the esports community with which they can measure and strengthen their skills like hand-eye coordination, multitasking, decision-making under pressure, et cetera. Their users have access to a variety of mini-games (that's where I come in), which feature core mechanics of first-person shooters and MOBAs. After each play session the players are scored and ranked based on how well they did compared to other users and professional players. Last year I finished the development of 14 mini-games for them, out of which 12 are publicly accessible on their platform at the moment. Counting these, I did manage to reach 20 prototypes, although that wasn't exactly my intention when I came up with the challenge back in February.</p>
+<p>My intention was to turn a portion of my ever-increasing idea pile into playable prototypes. One of them was to make a turn-based game that runs on a big screen in a public location that any passerby can control using their phones. I cobbled together the proof of concept for the communication "framework", which worked fine. I became so sure I was going to turn it into an actual game that I bought a used TV and rented an office with a big shop window on a semi-busy street. It worked out great as a new workplace (although I was alone most of the time, so my initial productivity boost dwindled in a few months), but the TV was only collecting dust for 6 months, then my contract was up. We even built a <a href="file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/bouncy-block-buster/index.html">turn-based physics puzzle</a> for a game jam in July with Tibor, which I could've adapted to this framework... but I didn't. Not sure why.</p>
+<p>In October I moved offices and started working from a small flat with a friend of mine (Viktor) who's also a software developer now. This setup provided a productivity boost that still lasts today, most days we're both in the office working on our separate projects. </p>
+<p>At the end of November I tried streaming on <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a> the first time, <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">made a short video game from scratch in three hours</a> for TriJam, which was fun, and it only took me 7 months to muster the courage (just checked, I bought the mic in April). I no longer feel completely terrified of it, so I'm planning on streaming from time to time.</p>
+<p>My new challenge for 2024 is to make at least 12 video game prototypes (not counting paid gigs this time) and at least 12 game development streams / videos, ideally one every month.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Magic Pandemic (Trijam #247)</title>
         <author>
@@ -20,7 +52,7 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2023-11-30T06:59:36+01:00</updated>
+        <updated>2024-01-03T14:49:59+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
@@ -276,40 +308,6 @@
                     <p><img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" class="type:primaryImage" alt="" /></p>
                 <p>Last weekend I took part in <a href="https://itch.io/jam/trijam-206" target="_blank" rel="noopener noreferrer">Trijam #206</a>, the 3-hour single-theme game jam that takes place every weekend on Itch. It was super fun and quite challenging by itself, but I decided to kill multiple birds with one stone: I recorded the whole process (the screen and my actual fat face) and even narrated it (albeit in Hungarian). I'm still editing the footage, but hopefully it will be up in a few days.</p>
 <p>Meanwhile, if you'd like to take a look at what I managed to put together in 3 hours, check out <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, the prototype of a wonky <a href="https://store.steampowered.com/app/212800/Super_Crate_Box/" target="_blank" rel="noopener noreferrer">Super Crate Box</a> clone. After the jam's voting period ended, I've pushed a minor update that fixes two issues and adds basic controller support too. The project file is also available on the Itch page if anyone is interested.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>PowerCharger 4269 (for Juice Jam II)</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/"/>
-        <id>https://blog.fodi.be/powercharger-4269-for-juice-jam-ii/</id>
-        <media:content url="https://blog.fodi.be/media/posts/29/powercharger4269.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="Ended"/>
-            <category term="2023"/>
-
-        <updated>2023-04-01T14:38:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/29/powercharger4269.png" alt="" />
-                    Our little "studio", Lasermagnet Games (i.e. Tibor and myself) participated in GDB Juice Jam II and produced a game prototype&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/29/powercharger4269.png" class="type:primaryImage" alt="" /></p>
-                <p>Our little "studio", Lasermagnet Games (i.e. <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a> and myself) participated in GDB Juice Jam II and produced a game prototype that we are quite content with as is, even though it's far from finished.</p>
-<p>The main criteria was to make a game that is <strong>juicy</strong>, and after watching a <a href="https://www.youtube.com/watch?v=AJdEqssNZ-U" target="_blank" rel="noopener noreferrer">couple</a> <a href="https://www.youtube.com/watch?v=216_5nu4aVQ" target="_blank" rel="noopener noreferrer">of</a> <a href="https://www.youtube.com/watch?v=pmSAG51BybY" target="_blank" rel="noopener noreferrer">videos</a> on the topic it was clear that juiciness or getting the right "game feel" is quite an important bit that we haven't really focused on before.</p>
-<p>Here are my main takeaways post-jam:</p>
-<ul>
-<li>From now on I'm going to use a bunch of juicy techniques from the Vlambeer cookbook in all our future games. For arcade games they should basically be mandatory.</li>
-<li>We are still quite bad at time management. The day before the deadline we've made major changes to the mechanics and added a bunch of (although planned) features. The last day was about bugfixes and a very limited playtesting which meant that the game was quite unbalanced (but thankfully it's on the easier side).</li>
-<li>We need to do more jams this year. It's great fun, rewarding and a great learning experience still.</li>
-</ul>
-<p>Without further ado: <a href="https://lasermagnet.itch.io/juice-jam-2023" target="_blank" rel="noopener noreferrer">check out PowerCharger 4269 on Itch</a>! We have plans for updates that might or might not happen.</p>
             ]]>
         </content>
     </entry>
