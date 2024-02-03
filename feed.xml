@@ -3,12 +3,55 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2024-01-07T11:24:38+01:00</updated>
+    <updated>2024-02-03T23:42:18+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>First stream of the year</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/first-stream-of-the-year/"/>
+        <id>https://blog.fodi.be/first-stream-of-the-year/</id>
+
+        <updated>2024-02-03T23:42:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                    The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>
+<p>https://www.twitch.tv/videos/2052004625</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Construct 3 footguns</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/construct-3-footguns/"/>
+        <id>https://blog.fodi.be/construct-3-footguns/</id>
+
+        <updated>2024-01-11T10:23:41+01:00</updated>
+            <summary>
+                <![CDATA[
+                    [Physics behaviour: not deterministic, but framerate independent by default] [Timer behaviour &gt; On timer might pick multiple instances] [Offline mode&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>[Physics behaviour: not deterministic, but framerate independent by default]</p>
+<p>[Timer behaviour &gt; On timer might pick multiple instances]</p>
+<p>[Offline mode by default, auto updating in background, second reload to see changes]</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>2023 recap and a new challenge</title>
         <author>
@@ -19,7 +62,7 @@
         <media:content url="https://blog.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2024-01-07T11:24:38+01:00</updated>
+        <updated>2024-02-03T23:40:32+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" alt="" />
@@ -253,61 +296,6 @@
                 <p>After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.</p>
 <p>The latest version is <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">available here</a>, it's optimized for touchscreen devices and portrait orientation, but it's playable with a mouse and a landscape viewport as well. Feel free "install" or "add it to home screen" on your phone (eg. with Google Chrome), it works offline and also lets you know if a new build is available. You just have to restart it to update to the latest version, there's no need to "reinstall it" .</p>
 <p>I'm going to keep playtesting it and ask a few friends to do the same. Once movement and the controls feel right, I'm going to finish the level editor so Tibor (or anyone) can get started with level design and I can add more stuff. Well, that's the plan anyway :)</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Unable to decide, building in progress.</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/unable-to-decide-building-in-progress/"/>
-        <id>https://blog.fodi.be/unable-to-decide-building-in-progress/</id>
-        <media:content url="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-04-01T14:30:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" alt="" />
-                    I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" class="type:primaryImage" alt="" /></p>
-                <p>I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.</p>
-<p>In early March we've spent some time working on a game for <a href="https://itch.io/jam/7drl-challenge-2022" target="_blank" rel="noopener noreferrer">7DRL Challenge 2022</a> (make a roguelike in a week) and <a href="https://itch.io/jam/wonderjam-4" target="_blank" rel="noopener noreferrer">Wonderjam 4</a> (theme: one weapon) with a 2D platformer where the player would roam through procedurally generated interconnected rooms with a gravity gun, picking up and chucking all sorts of household objects at zombies. It was too ambitious and we've only made a <a href="https://play.lasermagnet.com/GravityGunPlatformer/" target="_blank" rel="noopener noreferrer">super early prototype</a>, but I've also prepared a nice Construct 3 template with up-to-date Rot.js integration might come handy and save a bunch of time later.</p>
-<p>I've also cooked up a C3 template that provides a simple in-game UI to change the rules of the game (eg. how high the player jumps, how much damage a weapon deals) and saves rule sets in slots (that are stored as JSON strings in localStorage) which can be loaded at any point. This should help with balancing games, as changes can be made by anyone in the team without the need to recompile (or even restart) the game.</p>
-<p>About a week ago I started building a physics platformer (one sorta like the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> idea but less silly) with touch / mouse control. It's temporarily called <strong>TowerBall</strong>. I'm still just exploring main mechanics (trying to do quick iterations), at the moment the player controls a ball or a cube (well, a circle or a square) that is light and bouncy at first but once it hits the ground it becomes heavy and less bouncy. The objective is to descend a "tower" and pick stuff up while avoiding hazards. A super early prototype can be found <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">here</a> if anyone is interested. It auto-updates to the latest public build, so if you try it in the future (and in the rare case I don't abandon the project after a week) it might play very differently. You've been warned! :)</p>
-<p>As I prefer coding over level design, I'm also working on a simple tile-based level editor template (primarily for the aforementioned <strong>TowerBall</strong> project) which might end up as a separate release later.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Mediocre Container Package: my first attempt at Trijam</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/i-did-trijam-for-the-first-time/"/>
-        <id>https://blog.fodi.be/i-did-trijam-for-the-first-time/</id>
-        <media:content url="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="Ended"/>
-            <category term="2023"/>
-
-        <updated>2023-03-24T06:45:11+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" alt="" />
-                    Last weekend I took part in Trijam #206, the 3-hour single-theme game jam that takes place every weekend on Itch.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/30/mediocre-container-package.png" class="type:primaryImage" alt="" /></p>
-                <p>Last weekend I took part in <a href="https://itch.io/jam/trijam-206" target="_blank" rel="noopener noreferrer">Trijam #206</a>, the 3-hour single-theme game jam that takes place every weekend on Itch. It was super fun and quite challenging by itself, but I decided to kill multiple birds with one stone: I recorded the whole process (the screen and my actual fat face) and even narrated it (albeit in Hungarian). I'm still editing the footage, but hopefully it will be up in a few days.</p>
-<p>Meanwhile, if you'd like to take a look at what I managed to put together in 3 hours, check out <a href="https://fodi.itch.io/mediocre-container-package">Mediocre Container Package</a>, the prototype of a wonky <a href="https://store.steampowered.com/app/212800/Super_Crate_Box/" target="_blank" rel="noopener noreferrer">Super Crate Box</a> clone. After the jam's voting period ended, I've pushed a minor update that fixes two issues and adds basic controller support too. The project file is also available on the Itch page if anyone is interested.</p>
             ]]>
         </content>
     </entry>
