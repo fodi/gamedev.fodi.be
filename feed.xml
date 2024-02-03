@@ -3,7 +3,7 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2024-02-03T23:42:18+01:00</updated>
+    <updated>2024-02-03T23:49:40+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://blog.fodi.be/first-stream-of-the-year/"/>
         <id>https://blog.fodi.be/first-stream-of-the-year/</id>
 
-        <updated>2024-02-03T23:42:18+01:00</updated>
+        <updated>2024-02-03T23:49:40+01:00</updated>
             <summary>
                 <![CDATA[
                     The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.
@@ -26,7 +26,9 @@
         <content type="html">
             <![CDATA[
                 <p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>
-<p>https://www.twitch.tv/videos/2052004625</p>
+<p>Twitch:<br><a href="https://www.twitch.tv/videos/2052004625">https://www.twitch.tv/videos/2052004625</a></p>
+<p>Itch:<br><a href="https://lasermagnet.itch.io/trijam-255">https://lasermagnet.itch.io/trijam-255</a></p>
+<p>Ch:<br>🇨🇭</p>
             ]]>
         </content>
     </entry>

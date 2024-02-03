@@ -14,14 +14,14 @@
             "url": "https://blog.fodi.be/first-stream-of-the-year/",
             "title": "First stream of the year",
             "summary": "The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.",
-            "content_html": "<p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>\n<p>https://www.twitch.tv/videos/2052004625</p>",
+            "content_html": "<p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>\n<p>Twitch:<br><a href=\"https://www.twitch.tv/videos/2052004625\">https://www.twitch.tv/videos/2052004625</a></p>\n<p>Itch:<br><a href=\"https://lasermagnet.itch.io/trijam-255\">https://lasermagnet.itch.io/trijam-255</a></p>\n<p>Ch:<br>🇨🇭</p>",
             "author": {
                 "name": "Fodi"
             },
             "tags": [
             ],
             "date_published": "2024-02-03T23:37:17+01:00",
-            "date_modified": "2024-02-03T23:42:18+01:00"
+            "date_modified": "2024-02-03T23:49:40+01:00"
         },
         {
             "id": "https://blog.fodi.be/construct-3-footguns/",
