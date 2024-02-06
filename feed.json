@@ -19,23 +19,11 @@
                 "name": "Fodi"
             },
             "tags": [
+                   "Stream",
+                   "Changelog"
             ],
             "date_published": "2024-02-03T23:37:17+01:00",
-            "date_modified": "2024-02-03T23:49:40+01:00"
-        },
-        {
-            "id": "https://blog.fodi.be/construct-3-footguns/",
-            "url": "https://blog.fodi.be/construct-3-footguns/",
-            "title": "Construct 3 footguns",
-            "summary": "[Physics behaviour: not deterministic, but framerate independent by default] [Timer behaviour &gt; On timer might pick multiple instances] [Offline mode&hellip;",
-            "content_html": "<p>[Physics behaviour: not deterministic, but framerate independent by default]</p>\n<p>[Timer behaviour &gt; On timer might pick multiple instances]</p>\n<p>[Offline mode by default, auto updating in background, second reload to see changes]</p>",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-            ],
-            "date_published": "2024-01-11T08:48:34+01:00",
-            "date_modified": "2024-01-11T10:23:41+01:00"
+            "date_modified": "2024-02-06T11:12:57+01:00"
         },
         {
             "id": "https://blog.fodi.be/2023-recap-and-a-new-challenge/",
@@ -175,6 +163,22 @@
             ],
             "date_published": "2023-04-01T14:04:45+02:00",
             "date_modified": "2023-05-27T12:09:29+02:00"
+        },
+        {
+            "id": "https://blog.fodi.be/unable-to-decide-building-in-progress/",
+            "url": "https://blog.fodi.be/unable-to-decide-building-in-progress/",
+            "title": "Unable to decide, building in progress.",
+            "summary": "I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.",
+            "content_html": "<p>I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.</p>\n<p>In early March we've spent some time working on a game for <a href=\"https://itch.io/jam/7drl-challenge-2022\" target=\"_blank\" rel=\"noopener noreferrer\">7DRL Challenge 2022</a> (make a roguelike in a week) and <a href=\"https://itch.io/jam/wonderjam-4\" target=\"_blank\" rel=\"noopener noreferrer\">Wonderjam 4</a> (theme: one weapon) with a 2D platformer where the player would roam through procedurally generated interconnected rooms with a gravity gun, picking up and chucking all sorts of household objects at zombies. It was too ambitious and we've only made a <a href=\"https://play.lasermagnet.com/GravityGunPlatformer/\" target=\"_blank\" rel=\"noopener noreferrer\">super early prototype</a>, but I've also prepared a nice Construct 3 template with up-to-date Rot.js integration might come handy and save a bunch of time later.</p>\n<p>I've also cooked up a C3 template that provides a simple in-game UI to change the rules of the game (eg. how high the player jumps, how much damage a weapon deals) and saves rule sets in slots (that are stored as JSON strings in localStorage) which can be loaded at any point. This should help with balancing games, as changes can be made by anyone in the team without the need to recompile (or even restart) the game.</p>\n<p>About a week ago I started building a physics platformer (one sorta like the <a href=\"https://blog.fodi.be/dungeon-bouncer/\">Dungeon Bouncer</a> idea but less silly) with touch / mouse control. It's temporarily called <strong>TowerBall</strong>. I'm still just exploring main mechanics (trying to do quick iterations), at the moment the player controls a ball or a cube (well, a circle or a square) that is light and bouncy at first but once it hits the ground it becomes heavy and less bouncy. The objective is to descend a \"tower\" and pick stuff up while avoiding hazards. A super early prototype can be found <a href=\"https://play.lasermagnet.com/TowerBall/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> if anyone is interested. It auto-updates to the latest public build, so if you try it in the future (and in the rare case I don't abandon the project after a week) it might play very differently. You've been warned! :)</p>\n<p>As I prefer coding over level design, I'm also working on a simple tile-based level editor template (primarily for the aforementioned <strong>TowerBall</strong> project) which might end up as a separate release later.</p>",
+            "image": "https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Changelog"
+            ],
+            "date_published": "2023-03-24T05:54:09+01:00",
+            "date_modified": "2023-04-01T14:30:31+02:00"
         }
     ]
 }
