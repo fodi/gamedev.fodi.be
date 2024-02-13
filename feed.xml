@@ -3,12 +3,42 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2024-02-06T11:12:57+01:00</updated>
+    <updated>2024-02-13T13:38:40+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Rule of Threes (Trijam #256)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/rule-of-threes-trijam-256-2/"/>
+        <id>https://blog.fodi.be/rule-of-threes-trijam-256-2/</id>
+        <media:content url="https://blog.fodi.be/media/posts/46/ruleofthrees.png" medium="image" />
+            <category term="Stream"/>
+            <category term="Continuing"/>
+            <category term="2024"/>
+
+        <updated>2024-02-13T13:38:40+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/46/ruleofthrees.png" alt="Rule of Threes" />
+                    Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/46/ruleofthrees.png" class="type:primaryImage" alt="Rule of Threes" /></p>
+                <p>Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.</p>
+<p>The jam's theme was "only three" and this time the game's concept came pretty quickly during a post-lunch coffee just a couple hours before I started making it. I wanted to create something that looks a bit like Bejeweled et al (colorful shapes in a grid), but plays more like a sudoku or nonogram puzzle. I like those kinds of "deterministic puzzles", but as I've anticipated, coming up with a proper level generation algorithm is not an easy task (for me at least). So until I have a eureka moment and figure out how to generate levels that can be solved without any ambiguity, the game stays in it's current janky state.</p>
+<p>If you're willing to give it a go despite this, you can find <a href="https://fodi.itch.io/trijam-256" target="_blank" rel="noopener noreferrer">Rule of Threes on tch</a>. I also uploaded the stream archive to <a href="https://www.youtube.com/watch?v=YMfvmv10Vag" target="_blank" rel="noopener noreferrer">YouTube</a> - and yes, it's in Hungarian again. I'm considering doing the next one in English though.</p>
+<p><a href="https://www.youtube.com/watch?v=YMfvmv10Vag"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/YMfvmv10Vag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>First stream of the year</title>
         <author>
@@ -16,17 +46,20 @@
         </author>
         <link href="https://blog.fodi.be/first-stream-of-the-year/"/>
         <id>https://blog.fodi.be/first-stream-of-the-year/</id>
+        <media:content url="https://blog.fodi.be/media/posts/44/trijam255.png" medium="image" />
             <category term="Stream"/>
             <category term="Changelog"/>
 
-        <updated>2024-02-06T11:12:57+01:00</updated>
+        <updated>2024-02-13T13:36:00+01:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/44/trijam255.png" alt="Our unfinished and untitled prototype for Trijam #255" />
                     The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/44/trijam255.png" class="type:primaryImage" alt="Our unfinished and untitled prototype for Trijam #255" /></p>
                 <p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>
 <p>Twitch:<br><a href="https://www.twitch.tv/videos/2052004625">https://www.twitch.tv/videos/2052004625</a></p>
 <p>Itch:<br><a href="https://lasermagnet.itch.io/trijam-255">https://lasermagnet.itch.io/trijam-255</a></p>
@@ -77,7 +110,7 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2024-01-03T14:49:59+01:00</updated>
+        <updated>2024-02-13T13:32:05+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
@@ -90,7 +123,7 @@
                 <p>Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, <a href="https://itch.io/jam/trijam-247" target="_blank" rel="noopener noreferrer">Trijam</a>.</p>
 <p>I was slightly nervous, but in the end I had a lot of fun and will probably do this sort of thing again. It's not my intention to grow a huge follower base and I currently have zero interest in taking streaming seriously, but I figured it could work as a coping strategy to mitigate some of my ADHD-like symptoms, like postponing fun hobby stuff indefinitely all the time. In the last few months I was checking out <a href="https://itch.io/jams" target="_blank" rel="noopener noreferrer">game jams on Itch</a> almost every weekend, writing little notes and ideas for the ones I found interesting, but I either didn't manage to get started on any of them, or if I did, I lost momentum after a few hours. I'm hoping live streaming could help with that, even if basically no one is watching it.</p>
 <p>I'm not sure it's worth anyone's time, but since it wasn't much additional effort, I put the edited stream up on YouTube. On the off chance you speak Hungarian and would like to check it out, it's <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">right here</a>.</p>
-<p><a href="https://www.youtube.com/watch?v=ak8LVGw3EEc"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ak8LVGw3EEc?si=HidRHaiczEsIKCHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p><a href="https://www.youtube.com/watch?v=ak8LVGw3EEc"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ak8LVGw3EEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
 <p>The game turned out to be a pretty simple one (no surprise there), partly because I was narrating everything I was doing and because I wanted to stay inside the 3 hour window. You can <a href="https://fodi.itch.io/trijam-247" target="_blank" rel="noopener noreferrer">play Magic Pandemic on Itch</a> if you want, the back story is on the page, instructions and controls are shown in-game. It supports 4 control schemes: gamepad, keyboard, touch and technically mouse as well, but I do not recommend that. It seems to be running okay on mobile devices too, but the text UI glitches a little on my Android phone.</p>
 <p>If you feel the need to follow me on <a href="https://www.youtube.com/@Fodi_be" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a>, <a href="https://fodi.itch.io/" target="_blank" rel="noopener noreferrer">Itch</a>, <a href="https://www.youtube.com/watch?v=1iHG7YRorgM" target="_blank" rel="noopener noreferrer">Tich, Mick, Beaky, Dozy or Dave Dee</a>, please feel to do so! :)</p>
             ]]>
@@ -278,34 +311,6 @@
                 <p>After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.</p>
 <p>The latest version is <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">available here</a>, it's optimized for touchscreen devices and portrait orientation, but it's playable with a mouse and a landscape viewport as well. Feel free "install" or "add it to home screen" on your phone (eg. with Google Chrome), it works offline and also lets you know if a new build is available. You just have to restart it to update to the latest version, there's no need to "reinstall it" .</p>
 <p>I'm going to keep playtesting it and ask a few friends to do the same. Once movement and the controls feel right, I'm going to finish the level editor so Tibor (or anyone) can get started with level design and I can add more stuff. Well, that's the plan anyway :)</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Unable to decide, building in progress.</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/unable-to-decide-building-in-progress/"/>
-        <id>https://blog.fodi.be/unable-to-decide-building-in-progress/</id>
-        <media:content url="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" medium="image" />
-            <category term="Changelog"/>
-
-        <updated>2023-04-01T14:30:31+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" alt="" />
-                    I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/31/gravitygunplatformer-towerball.png" class="type:primaryImage" alt="" /></p>
-                <p>I forgot to post for a month and a quarter. Here's a quick recap of what I've been up to.</p>
-<p>In early March we've spent some time working on a game for <a href="https://itch.io/jam/7drl-challenge-2022" target="_blank" rel="noopener noreferrer">7DRL Challenge 2022</a> (make a roguelike in a week) and <a href="https://itch.io/jam/wonderjam-4" target="_blank" rel="noopener noreferrer">Wonderjam 4</a> (theme: one weapon) with a 2D platformer where the player would roam through procedurally generated interconnected rooms with a gravity gun, picking up and chucking all sorts of household objects at zombies. It was too ambitious and we've only made a <a href="https://play.lasermagnet.com/GravityGunPlatformer/" target="_blank" rel="noopener noreferrer">super early prototype</a>, but I've also prepared a nice Construct 3 template with up-to-date Rot.js integration might come handy and save a bunch of time later.</p>
-<p>I've also cooked up a C3 template that provides a simple in-game UI to change the rules of the game (eg. how high the player jumps, how much damage a weapon deals) and saves rule sets in slots (that are stored as JSON strings in localStorage) which can be loaded at any point. This should help with balancing games, as changes can be made by anyone in the team without the need to recompile (or even restart) the game.</p>
-<p>About a week ago I started building a physics platformer (one sorta like the <a href="https://blog.fodi.be/dungeon-bouncer/">Dungeon Bouncer</a> idea but less silly) with touch / mouse control. It's temporarily called <strong>TowerBall</strong>. I'm still just exploring main mechanics (trying to do quick iterations), at the moment the player controls a ball or a cube (well, a circle or a square) that is light and bouncy at first but once it hits the ground it becomes heavy and less bouncy. The objective is to descend a "tower" and pick stuff up while avoiding hazards. A super early prototype can be found <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">here</a> if anyone is interested. It auto-updates to the latest public build, so if you try it in the future (and in the rare case I don't abandon the project after a week) it might play very differently. You've been warned! :)</p>
-<p>As I prefer coding over level design, I'm also working on a simple tile-based level editor template (primarily for the aforementioned <strong>TowerBall</strong> project) which might end up as a separate release later.</p>
             ]]>
         </content>
     </entry>
