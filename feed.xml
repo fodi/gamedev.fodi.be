@@ -3,12 +3,70 @@
     <title>Fodi&#x27;s blog on gamedev</title>
     <link href="https://blog.fodi.be/feed.xml" rel="self" />
     <link href="https://blog.fodi.be" />
-    <updated>2024-02-13T13:38:40+01:00</updated>
+    <updated>2024-03-14T12:34:14+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://blog.fodi.be</id>
 
+    <entry>
+        <title>Music Miner Marty (HEJ 2024 Feb jam)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/"/>
+        <id>https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/</id>
+        <media:content url="https://blog.fodi.be/media/posts/48/mmm.jpg" medium="image" />
+
+        <updated>2024-03-14T12:08:58+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.fodi.be/media/posts/48/mmm.jpg" alt="" />
+                    We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.fodi.be/media/posts/48/mmm.jpg" class="type:primaryImage" alt="" /></p>
+                <p>We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time. </p>
+<p>After skipping the <a href="https://itch.io/jam/hej-2024-jan" target="_blank" rel="noopener noreferrer">January</a> edition of the Hungarian "<a href="https://haviegyjatek.itch.io/" target="_blank" rel="noopener noreferrer">Havi Egy Játék</a>" ("One Game a Month") jam I was delighted to find out that themes for <a href="https://itch.io/jam/hej-2024-februar" target="_blank" rel="noopener noreferrer">February</a> included "on the beat", which served as an excellent excuse to finally make a rhythm game. Tibor came up with the idea to make something like SteamWorld Dig / Spelunky but with a musical twist: swinging the pickaxe in sync with the beat.</p>
+<p>We started making the game on the 29th of February (thank frack it was a leap year :) and had a relatively cozy deadline of March 5th to finish. About 70% of the process was also streamed <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">on my Twitch</a>, but I'm not sure I'll upload the archives this time.</p>
+<p><a href="https://lasermagnet.itch.io/music-miner-marty" target="_blank" rel="noopener noreferrer">Music Miner Marty is available on Itch</a>, it already received a post-jam update (bugfixes and UX improvements only so far), the original <a href="https://lasermagnet.github.io/games/music-miner-marty-jam-version/" target="_blank" rel="noopener noreferrer">jam version can be found here</a> for reference.</p>
+<p>And here's a little gameplay:</p>
+<p><a href="https://www.youtube.com/watch?v=gr_IzilGUKQ"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/gr_IzilGUKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>Naturally we have a bunch of ideas we might try to add later (combos, tougher blocks, touch input support, enemies, falling blocks, et cetera), but no promises of course :)</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>My videos on gamedev</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://blog.fodi.be/my-videos-on-gamedev/"/>
+        <id>https://blog.fodi.be/my-videos-on-gamedev/</id>
+
+        <updated>2024-03-12T12:06:49+01:00</updated>
+            <summary>
+                <![CDATA[
+                    For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development time-lapses, et cetera.</p>
+<h2>2024</h2>
+<p><a href="https://www.youtube.com/watch?v=gr_IzilGUKQ" target="_blank" rel="noopener noreferrer">Music Miner Marty (jam version) gameplay</a></p>
+<p><a href="https://www.youtube.com/watch?v=YMfvmv10Vag" target="_blank" rel="noopener noreferrer">Rule of Threes development stream (in Hungarian)</a></p>
+<h2>2023</h2>
+<p><a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">Magic Pandemic development stream (in Hungarian)</a></p>
+<p><a href="https://www.youtube.com/watch?v=o56Y4H1mUqs" target="_blank" rel="noopener noreferrer">Bouncy Block Buster development time-lapse</a></p>
+<h2>2022</h2>
+<p><a href="https://www.youtube.com/watch?v=FpMWSso46R0" target="_blank" rel="noopener noreferrer">AruControl for Construct 3 (free template) demo</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Rule of Threes (Trijam #256)</title>
         <author>
@@ -21,7 +79,7 @@
             <category term="Continuing"/>
             <category term="2024"/>
 
-        <updated>2024-02-13T13:38:40+01:00</updated>
+        <updated>2024-02-12T19:07:12+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/46/ruleofthrees.png" alt="Rule of Threes" />
@@ -50,7 +108,7 @@
             <category term="Stream"/>
             <category term="Changelog"/>
 
-        <updated>2024-02-13T13:36:00+01:00</updated>
+        <updated>2024-02-03T23:37:17+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/44/trijam255.png" alt="Our unfinished and untitled prototype for Trijam #255" />
@@ -77,7 +135,7 @@
         <media:content url="https://blog.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
             <category term="Changelog"/>
 
-        <updated>2024-02-03T23:40:32+01:00</updated>
+        <updated>2024-01-07T11:24:38+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" alt="" />
@@ -110,7 +168,7 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2024-02-13T13:32:05+01:00</updated>
+        <updated>2023-11-27T11:36:11+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
@@ -140,7 +198,7 @@
             <category term="Ended"/>
             <category term="2023"/>
 
-        <updated>2023-11-27T11:32:00+01:00</updated>
+        <updated>2023-10-29T19:01:06+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/37/screenshot1.png" alt="" />
@@ -170,7 +228,7 @@
             <category term="Continuing"/>
             <category term="2023"/>
 
-        <updated>2023-10-29T19:04:40+01:00</updated>
+        <updated>2023-07-31T13:27:46+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/36/bbb-itch-cover.png" alt="" />
@@ -200,7 +258,7 @@
             <category term="Continuing"/>
             <category term="2023"/>
 
-        <updated>2023-07-31T13:28:16+02:00</updated>
+        <updated>2023-07-02T12:43:01+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.fodi.be/media/posts/35/snakeypong.png" alt="" />
@@ -226,7 +284,7 @@
             <category term="Planning phase"/>
             <category term="Lists of ideas"/>
 
-        <updated>2023-06-08T08:30:11+02:00</updated>
+        <updated>2023-06-08T08:08:34+02:00</updated>
             <summary>
                 <![CDATA[
                     No details, just one liners here. Airmech + Don't Starve: an open world exploration / crafting / survival game where&hellip;
@@ -248,69 +306,6 @@
 </li>
 <li>Katamari, but 2D: either side view or top-down, possibly featuring a bunch of googly eyes</li>
 </ul>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Ludum Dare 53: Something Something Delivery Something</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/ludum-dare-53/"/>
-        <id>https://blog.fodi.be/ludum-dare-53/</id>
-        <media:content url="https://blog.fodi.be/media/posts/33/ssds.jpg" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="Ended"/>
-            <category term="Changelog"/>
-            <category term="2023"/>
-
-        <updated>2023-07-31T13:28:33+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/33/ssds.jpg" alt="" />
-                    I participated in the last Ludum Dare jam (#53) and made something that is not great but at least playable.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/33/ssds.jpg" class="type:primaryImage" alt="" /></p>
-                <p>I participated in the last Ludum Dare jam (#53) and<span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> made something that is not great but at least playable. And it only took me a month to finish writing the postmortem! :)</span></p>
-<p>The theme <strong>delivery</strong> was published at 3 AM CEST on Saturday, I encountered it around 7 o'clock, alerted Tibor, finished booting up and biked down to Kollabor, where I usually work. We decided to work remotely, had a quick kickoff call at around 9 about ideas. The first idea was about food delivery from restaurants to homes on a kinda-3D top-down city map using trebuchets. I spent half an hour researching how much work would it take to allow the player to just input a name of a real city (at which point the game would fetch map data via Google Maps / OpenStreetMap) and use it as a base and came to the conclusion that it's out of the question due to the 3-day deadline of the jam.</p>
-<p>After some quick scaffolding in Construct 3 and another call I floated the idea of an Overcooked + Kingdom hybrid (2D side-view food preparation frenzy) with a hint of Angry Birds (delivering the finished food to the right home using a big-ass trebuchet/sling), then quickly reduced it down to just the delivery part, but using a sort of drone that the player can actively control to navigate around obstacles like in Flappy Bird. The <a href="https://send.games/u/x5kgn/" target="_blank" rel="noopener noreferrer">first build</a> at 10:50 included the basic movement, obstacles and controls (Space to climb), the <a href="https://send.games/u/3kxzd/" target="_blank" rel="noopener noreferrer">second build</a> at 11:25 had the basic pick up and delivery stuff (I, J, K keys for the 3 different items). Some more work and a lunch break followed.</p>
-<p>I finished the <a href="https://send.games/u/s8vt7/" target="_blank" rel="noopener noreferrer">third build</a> at 13:25; in this we experimented with a slightly different control scheme (W/A/D for movement + similar touch controls), allowing the player to turn around at any time. Tibor raised some good points regarding the control scheme and suggested that we add some angle to the drops for realism, so I first got rid of manual turning in the <a href="https://send.games/u/abna7"></a><a href="https://send.games/u/abna7" target="_blank" rel="noopener noreferrer">fourth build</a> at 13:53 and added a special wall type that turns the player around in the <a href="https://send.games/u/yw25i" target="_blank" rel="noopener noreferrer">fifth</a> at 14:06.</p>
-<p>Some more ideation followed and I've added item and target spawners and basic respawn logic in <a href="https://send.games/u/q4pvh" target="_blank" rel="noopener noreferrer">build six</a> at 15:09. A couple of minutes later I added numpad controls in <a href="https://send.games/u/fe4ei">build seven</a>, then started to prepare the project for Tibor, so he can start designing levels and alter level rules just by editing some variables. <a href="https://send.games/u/f9sq2" target="_blank" rel="noopener noreferrer">Build eight</a> included a super small test level (which can be skipped by pressing N) and was the last export for that day at 15:46, then I fixed a few bugs and we both went to a friend's house to conclude day one and consume the things we usually consume at such events.</p>
-<p>On Sunday it was almost 11 AM when I managed to boot up and sit down in front of my computer, get a todo list going and contact Tibor. I decided to add some juice by adding shadow light / shadow caster and sine movement behaviors to stuff which resulted in <a href="https://send.games/u/beapf" target="_blank" rel="noopener noreferrer">build nine</a> at 11:39, then I added touchscreen UI and automatic respawn in <a href="https://send.games/u/ntuvt"></a><a href="https://send.games/u/ntuvt" target="_blank" rel="noopener noreferrer">build ten</a> at 12:21 and cycled to my parents for lunch.</p>
-<p>I was back in front of the screen at around half 3 and got crackin'. A few hours and a couple of meetings later I finished <a href="https://send.games/u/tkc9h" target="_blank" rel="noopener noreferrer">build eleven</a> at 18:47, which included better touch UI, ammo pickups, shooting, and the first enemy type. After some testing, balancing and bug squashing, I've finished the day with <a href="https://send.games/u/siaxf/"></a><a href="https://send.games/u/siaxf/" target="_blank" rel="noopener noreferrer">build twelve</a> at 19:40 and a quick call with Tibor about level design.</p>
-<p>We picked up around 10 AM on Monday, I've included Tibor's work-in-progress levels in <a href="https://send.games/u/jnrvj"></a><a href="https://send.games/u/jnrvj" target="_blank" rel="noopener noreferrer">build thirteen</a> at 10:56. In the afternoon I started replacing the placeholder assets with better looking ones (by <a href="https://little-martian.itch.io/retro-texture-pack" target="_blank" rel="noopener noreferrer">Little Martian</a> and <a href="https://zrghr.itch.io/pixel-art-loot-pixelliverse"></a><a href="https://zrghr.itch.io/pixel-art-loot-pixelliverse" target="_blank" rel="noopener noreferrer">Cassius</a>) and building a tutorial to introduce the mechanics gradually for players. I sent <a href="https://send.games/u/9iccx" target="_blank" rel="noopener noreferrer">build fourteen</a> to Tibor for testing at 18:34, and fixed bugs in <a href="https://send.games/u/q4p8f/" target="_blank" rel="noopener noreferrer">build fifteen</a> half an hour later. Based on his feedback I finished <a href="https://send.games/u/q9ue4" target="_blank" rel="noopener noreferrer">build sixteen</a> at 21:09, then I threw together a flimsy menu screen (yeah, I'll take the usual please!), fixed some more bugs and uploaded the <a href="https://lasermagnet.itch.io/ludum-dare-53-jam-version">final version</a> around midnight. For some reason the HTML5 build didn't work on the <a href="https://ldjam.com/events/ludum-dare/53/something-something-delivery-something">LDJAM</a> page, so the final resting place of <strong>Something Something Delivery Something</strong> (obviously named a couple of minutes before publishing) is on Itch. I haven't touched it since and based on previous experience I probably won't either.</p>
-<p>And the conclusion? It was fun, exhausting, a great learning experience and I'll remember those three days fondly. And I'm looking forward to the next game jam I'll be able to participate in.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>TowerBall (working title)</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://blog.fodi.be/towerball-working-title/"/>
-        <id>https://blog.fodi.be/towerball-working-title/</id>
-        <media:content url="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="Continuing"/>
-            <category term="2023"/>
-
-        <updated>2023-05-27T12:09:29+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" alt="" />
-                    After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/32/TowerBall-EarlyPreview.png" class="type:primaryImage" alt="" /></p>
-                <p>After some playtesting, movement tweaking and expanding the test level, I decided to add TowerBall to the 2023 prototypes list.</p>
-<p>The latest version is <a href="https://play.lasermagnet.com/TowerBall/" target="_blank" rel="noopener noreferrer">available here</a>, it's optimized for touchscreen devices and portrait orientation, but it's playable with a mouse and a landscape viewport as well. Feel free "install" or "add it to home screen" on your phone (eg. with Google Chrome), it works offline and also lets you know if a new build is available. You just have to restart it to update to the latest version, there's no need to "reinstall it" .</p>
-<p>I'm going to keep playtesting it and ask a few friends to do the same. Once movement and the controls feel right, I'm going to finish the level editor so Tibor (or anyone) can get started with level design and I can add more stuff. Well, that's the plan anyway :)</p>
             ]]>
         </content>
     </entry>
