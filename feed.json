@@ -1,21 +1,21 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Fodi&#x27;s blog on gamedev",
+    "title": "Fodi does gamedev",
     "description": "",
-    "home_page_url": "https://blog.fodi.be",
-    "feed_url": "https://blog.fodi.be/feed.json",
+    "home_page_url": "https://gamedev.fodi.be",
+    "feed_url": "https://gamedev.fodi.be/feed.json",
     "user_comment": "",
     "author": {
         "name": "Fodi"
     },
     "items": [
         {
-            "id": "https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/",
-            "url": "https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/",
+            "id": "https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/",
+            "url": "https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/",
             "title": "Music Miner Marty (HEJ 2024 Feb jam)",
             "summary": "We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time.",
             "content_html": "<p>We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time. </p>\n<p>After skipping the <a href=\"https://itch.io/jam/hej-2024-jan\" target=\"_blank\" rel=\"noopener noreferrer\">January</a> edition of the Hungarian \"<a href=\"https://haviegyjatek.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Havi Egy Játék</a>\" (\"One Game a Month\") jam I was delighted to find out that themes for <a href=\"https://itch.io/jam/hej-2024-februar\" target=\"_blank\" rel=\"noopener noreferrer\">February</a> included \"on the beat\", which served as an excellent excuse to finally make a rhythm game. Tibor came up with the idea to make something like SteamWorld Dig / Spelunky but with a musical twist: swinging the pickaxe in sync with the beat.</p>\n<p>We started making the game on the 29th of February (thank frack it was a leap year :) and had a relatively cozy deadline of March 5th to finish. About 70% of the process was also streamed <a href=\"https://www.twitch.tv/fodi_gamedev\" target=\"_blank\" rel=\"noopener noreferrer\">on my Twitch</a>, but I'm not sure I'll upload the archives this time.</p>\n<p><a href=\"https://lasermagnet.itch.io/music-miner-marty\" target=\"_blank\" rel=\"noopener noreferrer\">Music Miner Marty is available on Itch</a>, it already received a post-jam update (bugfixes and UX improvements only so far), the original <a href=\"https://lasermagnet.github.io/games/music-miner-marty-jam-version/\" target=\"_blank\" rel=\"noopener noreferrer\">jam version can be found here</a> for reference.</p>\n<p>And here's a little gameplay:</p>\n<p><a href=\"https://www.youtube.com/watch?v=gr_IzilGUKQ\"><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/gr_IzilGUKQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div></a></p>\n<p>Naturally we have a bunch of ideas we might try to add later (combos, tougher blocks, touch input support, enemies, falling blocks, et cetera), but no promises of course :)</p>",
-            "image": "https://blog.fodi.be/media/posts/48/mmm.jpg",
+            "image": "https://gamedev.fodi.be/media/posts/48/mmm.jpg",
             "author": {
                 "name": "Fodi"
             },
@@ -25,8 +25,8 @@
             "date_modified": "2024-03-14T12:34:14+01:00"
         },
         {
-            "id": "https://blog.fodi.be/my-videos-on-gamedev/",
-            "url": "https://blog.fodi.be/my-videos-on-gamedev/",
+            "id": "https://gamedev.fodi.be/my-videos-on-gamedev/",
+            "url": "https://gamedev.fodi.be/my-videos-on-gamedev/",
             "title": "My videos on gamedev",
             "summary": "For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development&hellip;",
             "content_html": "<p>For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development time-lapses, et cetera.</p>\n<h2>2024</h2>\n<p><a href=\"https://www.youtube.com/watch?v=gr_IzilGUKQ\" target=\"_blank\" rel=\"noopener noreferrer\">Music Miner Marty (jam version) gameplay</a></p>\n<p><a href=\"https://www.youtube.com/watch?v=YMfvmv10Vag\" target=\"_blank\" rel=\"noopener noreferrer\">Rule of Threes development stream (in Hungarian)</a></p>\n<h2>2023</h2>\n<p><a href=\"https://www.youtube.com/watch?v=ak8LVGw3EEc\" target=\"_blank\" rel=\"noopener noreferrer\">Magic Pandemic development stream (in Hungarian)</a></p>\n<p><a href=\"https://www.youtube.com/watch?v=o56Y4H1mUqs\" target=\"_blank\" rel=\"noopener noreferrer\">Bouncy Block Buster development time-lapse</a></p>\n<h2>2022</h2>\n<p><a href=\"https://www.youtube.com/watch?v=FpMWSso46R0\" target=\"_blank\" rel=\"noopener noreferrer\">AruControl for Construct 3 (free template) demo</a></p>\n<p> </p>",
@@ -39,12 +39,12 @@
             "date_modified": "2024-03-12T13:25:40+01:00"
         },
         {
-            "id": "https://blog.fodi.be/rule-of-threes-trijam-256-2/",
-            "url": "https://blog.fodi.be/rule-of-threes-trijam-256-2/",
+            "id": "https://gamedev.fodi.be/rule-of-threes-trijam-256-2/",
+            "url": "https://gamedev.fodi.be/rule-of-threes-trijam-256-2/",
             "title": "Rule of Threes (Trijam #256)",
             "summary": "Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.",
             "content_html": "<p>Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.</p>\n<p>The jam's theme was \"only three\" and this time the game's concept came pretty quickly during a post-lunch coffee just a couple hours before I started making it. I wanted to create something that looks a bit like Bejeweled et al (colorful shapes in a grid), but plays more like a sudoku or nonogram puzzle. I like those kinds of \"deterministic puzzles\", but as I've anticipated, coming up with a proper level generation algorithm is not an easy task (for me at least). So until I have a eureka moment and figure out how to generate levels that can be solved without any ambiguity, the game stays in it's current janky state.</p>\n<p>If you're willing to give it a go despite this, you can find <a href=\"https://fodi.itch.io/trijam-256\" target=\"_blank\" rel=\"noopener noreferrer\">Rule of Threes on tch</a>. I also uploaded the stream archive to <a href=\"https://www.youtube.com/watch?v=YMfvmv10Vag\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a> - and yes, it's in Hungarian again. I'm considering doing the next one in English though.</p>\n<p><a href=\"https://www.youtube.com/watch?v=YMfvmv10Vag\"><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/YMfvmv10Vag\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div></a></p>\n<p> </p>",
-            "image": "https://blog.fodi.be/media/posts/46/ruleofthrees.png",
+            "image": "https://gamedev.fodi.be/media/posts/46/ruleofthrees.png",
             "author": {
                 "name": "Fodi"
             },
@@ -57,12 +57,12 @@
             "date_modified": "2024-03-14T12:09:15+01:00"
         },
         {
-            "id": "https://blog.fodi.be/first-stream-of-the-year/",
-            "url": "https://blog.fodi.be/first-stream-of-the-year/",
+            "id": "https://gamedev.fodi.be/first-stream-of-the-year/",
+            "url": "https://gamedev.fodi.be/first-stream-of-the-year/",
             "title": "First stream of the year",
             "summary": "The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.",
             "content_html": "<p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>\n<p>Twitch:<br><a href=\"https://www.twitch.tv/videos/2052004625\">https://www.twitch.tv/videos/2052004625</a></p>\n<p>Itch:<br><a href=\"https://lasermagnet.itch.io/trijam-255\">https://lasermagnet.itch.io/trijam-255</a></p>\n<p>Ch:<br>🇨🇭</p>",
-            "image": "https://blog.fodi.be/media/posts/44/trijam255.png",
+            "image": "https://gamedev.fodi.be/media/posts/44/trijam255.png",
             "author": {
                 "name": "Fodi"
             },
@@ -74,12 +74,12 @@
             "date_modified": "2024-02-13T13:36:00+01:00"
         },
         {
-            "id": "https://blog.fodi.be/2023-recap-and-a-new-challenge/",
-            "url": "https://blog.fodi.be/2023-recap-and-a-new-challenge/",
+            "id": "https://gamedev.fodi.be/2023-recap-and-a-new-challenge/",
+            "url": "https://gamedev.fodi.be/2023-recap-and-a-new-challenge/",
             "title": "2023 recap and a new challenge",
             "summary": "What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.",
             "content_html": "<div class=\"post__inner post__entry\">\n<p>What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.</p>\n<p>Around the end of January last year <a href=\"file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/a-brief-intermission-and-a-challenge/index.html\">I challenged myself</a> to build 20 video game prototypes in 2023. I only managed to build 8 on my own (some of them with <a href=\"https://itch.io/profile/teebor9\" target=\"_blank\" rel=\"noopener noreferrer\">Tibor</a>), so one could say I failed to reach my target.</p>\n<p>In March I landed my first paid gamedev gig thanks to the guys over at <a href=\"https://bardtest.gg/\" target=\"_blank\" rel=\"noopener noreferrer\">BardTest.gg.</a> They provide tools for members of the esports community with which they can measure and strengthen their skills like hand-eye coordination, multitasking, decision-making under pressure, et cetera. Their users have access to a variety of mini-games (that's where I come in), which feature core mechanics of first-person shooters and MOBAs. After each play session the players are scored and ranked based on how well they did compared to other users and professional players. Last year I finished the development of 14 mini-games for them, out of which 12 are publicly accessible on their platform at the moment. Counting these, I did manage to reach 20 prototypes, although that wasn't exactly my intention when I came up with the challenge back in February.</p>\n<p>My intention was to turn a portion of my ever-increasing idea pile into playable prototypes. One of them was to make a turn-based game that runs on a big screen in a public location that any passerby can control using their phones. I cobbled together the proof of concept for the communication \"framework\", which worked fine. I became so sure I was going to turn it into an actual game that I bought a used TV and rented an office with a big shop window on a semi-busy street. It worked out great as a new workplace (although I was alone most of the time, so my initial productivity boost dwindled in a few months), but the TV was only collecting dust for 6 months, then my contract was up. We even built a <a href=\"file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/bouncy-block-buster/index.html\">turn-based physics puzzle</a> for a game jam in July with Tibor, which I could've adapted to this framework... but I didn't. Not sure why.</p>\n<p>In October I moved offices and started working from a small flat with a friend of mine (Viktor) who's also a software developer now. This setup provided a productivity boost that still lasts today, most days we're both in the office working on our separate projects. </p>\n<p>At the end of November I tried streaming on <a href=\"https://www.twitch.tv/fodi_gamedev\" target=\"_blank\" rel=\"noopener noreferrer\">Twitch</a> the first time, <a href=\"https://www.youtube.com/watch?v=ak8LVGw3EEc\" target=\"_blank\" rel=\"noopener noreferrer\">made a short video game from scratch in three hours</a> for TriJam, which was fun, and it only took me 7 months to muster the courage (just checked, I bought the mic in April). I no longer feel completely terrified of it, so I'm planning on streaming from time to time.</p>\n<p>My new challenge for 2024 is to make at least 12 video game prototypes (not counting paid gigs this time) and at least 12 game development streams / videos, ideally one every month.</p>\n</div>",
-            "image": "https://blog.fodi.be/media/posts/42/2023-recap.svg",
+            "image": "https://gamedev.fodi.be/media/posts/42/2023-recap.svg",
             "author": {
                 "name": "Fodi"
             },
@@ -90,12 +90,12 @@
             "date_modified": "2024-02-03T23:40:32+01:00"
         },
         {
-            "id": "https://blog.fodi.be/magic-pandemic-for-trijam-247/",
-            "url": "https://blog.fodi.be/magic-pandemic-for-trijam-247/",
+            "id": "https://gamedev.fodi.be/magic-pandemic-for-trijam-247/",
+            "url": "https://gamedev.fodi.be/magic-pandemic-for-trijam-247/",
             "title": "Magic Pandemic (Trijam #247)",
             "summary": "Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, Trijam.",
             "content_html": "<p>Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, <a href=\"https://itch.io/jam/trijam-247\" target=\"_blank\" rel=\"noopener noreferrer\">Trijam</a>.</p>\n<p>I was slightly nervous, but in the end I had a lot of fun and will probably do this sort of thing again. It's not my intention to grow a huge follower base and I currently have zero interest in taking streaming seriously, but I figured it could work as a coping strategy to mitigate some of my ADHD-like symptoms, like postponing fun hobby stuff indefinitely all the time. In the last few months I was checking out <a href=\"https://itch.io/jams\" target=\"_blank\" rel=\"noopener noreferrer\">game jams on Itch</a> almost every weekend, writing little notes and ideas for the ones I found interesting, but I either didn't manage to get started on any of them, or if I did, I lost momentum after a few hours. I'm hoping live streaming could help with that, even if basically no one is watching it.</p>\n<p>I'm not sure it's worth anyone's time, but since it wasn't much additional effort, I put the edited stream up on YouTube. On the off chance you speak Hungarian and would like to check it out, it's <a href=\"https://www.youtube.com/watch?v=ak8LVGw3EEc\" target=\"_blank\" rel=\"noopener noreferrer\">right here</a>.</p>\n<p><a href=\"https://www.youtube.com/watch?v=ak8LVGw3EEc\"><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/ak8LVGw3EEc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div></a></p>\n<p>The game turned out to be a pretty simple one (no surprise there), partly because I was narrating everything I was doing and because I wanted to stay inside the 3 hour window. You can <a href=\"https://fodi.itch.io/trijam-247\" target=\"_blank\" rel=\"noopener noreferrer\">play Magic Pandemic on Itch</a> if you want, the back story is on the page, instructions and controls are shown in-game. It supports 4 control schemes: gamepad, keyboard, touch and technically mouse as well, but I do not recommend that. It seems to be running okay on mobile devices too, but the text UI glitches a little on my Android phone.</p>\n<p>If you feel the need to follow me on <a href=\"https://www.youtube.com/@Fodi_be\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube</a>, <a href=\"https://www.twitch.tv/fodi_gamedev\" target=\"_blank\" rel=\"noopener noreferrer\">Twitch</a>, <a href=\"https://fodi.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Itch</a>, <a href=\"https://www.youtube.com/watch?v=1iHG7YRorgM\" target=\"_blank\" rel=\"noopener noreferrer\">Tich, Mick, Beaky, Dozy or Dave Dee</a>, please feel to do so! :)</p>",
-            "image": "https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png",
+            "image": "https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png",
             "author": {
                 "name": "Fodi"
             },
@@ -107,12 +107,12 @@
             "date_modified": "2024-02-13T13:32:05+01:00"
         },
         {
-            "id": "https://blog.fodi.be/hunjam-2023-tower-offense-2000/",
-            "url": "https://blog.fodi.be/hunjam-2023-tower-offense-2000/",
+            "id": "https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/",
+            "url": "https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/",
             "title": "HunJam 2023: Tower Offense 2000",
             "summary": "Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made&hellip;",
             "content_html": "<p>Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made :)</p>\n<p><a href=\"https://www.facebook.com/events/2037711149909497/\" target=\"_blank\" rel=\"noopener noreferrer\">HunJam 2023</a> was freaking awesome! I might update this post later with a proper post mortem, but right now I'm freaking beat, sitting on the train home, so without further ado, here's what we built this weekend:</p>\n<p>Tower Offense 2000 on Itch: <a href=\"https://lasermagnet.itch.io/hunjam2023\">https://lasermagnet.itch.io/hunjam2023</a></p>\n<p>Or you can also play it here: <a href=\"https://play.lasermagnet.com/HunJam2023/\">https://play.lasermagnet.com/HunJam2023/</a></p>\n<p><strong>Update: turns out <a href=\"https://www.facebook.com/permalink.php?story_fbid=pfbid02t4bbHG2JPeF9BKMJjtqFmiCAyS2izfXGGoPidMCbQ7uKqusuGi1AZ1s38TwtjjZel&amp;id=61550812517788\" target=\"_blank\" rel=\"noopener noreferrer\">the jam judges liked what we cooked up</a> :) we are stoked!</strong></p>",
-            "image": "https://blog.fodi.be/media/posts/37/screenshot1.png",
+            "image": "https://gamedev.fodi.be/media/posts/37/screenshot1.png",
             "author": {
                 "name": "Fodi"
             },
@@ -124,12 +124,12 @@
             "date_modified": "2023-11-27T11:32:00+01:00"
         },
         {
-            "id": "https://blog.fodi.be/bouncy-block-buster/",
-            "url": "https://blog.fodi.be/bouncy-block-buster/",
+            "id": "https://gamedev.fodi.be/bouncy-block-buster/",
+            "url": "https://gamedev.fodi.be/bouncy-block-buster/",
             "title": "Bouncy Block Buster",
             "summary": "We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.",
             "content_html": "<p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>\n<p>You can play it <a href=\"https://lasermagnet.itch.io/icojam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">on Itch</a> or <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>\n<p><strong>Update 1:</strong> I made a time-lapse video of the development process and <a href=\"https://www.youtube.com/watch?v=o56Y4H1mUqs\" target=\"_blank\" rel=\"noopener noreferrer\">uploaded it to YouTube</a>. Check it out if that's your thing!</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/o56Y4H1mUqs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n<p>Also, I fixed a couple of bugs, the post-jam version (1.0.9) can be found <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>",
-            "image": "https://blog.fodi.be/media/posts/36/bbb-itch-cover.png",
+            "image": "https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png",
             "author": {
                 "name": "Fodi"
             },
@@ -142,12 +142,12 @@
             "date_modified": "2023-10-29T19:04:40+01:00"
         },
         {
-            "id": "https://blog.fodi.be/snakeypong/",
-            "url": "https://blog.fodi.be/snakeypong/",
+            "id": "https://gamedev.fodi.be/snakeypong/",
+            "url": "https://gamedev.fodi.be/snakeypong/",
             "title": "SnakeyPong",
             "summary": "About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.",
             "content_html": "<p>About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.</p>\n<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>\n<p>Check out where this project goes (usually nowhere, but who knows), <a href=\"https://fodi.itch.io/snakeypong\" target=\"_blank\" rel=\"noopener noreferrer\">try SnakeyPong on Itch!</a></p>",
-            "image": "https://blog.fodi.be/media/posts/35/snakeypong.png",
+            "image": "https://gamedev.fodi.be/media/posts/35/snakeypong.png",
             "author": {
                 "name": "Fodi"
             },
@@ -160,8 +160,8 @@
             "date_modified": "2023-07-31T13:28:16+02:00"
         },
         {
-            "id": "https://blog.fodi.be/list-interesting-sounding-combinations/",
-            "url": "https://blog.fodi.be/list-interesting-sounding-combinations/",
+            "id": "https://gamedev.fodi.be/list-interesting-sounding-combinations/",
+            "url": "https://gamedev.fodi.be/list-interesting-sounding-combinations/",
             "title": "[List] Twists and combinations",
             "summary": "No details, just one liners here. Airmech + Don't Starve: an open world exploration / crafting / survival game where&hellip;",
             "content_html": "<p>No details, just one liners here.</p>\n<ul>\n<li>Airmech + Don't Starve: an open world exploration / crafting / survival game where you can switch between ground and air travel at any time</li>\n<li>Mahjong with polyominos: match shapes and/or symbols</li>\n<li>Unrailed + Pipe Dream with polyominos: place polyomino shaped rails quickly so the train does not derail, can't choose the shape, but can place anywhere in any rotation</li>\n<li>Zuma (or something similar) with multiplayer: either PvP or co-op</li>\n<li>Snake + Osmos: small snakes are eaten by big ones</li>\n<li>Crimsonland, but you can teleport out of a sticky situation (press a button, quickly choose new location within time limit and radius)\n<ul>\n<li>additional twist: clone player instead of teleporting and control both of them (until one of them dies)</li>\n</ul>\n</li>\n<li>Katamari, but 2D: either side view or top-down, possibly featuring a bunch of googly eyes</li>\n</ul>",

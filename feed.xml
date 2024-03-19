@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Fodi&#x27;s blog on gamedev</title>
-    <link href="https://blog.fodi.be/feed.xml" rel="self" />
-    <link href="https://blog.fodi.be" />
+    <title>Fodi does gamedev</title>
+    <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
+    <link href="https://gamedev.fodi.be" />
     <updated>2024-03-14T12:34:14+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
-    <id>https://blog.fodi.be</id>
+    <id>https://gamedev.fodi.be</id>
 
     <entry>
         <title>Music Miner Marty (HEJ 2024 Feb jam)</title>
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/"/>
-        <id>https://blog.fodi.be/music-miner-marty-hej-2024-feb-jam/</id>
-        <media:content url="https://blog.fodi.be/media/posts/48/mmm.jpg" medium="image" />
+        <link href="https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/"/>
+        <id>https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/48/mmm.jpg" medium="image" />
 
         <updated>2024-03-14T12:08:58+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/48/mmm.jpg" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/48/mmm.jpg" alt="" />
                     We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/48/mmm.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/48/mmm.jpg" class="type:primaryImage" alt="" /></p>
                 <p>We finally ventured into rhythm game territory, which has been on the Lasermagnet Games todo list for quite some time. </p>
 <p>After skipping the <a href="https://itch.io/jam/hej-2024-jan" target="_blank" rel="noopener noreferrer">January</a> edition of the Hungarian "<a href="https://haviegyjatek.itch.io/" target="_blank" rel="noopener noreferrer">Havi Egy Játék</a>" ("One Game a Month") jam I was delighted to find out that themes for <a href="https://itch.io/jam/hej-2024-februar" target="_blank" rel="noopener noreferrer">February</a> included "on the beat", which served as an excellent excuse to finally make a rhythm game. Tibor came up with the idea to make something like SteamWorld Dig / Spelunky but with a musical twist: swinging the pickaxe in sync with the beat.</p>
 <p>We started making the game on the 29th of February (thank frack it was a leap year :) and had a relatively cozy deadline of March 5th to finish. About 70% of the process was also streamed <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">on my Twitch</a>, but I'm not sure I'll upload the archives this time.</p>
@@ -43,8 +43,8 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/my-videos-on-gamedev/"/>
-        <id>https://blog.fodi.be/my-videos-on-gamedev/</id>
+        <link href="https://gamedev.fodi.be/my-videos-on-gamedev/"/>
+        <id>https://gamedev.fodi.be/my-videos-on-gamedev/</id>
 
         <updated>2024-03-12T12:06:49+01:00</updated>
             <summary>
@@ -72,9 +72,9 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/rule-of-threes-trijam-256-2/"/>
-        <id>https://blog.fodi.be/rule-of-threes-trijam-256-2/</id>
-        <media:content url="https://blog.fodi.be/media/posts/46/ruleofthrees.png" medium="image" />
+        <link href="https://gamedev.fodi.be/rule-of-threes-trijam-256-2/"/>
+        <id>https://gamedev.fodi.be/rule-of-threes-trijam-256-2/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/46/ruleofthrees.png" medium="image" />
             <category term="Stream"/>
             <category term="Continuing"/>
             <category term="2024"/>
@@ -82,13 +82,13 @@
         <updated>2024-02-12T19:07:12+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/46/ruleofthrees.png" alt="Rule of Threes" />
+                        <img src="https://gamedev.fodi.be/media/posts/46/ruleofthrees.png" alt="Rule of Threes" />
                     Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/46/ruleofthrees.png" class="type:primaryImage" alt="Rule of Threes" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/46/ruleofthrees.png" class="type:primaryImage" alt="Rule of Threes" /></p>
                 <p>Yesterday I did another live stream and made a puzzle game in three hours for Trijam. It's playable, but wonky.</p>
 <p>The jam's theme was "only three" and this time the game's concept came pretty quickly during a post-lunch coffee just a couple hours before I started making it. I wanted to create something that looks a bit like Bejeweled et al (colorful shapes in a grid), but plays more like a sudoku or nonogram puzzle. I like those kinds of "deterministic puzzles", but as I've anticipated, coming up with a proper level generation algorithm is not an easy task (for me at least). So until I have a eureka moment and figure out how to generate levels that can be solved without any ambiguity, the game stays in it's current janky state.</p>
 <p>If you're willing to give it a go despite this, you can find <a href="https://fodi.itch.io/trijam-256" target="_blank" rel="noopener noreferrer">Rule of Threes on tch</a>. I also uploaded the stream archive to <a href="https://www.youtube.com/watch?v=YMfvmv10Vag" target="_blank" rel="noopener noreferrer">YouTube</a> - and yes, it's in Hungarian again. I'm considering doing the next one in English though.</p>
@@ -102,22 +102,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/first-stream-of-the-year/"/>
-        <id>https://blog.fodi.be/first-stream-of-the-year/</id>
-        <media:content url="https://blog.fodi.be/media/posts/44/trijam255.png" medium="image" />
+        <link href="https://gamedev.fodi.be/first-stream-of-the-year/"/>
+        <id>https://gamedev.fodi.be/first-stream-of-the-year/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/44/trijam255.png" medium="image" />
             <category term="Stream"/>
             <category term="Changelog"/>
 
         <updated>2024-02-03T23:37:17+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/44/trijam255.png" alt="Our unfinished and untitled prototype for Trijam #255" />
+                        <img src="https://gamedev.fodi.be/media/posts/44/trijam255.png" alt="Our unfinished and untitled prototype for Trijam #255" />
                     The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/44/trijam255.png" class="type:primaryImage" alt="Our unfinished and untitled prototype for Trijam #255" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/44/trijam255.png" class="type:primaryImage" alt="Our unfinished and untitled prototype for Trijam #255" /></p>
                 <p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>
 <p>Twitch:<br><a href="https://www.twitch.tv/videos/2052004625">https://www.twitch.tv/videos/2052004625</a></p>
 <p>Itch:<br><a href="https://lasermagnet.itch.io/trijam-255">https://lasermagnet.itch.io/trijam-255</a></p>
@@ -130,21 +130,21 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/2023-recap-and-a-new-challenge/"/>
-        <id>https://blog.fodi.be/2023-recap-and-a-new-challenge/</id>
-        <media:content url="https://blog.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
+        <link href="https://gamedev.fodi.be/2023-recap-and-a-new-challenge/"/>
+        <id>https://gamedev.fodi.be/2023-recap-and-a-new-challenge/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
             <category term="Changelog"/>
 
         <updated>2024-01-07T11:24:38+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" alt="" />
                     What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/42/2023-recap.svg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" class="type:primaryImage" alt="" /></p>
                 <div class="post__inner post__entry">
 <p>What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.</p>
 <p>Around the end of January last year <a href="file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/a-brief-intermission-and-a-challenge/index.html">I challenged myself</a> to build 20 video game prototypes in 2023. I only managed to build 8 on my own (some of them with <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a>), so one could say I failed to reach my target.</p>
@@ -162,22 +162,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/magic-pandemic-for-trijam-247/"/>
-        <id>https://blog.fodi.be/magic-pandemic-for-trijam-247/</id>
-        <media:content url="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" medium="image" />
+        <link href="https://gamedev.fodi.be/magic-pandemic-for-trijam-247/"/>
+        <id>https://gamedev.fodi.be/magic-pandemic-for-trijam-247/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" medium="image" />
             <category term="Ended"/>
             <category term="2023"/>
 
         <updated>2023-11-27T11:36:11+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
                     Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, Trijam.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/38/magicpandemic-screenshot.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" class="type:primaryImage" alt="" /></p>
                 <p>Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, <a href="https://itch.io/jam/trijam-247" target="_blank" rel="noopener noreferrer">Trijam</a>.</p>
 <p>I was slightly nervous, but in the end I had a lot of fun and will probably do this sort of thing again. It's not my intention to grow a huge follower base and I currently have zero interest in taking streaming seriously, but I figured it could work as a coping strategy to mitigate some of my ADHD-like symptoms, like postponing fun hobby stuff indefinitely all the time. In the last few months I was checking out <a href="https://itch.io/jams" target="_blank" rel="noopener noreferrer">game jams on Itch</a> almost every weekend, writing little notes and ideas for the ones I found interesting, but I either didn't manage to get started on any of them, or if I did, I lost momentum after a few hours. I'm hoping live streaming could help with that, even if basically no one is watching it.</p>
 <p>I'm not sure it's worth anyone's time, but since it wasn't much additional effort, I put the edited stream up on YouTube. On the off chance you speak Hungarian and would like to check it out, it's <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">right here</a>.</p>
@@ -192,22 +192,22 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/hunjam-2023-tower-offense-2000/"/>
-        <id>https://blog.fodi.be/hunjam-2023-tower-offense-2000/</id>
-        <media:content url="https://blog.fodi.be/media/posts/37/screenshot1.png" medium="image" />
+        <link href="https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/"/>
+        <id>https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/37/screenshot1.png" medium="image" />
             <category term="Ended"/>
             <category term="2023"/>
 
         <updated>2023-10-29T19:01:06+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/37/screenshot1.png" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/37/screenshot1.png" alt="" />
                     Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/37/screenshot1.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/37/screenshot1.png" class="type:primaryImage" alt="" /></p>
                 <p>Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made :)</p>
 <p><a href="https://www.facebook.com/events/2037711149909497/" target="_blank" rel="noopener noreferrer">HunJam 2023</a> was freaking awesome! I might update this post later with a proper post mortem, but right now I'm freaking beat, sitting on the train home, so without further ado, here's what we built this weekend:</p>
 <p>Tower Offense 2000 on Itch: <a href="https://lasermagnet.itch.io/hunjam2023">https://lasermagnet.itch.io/hunjam2023</a></p>
@@ -221,9 +221,9 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/bouncy-block-buster/"/>
-        <id>https://blog.fodi.be/bouncy-block-buster/</id>
-        <media:content url="https://blog.fodi.be/media/posts/36/bbb-itch-cover.png" medium="image" />
+        <link href="https://gamedev.fodi.be/bouncy-block-buster/"/>
+        <id>https://gamedev.fodi.be/bouncy-block-buster/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="Continuing"/>
             <category term="2023"/>
@@ -231,13 +231,13 @@
         <updated>2023-07-31T13:27:46+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/36/bbb-itch-cover.png" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png" alt="" />
                     We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/36/bbb-itch-cover.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png" class="type:primaryImage" alt="" /></p>
                 <p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>
 <p>You can play it <a href="https://lasermagnet.itch.io/icojam-2023" target="_blank" rel="noopener noreferrer">on Itch</a> or <a href="https://play.lasermagnet.com/BBB/" target="_blank" rel="noopener noreferrer">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>
 <p><strong>Update 1:</strong> I made a time-lapse video of the development process and <a href="https://www.youtube.com/watch?v=o56Y4H1mUqs" target="_blank" rel="noopener noreferrer">uploaded it to YouTube</a>. Check it out if that's your thing!</p>
@@ -251,9 +251,9 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/snakeypong/"/>
-        <id>https://blog.fodi.be/snakeypong/</id>
-        <media:content url="https://blog.fodi.be/media/posts/35/snakeypong.png" medium="image" />
+        <link href="https://gamedev.fodi.be/snakeypong/"/>
+        <id>https://gamedev.fodi.be/snakeypong/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/35/snakeypong.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="Continuing"/>
             <category term="2023"/>
@@ -261,13 +261,13 @@
         <updated>2023-07-02T12:43:01+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.fodi.be/media/posts/35/snakeypong.png" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/35/snakeypong.png" alt="" />
                     About a week ago I've unearthed an old doodle (a simple "free angle" snake) and made the food bounce around.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.fodi.be/media/posts/35/snakeypong.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/35/snakeypong.png" class="type:primaryImage" alt="" /></p>
                 <p>About a week ago I've unearthed an old doodle (a simple "free angle" snake) and made the food bounce around.</p>
 <p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>
 <p>Check out where this project goes (usually nowhere, but who knows), <a href="https://fodi.itch.io/snakeypong" target="_blank" rel="noopener noreferrer">try SnakeyPong on Itch!</a></p>
@@ -279,8 +279,8 @@
         <author>
             <name>Fodi</name>
         </author>
-        <link href="https://blog.fodi.be/list-interesting-sounding-combinations/"/>
-        <id>https://blog.fodi.be/list-interesting-sounding-combinations/</id>
+        <link href="https://gamedev.fodi.be/list-interesting-sounding-combinations/"/>
+        <id>https://gamedev.fodi.be/list-interesting-sounding-combinations/</id>
             <category term="Planning phase"/>
             <category term="Lists of ideas"/>
 
