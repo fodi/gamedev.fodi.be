@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/bouncy-block-buster/</loc>
-<lastmod>2023-10-29T19:04:40+01:00</lastmod>
+<lastmod>2024-03-22T12:17:43+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/copterfields/</loc>
-<lastmod>2023-02-11T19:56:09+01:00</lastmod>
+<lastmod>2024-03-22T12:20:57+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/5/coperfields.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -158,7 +158,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/dungeon-bouncer/</loc>
-<lastmod>2023-06-10T11:49:53+02:00</lastmod>
+<lastmod>2024-03-22T12:20:02+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/15/dungeonbouncer.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -174,7 +174,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/</loc>
-<lastmod>2023-11-27T11:32:00+01:00</lastmod>
+<lastmod>2024-03-22T12:17:31+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/37/screenshot1.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -182,7 +182,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/i-did-trijam-for-the-first-time/</loc>
-<lastmod>2023-03-24T06:45:11+01:00</lastmod>
+<lastmod>2024-03-22T12:18:40+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/30/mediocre-container-package.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -209,27 +209,31 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/level-editor-mayhem/</loc>
-<lastmod>2023-02-11T19:56:22+01:00</lastmod>
+<lastmod>2024-03-22T12:21:22+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/3/lem.png</image:loc>
 <image:title><![CDATA[Level Editor Mayhem (working title)]]></image:title>
 </image:image>
 </url>
 <url>
+<loc>https://gamedev.fodi.be/links/</loc>
+<lastmod>2024-03-22T16:50:41+01:00</lastmod>
+</url>
+<url>
 <loc>https://gamedev.fodi.be/list-interesting-sounding-combinations/</loc>
-<lastmod>2023-06-08T08:30:11+02:00</lastmod>
+<lastmod>2024-03-22T12:19:03+01:00</lastmod>
 </url>
 <url>
 <loc>https://gamedev.fodi.be/list-main-themes-for-video-games/</loc>
-<lastmod>2023-06-08T08:30:20+02:00</lastmod>
+<lastmod>2024-03-22T12:21:38+01:00</lastmod>
 </url>
 <url>
 <loc>https://gamedev.fodi.be/list-uncommon-tech-for-video-games/</loc>
-<lastmod>2023-06-08T08:30:41+02:00</lastmod>
+<lastmod>2024-03-22T12:20:27+01:00</lastmod>
 </url>
 <url>
 <loc>https://gamedev.fodi.be/list-video-game-remakes/</loc>
-<lastmod>2023-06-08T08:30:30+02:00</lastmod>
+<lastmod>2024-03-22T12:21:09+01:00</lastmod>
 </url>
 <url>
 <loc>https://gamedev.fodi.be/ludum-dare-53/</loc>
@@ -241,7 +245,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/magic-pandemic-for-trijam-247/</loc>
-<lastmod>2024-02-13T13:32:05+01:00</lastmod>
+<lastmod>2024-03-22T12:17:09+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -249,7 +253,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/</loc>
-<lastmod>2024-03-14T12:34:14+01:00</lastmod>
+<lastmod>2024-03-22T12:09:56+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/48/mmm.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -284,7 +288,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/rule-of-threes-trijam-256-2/</loc>
-<lastmod>2024-03-14T12:09:15+01:00</lastmod>
+<lastmod>2024-03-22T12:16:36+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/46/ruleofthrees.png</image:loc>
 <image:title><![CDATA[Rule of Threes]]></image:title>
@@ -292,7 +296,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/snakeypong/</loc>
-<lastmod>2023-07-31T13:28:16+02:00</lastmod>
+<lastmod>2024-03-22T12:18:20+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/35/snakeypong.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -300,7 +304,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/towerball-working-title/</loc>
-<lastmod>2023-05-27T12:09:29+02:00</lastmod>
+<lastmod>2024-03-22T12:22:41+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/32/TowerBall-EarlyPreview.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -316,7 +320,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/video-hut-shack/</loc>
-<lastmod>2024-03-19T12:37:39+01:00</lastmod>
+<lastmod>2024-03-22T12:19:44+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/17/vhs-main-cover.png</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -324,7 +328,7 @@
 </url>
 <url>
 <loc>https://gamedev.fodi.be/windy-physics/</loc>
-<lastmod>2023-02-11T19:55:46+01:00</lastmod>
+<lastmod>2024-03-22T12:19:30+01:00</lastmod>
 <image:image>
 <image:loc>https://gamedev.fodi.be/media/posts/23/windyphysics-2.png</image:loc>
 <image:title><![CDATA[]]></image:title>

@@ -3,12 +3,79 @@
     <title>Fodi does gamedev</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-03-14T12:34:14+01:00</updated>
+    <updated>2024-03-22T16:50:41+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
+    <entry>
+        <title>Useful links</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://gamedev.fodi.be/links/"/>
+        <id>https://gamedev.fodi.be/links/</id>
+
+        <updated>2024-03-22T12:40:40+01:00</updated>
+            <summary>
+                <![CDATA[
+                    This is essentially a copy of the contents of my "GameDev" bookmarks folder. Until I figure out a better way&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This is essentially a copy of the contents of my "GameDev" bookmarks folder. Until I figure out a better way to organize them, here's a slightly chaotic list.</p>
+<h2>Stuff I read / listen to when I'm not doing </h2>
+<h3><a href="https://www.bscotch.net/podcast" target="_blank" rel="noopener noreferrer">Coffee with Butterscotch</a></h3>
+<p>A long running <strong>gamedev comedy podcast</strong> by Butterscotch Shenanigans. The perfect mix of entertaining and useful, these folks are essentially my role models.</p>
+<h3><a href="https://gameaccessibilityguidelines.com/" target="_blank" rel="noopener noreferrer">Game accessibility guidelines</a></h3>
+<p>A fairly comprehensive guide to inclusive game design.</p>
+<h3><a href="https://ltpf.ramiismail.com/" target="_blank" rel="noopener noreferrer">Levelling The Playing Field</a></h3>
+<p>Rami Ismail's <strong>blog / newsletter</strong> mostly on the <strong>marketing</strong> side of gamedev.</p>
+<h2>Cheat sheets and resources for programmers</h2>
+<h3><a href="https://www.redblobgames.com/" target="_blank" rel="noopener noreferrer">Red Blob Games</a></h3>
+<p>A great collection of <strong>interactive visual explanations of math and algorithms</strong> on procedural generation, pathfinding and a lots of other topics related to game development.</p>
+<h3><a href="https://easings.net/" target="_blank" rel="noopener noreferrer">Easing functions cheat sheet</a></h3>
+<p>A handy visual <strong>guide to easing functions</strong>.</p>
+<h2>Assets</h2>
+<h3><a href="https://99sounds.org/" target="_blank" rel="noopener noreferrer">99Sounds</a></h3>
+<p>Curated collections of free <strong>sound effects</strong>.</p>
+<h3><a href="https://itch.io/game-assets" target="_blank" rel="noopener noreferrer">Itch.io game assets</a></h3>
+<p>Enormous amounts of <strong>audio and visual assets</strong>, some free, some paid.</p>
+<h3><a href="https://kenney.nl/" target="_blank" rel="noopener noreferrer">Kenney</a></h3>
+<p>Also known as "Asset Jesus", Kenney Vleugels is a dutch artist who created a huge amount of high quality <strong>2D, 3D and audio assets</strong> and made them available through this site, all under CC0 license.</p>
+<h3><a href="https://lospec.com/" target="_blank" rel="noopener noreferrer">Lospec</a></h3>
+<p>I'm not a visual artist, so I only use this site to find pleasant <strong>colour palettes</strong> for temporary "programmer art", but it's still awesome. They also have <strong>pixel art tutorials</strong>.</p>
+<h3><a href="https://opengameart.org/" target="_blank" rel="noopener noreferrer">OpenGameArt.org</a></h3>
+<p>Copious amounts of free <strong>audio and visual assets</strong> with various kinds of permissive licenses.</p>
+<h3><a href="https://quaternius.com/" target="_blank" rel="noopener noreferrer">Quaternius</a></h3>
+<p>Not unlike Kenney, Quaternius is a super talented and generous artist specializing in high quality <strong>low-poly 3D assets</strong> made available under a CC0 license.</p>
+<h2>Tools</h2>
+<h3><a href="https://www.eatmy.art/" target="_blank" rel="noopener noreferrer">Arteater</a></h3>
+<p>An awesome <strong>animation tool</strong> for turning hand drawn or painted animations into digital ones. Great for getting kids involved with digital art / gamedev.</p>
+<h3><a href="https://sfbgames.itch.io/chiptone"></a><a href="https://sfbgames.itch.io/chiptone" target="_blank" rel="noopener noreferrer">Chiptone</a></h3>
+<p>An awesome browser based <strong>sound effect generator</strong>. It's very easy to use thanks to the included presets, but it's also very versatile if you want to get your hands dirty.</p>
+<h3><a href="https://www.pmbaty.com/iosbuildenv/">iOS Build Environment for Windows</a></h3>
+<p>A very useful <strong>build tool</strong> for Unity and Cordova projects targeting iOS / iPadOS.</p>
+<h3><a href="https://labbed.net/software/labchirp/" target="_blank" rel="noopener noreferrer">LabChirp</a></h3>
+<p>A downloadable cross-platform <strong>sound effect generator</strong>.</p>
+<h3><a href="https://www.omnicalculator.com/math" target="_blank" rel="noopener noreferrer">Omnicalculator</a></h3>
+<p>A bunch of useful <strong>articles with interactive calculators</strong> if you keep forgetting math and physics equations like me.</p>
+<h2>Useful tools mostly for Construct 3 developers</h2>
+<h3><a href="https://sandbox.babylonjs.com/" target="_blank" rel="noopener noreferrer">Babylon.js sandbox</a></h3>
+<p>An incredibly useful tool for viewing and preparing GLTF/GLB models for use with <a href="https://kindeyegames.itch.io/c3-3dobject-alpha" target="_blank" rel="noopener noreferrer">Mikal's 3D Object plugin</a>.</p>
+<h3><a href="https://mp2.dk/chowdren/#construct" target="_blank" rel="noopener noreferrer">Chowdren</a></h3>
+<p>A 3rd party paid <strong>porting service</strong> utilizing a runtime made in C++ which implements a bunch of Construct 2/3 (and Multimedia Fusion) features. Might be a feasible alternative to the browser based runtime in some cases.</p>
+<h3><a href="https://stmn.itch.io/font2bitmap" target="_blank" rel="noopener noreferrer">Font to sprite font converter</a></h3>
+<p>A great <strong>tool for generating sprite font sheets</strong> and padding data which you can import to your Construct project.</p>
+<h3><a href="https://ondras.github.io/rot.js" target="_blank" rel="noopener noreferrer">ROT.js</a></h3>
+<p>A <strong>JavaScript library</strong> for making traditional <strong>roguelike</strong> development easier. It has features like map generation, pathfinding, et cetera. Can be hooked up with Construct 3 fairly easily.</p>
+<h3><a href="https://github.com/kchapelier/wavefunctioncollapse" target="_blank" rel="noopener noreferrer">WaveFunctionCollapse (JavaScript port)</a></h3>
+<p>A seriously awesome <strong>JavaScript library for procedural generation</strong> based on visual patterns. I used this in our 2021 jam game prototype <a href="https://lasermagnet.itch.io/groundflipper" target="_blank" rel="noopener noreferrer">Groundflipper</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Music Miner Marty (HEJ 2024 Feb jam)</title>
         <author>
@@ -17,6 +84,8 @@
         <link href="https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/"/>
         <id>https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/48/mmm.jpg" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="2024"/>
 
         <updated>2024-03-14T12:08:58+01:00</updated>
             <summary>
@@ -76,7 +145,8 @@
         <id>https://gamedev.fodi.be/rule-of-threes-trijam-256-2/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/46/ruleofthrees.png" medium="image" />
             <category term="Stream"/>
-            <category term="Continuing"/>
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
             <category term="2024"/>
 
         <updated>2024-02-12T19:07:12+01:00</updated>
@@ -106,7 +176,7 @@
         <id>https://gamedev.fodi.be/first-stream-of-the-year/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/44/trijam255.png" medium="image" />
             <category term="Stream"/>
-            <category term="Changelog"/>
+            <category term="Journal"/>
 
         <updated>2024-02-03T23:37:17+01:00</updated>
             <summary>
@@ -133,7 +203,7 @@
         <link href="https://gamedev.fodi.be/2023-recap-and-a-new-challenge/"/>
         <id>https://gamedev.fodi.be/2023-recap-and-a-new-challenge/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
-            <category term="Changelog"/>
+            <category term="Journal"/>
 
         <updated>2024-01-07T11:24:38+01:00</updated>
             <summary>
@@ -165,7 +235,8 @@
         <link href="https://gamedev.fodi.be/magic-pandemic-for-trijam-247/"/>
         <id>https://gamedev.fodi.be/magic-pandemic-for-trijam-247/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" medium="image" />
-            <category term="Ended"/>
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
             <category term="2023"/>
 
         <updated>2023-11-27T11:36:11+01:00</updated>
@@ -195,7 +266,8 @@
         <link href="https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/"/>
         <id>https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/37/screenshot1.png" medium="image" />
-            <category term="Ended"/>
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
             <category term="2023"/>
 
         <updated>2023-10-29T19:01:06+01:00</updated>
@@ -225,7 +297,7 @@
         <id>https://gamedev.fodi.be/bouncy-block-buster/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png" medium="image" />
             <category term="Prototype phase"/>
-            <category term="Continuing"/>
+            <category term="Projects"/>
             <category term="2023"/>
 
         <updated>2023-07-31T13:27:46+02:00</updated>
@@ -247,7 +319,7 @@
         </content>
     </entry>
     <entry>
-        <title>SnakeyPong</title>
+        <title>SnakeyPong (doodle)</title>
         <author>
             <name>Fodi</name>
         </author>
@@ -255,7 +327,7 @@
         <id>https://gamedev.fodi.be/snakeypong/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/35/snakeypong.png" medium="image" />
             <category term="Prototype phase"/>
-            <category term="Continuing"/>
+            <category term="Projects"/>
             <category term="2023"/>
 
         <updated>2023-07-02T12:43:01+02:00</updated>
@@ -271,41 +343,6 @@
                 <p>About a week ago I've unearthed an old doodle (a simple "free angle" snake) and made the food bounce around.</p>
 <p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>
 <p>Check out where this project goes (usually nowhere, but who knows), <a href="https://fodi.itch.io/snakeypong" target="_blank" rel="noopener noreferrer">try SnakeyPong on Itch!</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>[List] Twists and combinations</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://gamedev.fodi.be/list-interesting-sounding-combinations/"/>
-        <id>https://gamedev.fodi.be/list-interesting-sounding-combinations/</id>
-            <category term="Planning phase"/>
-            <category term="Lists of ideas"/>
-
-        <updated>2023-06-08T08:08:34+02:00</updated>
-            <summary>
-                <![CDATA[
-                    No details, just one liners here. Airmech + Don't Starve: an open world exploration / crafting / survival game where&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>No details, just one liners here.</p>
-<ul>
-<li>Airmech + Don't Starve: an open world exploration / crafting / survival game where you can switch between ground and air travel at any time</li>
-<li>Mahjong with polyominos: match shapes and/or symbols</li>
-<li>Unrailed + Pipe Dream with polyominos: place polyomino shaped rails quickly so the train does not derail, can't choose the shape, but can place anywhere in any rotation</li>
-<li>Zuma (or something similar) with multiplayer: either PvP or co-op</li>
-<li>Snake + Osmos: small snakes are eaten by big ones</li>
-<li>Crimsonland, but you can teleport out of a sticky situation (press a button, quickly choose new location within time limit and radius)
-<ul>
-<li>additional twist: clone player instead of teleporting and control both of them (until one of them dies)</li>
-</ul>
-</li>
-<li>Katamari, but 2D: either side view or top-down, possibly featuring a bunch of googly eyes</li>
-</ul>
             ]]>
         </content>
     </entry>
