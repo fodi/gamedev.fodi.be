@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://gamedev.fodi.be/tips-for-c3-developers/",
+            "url": "https://gamedev.fodi.be/tips-for-c3-developers/",
+            "title": "Tips for Construct 3 developers",
+            "summary": "I came up with / yoinked some practices I usually follow when working on Construct 3 projects. Warning: opinionated content.",
+            "content_html": "<p>I came up with / yoinked some practices I usually follow when working on Construct 3 projects. Warning: opinionated content. I'm not saying these are \"best practices\" in general, but maybe other C3 gamedevs might some of them useful too, so here goes.</p>\n<h3>Sheet organization</h3>\n<p>I usually have 4 folders in every project: <strong>Actions</strong>, <strong>Events</strong>, <strong>Functions</strong> and <strong>Values</strong>.</p>\n<p>The <strong>Actions </strong>folder contains sheets that have custom actions for a single object type or family. Sheets are named after the relevant object type or family, prefixed with the letter \"a\", eg. <strong>aPlayers</strong>, <strong>aEnemies</strong>, <strong>aPortals</strong>.</p>\n<p>The <strong>Events </strong>folder contains sheets that only have certain kind of actual events (conditions + actions), with names prefixed with the letter \"e\". Some examples: <strong>eCreated</strong> (containing only \"on X created\" events), <strong>eCollisions</strong> (with only \"on collision with\" and \"is overlapping\" events), <strong>eInput</strong> (only Keyboard / Gamepad / Mouse / Touch events), <strong>eMovement</strong> (only events with conditions of movement behaviours), et cetera.</p>\n<p>The <strong>Functions </strong>folder contains sheets that only have functions in them, their names are prefixed with the letter \"f\". Some examples: <strong>fUI</strong> (functions that update the user interface), <strong>fLevel</strong> (level initialization, ending, etc), <strong>fUtilities</strong> (full screen toggler function, various value returning math functions, etc), et cetera.</p>\n<p>The <strong>Values</strong> folder contains exactly 3 sheets that only have global variables or constants in them: <strong>vState</strong> for global game state related variables, <strong>vConstants</strong> for global constants (I prefix those with \"C_\") and <strong>vMacros</strong> (more on that later).</p>\n<p>A single event sheet at the root level named <strong>Main</strong> (sometimes <strong>Level</strong>) that includes all sheets in the <strong>Events folder</strong> (there's no need to include sheets from the other folders, custom actions, functions and global variables/constants are always available) and nothing else. This sheet is set as the \"Event sheet\" on all level layouts. For menu screens I usually use a separate layout with its own event sheet.</p>\n<p>I suffix all sheets with emojis (pro tip for Windows devs: press Win + comma to open the emoji panel), so I can spot them quicker when I have a metric crapton of tabs open.</p>\n<p class=\"msg msg--highlight \"><strong>Tangential sidenote</strong><br>Using emojis in names of C3 primitives, and project folders instead of single file (.c3p) projects means that you'll have file names on your filesystem that have emojis in them. This is an issue if you store them in Dropbox, as it will refuse to sync those files. Because of that, I went back to saving my projects in .c3p files and storing those in Dropbox. Dropbox saved my bacon a few times when I've accidentally saved or overwritten a project, as it keeps previous versions of files (as long as it's able to sync them to their server) which you can restore.</p>\n<h3>Using \"macros\"</h3>\n<p>I never use literal strings in conditions/actions when referencing animation names, layer names, effects, tags and such: instead, I use \"macros\", which are just constants I define in my vMacros sheet. Example: if I have a sprite that has an \"Idle\" and \"Walking\" animation, I create constants named \"ANIM_Idle\" and \"ANIM_Walking\" in the \"vMacros\" sheet with the values \"Idle\" and \"Walking\" respectively, and use those in conditions and actions instead of the string literals \"Idle\" and \"Walking\". This has a couple of benefits: you can use \"Find all references\" on the macro to find its occurences; or if you decide you want to rename \"Walking\" to \"Running\", you only have to change it in two places: in the animation editor and the \"vMacros\" sheet. I almost never need use the search &amp; replace function because of this.</p>\n<h3>Picky blindspots (ouch)</h3>\n<p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>\n<ul>\n<li>If you're picking objects and want to pick a single object, make sure that the conditions only pick one. If unsure, add a \"pick nth instance\" condition with the parameter \"0\".</li>\n<li>If you're storing UIDs in (instance) variables, make their default value is a negative number (eg. -1) and not 0, since 0 could be a valid UID since it's zero indexed. When you clear the variable, also reset it to a negative number.</li>\n<li>Don't forget that the timer behaviour's \"On timer\" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra \"For each\" to run actions on all of them. <a href=\"https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer\" target=\"_blank\" rel=\"noopener noreferrer\">This is mentioned in a big yellow warning box in the docs by the way.</a></li>\n</ul>",
+            "image": "https://gamedev.fodi.be/media/posts/50/construct-3-organization-tips.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-04-04T16:56:59+02:00",
+            "date_modified": "2024-04-04T17:53:59+02:00"
+        },
+        {
             "id": "https://gamedev.fodi.be/links/",
             "url": "https://gamedev.fodi.be/links/",
             "title": "Useful links",
@@ -38,7 +53,7 @@
                    "2024"
             ],
             "date_published": "2024-03-14T12:08:58+01:00",
-            "date_modified": "2024-03-22T12:09:56+01:00"
+            "date_modified": "2024-04-04T17:21:31+02:00"
         },
         {
             "id": "https://gamedev.fodi.be/my-videos-on-gamedev/",
@@ -159,24 +174,6 @@
             ],
             "date_published": "2023-07-31T13:27:46+02:00",
             "date_modified": "2024-03-22T12:17:43+01:00"
-        },
-        {
-            "id": "https://gamedev.fodi.be/snakeypong/",
-            "url": "https://gamedev.fodi.be/snakeypong/",
-            "title": "SnakeyPong (doodle)",
-            "summary": "About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.",
-            "content_html": "<p>About a week ago I've unearthed an old doodle (a simple \"free angle\" snake) and made the food bounce around.</p>\n<p>You control a snake with the keyboard (press A / D) or the touch screen (tap the left / right side) and you have to pick up the food which bounces off the walls and the snake as well. I have a bunch of ideas to try out, but it's already fairly fun, although it's a bit of a performance hog at the moment.</p>\n<p>Check out where this project goes (usually nowhere, but who knows), <a href=\"https://fodi.itch.io/snakeypong\" target=\"_blank\" rel=\"noopener noreferrer\">try SnakeyPong on Itch!</a></p>",
-            "image": "https://gamedev.fodi.be/media/posts/35/snakeypong.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Prototype phase",
-                   "Projects",
-                   "2023"
-            ],
-            "date_published": "2023-07-02T12:43:01+02:00",
-            "date_modified": "2024-03-22T12:18:20+01:00"
         }
     ]
 }
