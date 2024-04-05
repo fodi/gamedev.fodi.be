@@ -3,7 +3,7 @@
     <title>Fodi does gamedev</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-04-05T09:10:43+02:00</updated>
+    <updated>2024-04-05T09:25:12+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -45,6 +45,11 @@
 <li>You get autocompletion: you just start typing the name of the constant wherever you want to use it's value in a condition or action and you don't have to worry about typos either.</li>
 <li>You can use "Find all references" on the macro to find its occourences</li>
 <li>I you decide you want to <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_blank" rel="noopener noreferrer">rename</a> "Walking" to "Running", you only have to make the change in two places: in the animation editor and the global constant. I almost never need use the search &amp; replace function because of this.</li>
+</ul>
+<p>I also use three special macros which have no prefixes:</p>
+<ul>
+<li>NOTHING, with the numeric value of -1: whenever I have variables that store UIDs and want to clear them, I set their values to NOTHING. If I want to check if they have been assigned, I compare them to NOTHING.</li>
+<li>YES and NO with the respective numeric values of 1 and 0. This stems from the fact that you can't pass a variable or calculated value to a function or custom action with a boolean parameter: when calling it, you have to use a checkbox to either pass true or false, you cannot write an expression or reference a variable. Because of this I refrain from using boolean parameters in functions and custom actions, instead I use numbers just in case I ever need to do the aforementioned. And when I don't, I pass the YES or NO macro.</li>
 </ul>
 <h3>Picky blindspots (sorry)</h3>
 <p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
