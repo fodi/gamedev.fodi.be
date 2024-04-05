@@ -3,7 +3,7 @@
     <title>Fodi does gamedev</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-04-05T09:25:12+02:00</updated>
+    <updated>2024-04-05T14:32:25+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -138,6 +138,7 @@
         <id>https://gamedev.fodi.be/music-miner-marty-hej-2024-feb-jam/</id>
         <media:content url="https://gamedev.fodi.be/media/posts/48/mmm.jpg" medium="image" />
             <category term="Prototype phase"/>
+            <category term="Projects"/>
             <category term="2024"/>
 
         <updated>2024-03-14T12:08:58+01:00</updated>
