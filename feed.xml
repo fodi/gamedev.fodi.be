@@ -3,7 +3,7 @@
     <title>Fodi does gamedev</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-04-04T17:53:59+02:00</updated>
+    <updated>2024-04-05T08:42:59+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -39,13 +39,12 @@
 <p>I suffix all sheets with emojis (pro tip for Windows devs: press Win + comma to open the emoji panel), so I can spot them quicker when I have a metric crapton of tabs open.</p>
 <p class="msg msg--highlight "><strong>Tangential sidenote</strong><br>Using emojis in names of C3 primitives, and project folders instead of single file (.c3p) projects means that you'll have file names on your filesystem that have emojis in them. This is an issue if you store them in Dropbox, as it will refuse to sync those files. Because of that, I went back to saving my projects in .c3p files and storing those in Dropbox. Dropbox saved my bacon a few times when I've accidentally saved or overwritten a project, as it keeps previous versions of files (as long as it's able to sync them to their server) which you can restore.</p>
 <h3>Using "macros"</h3>
-<p>I never use literal strings in conditions/actions when referencing animation names, layer names, effects, tags and such: instead, I use "macros", which are just constants I define in my vMacros sheet. Example: if I have a sprite that has an "Idle" and "Walking" animation, I create constants named "ANIM_Idle" and "ANIM_Walking" in the "vMacros" sheet with the values "Idle" and "Walking" respectively, and use those in conditions and actions instead of the string literals "Idle" and "Walking". This has a couple of benefits: you can use "Find all references" on the macro to find its occurences; or if you decide you want to rename "Walking" to "Running", you only have to change it in two places: in the animation editor and the "vMacros" sheet. I almost never need use the search &amp; replace function because of this.</p>
-<h3>Picky blindspots (ouch)</h3>
-<p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
+<p>I never use literal strings in conditions/actions when referencing animation names, layer names, effects, tags and such: instead, I use "macros", which are just constants I define in my vMacros sheet. Example: if I have a sprite that has an "Idle" and "Walking" animation, I create constants named "ANIM_Idle" and "ANIM_Walking" in the "vMacros" sheet with the values "Idle" and "Walking" respectively, and use those in conditions and actions instead of the string literals "Idle" and "Walking".</p>
+<p>This has a couple of benefits:</p>
 <ul>
-<li>If you're picking objects and want to pick a single object, make sure that the conditions only pick one. If unsure, add a "pick nth instance" condition with the parameter "0".</li>
-<li>If you're storing UIDs in (instance) variables, make their default value is a negative number (eg. -1) and not 0, since 0 could be a valid UID since it's zero indexed. When you clear the variable, also reset it to a negative number.</li>
-<li>Don't forget that the timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
+<li>You get proper autocompletion: you just start typing the name of the constant wherever you want to use it's value in a condition or action and you don't have to worry about typos either.</li>
+<li>You can use "Find all references" on the macro to find its occurences</li>
+<li>I you decide you want to <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_blank" rel="noopener noreferrer">rename</a> "Walking" to "Running", you only have to make the change in two places: in the animation editor and the global constant. I almost never need use the search &amp; replace function because of this.</li>
 </ul>
             ]]>
         </content>
