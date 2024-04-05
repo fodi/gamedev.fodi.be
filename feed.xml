@@ -3,7 +3,7 @@
     <title>Fodi does gamedev</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-04-05T08:55:00+02:00</updated>
+    <updated>2024-04-05T09:10:43+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -46,12 +46,13 @@
 <li>You can use "Find all references" on the macro to find its occourences</li>
 <li>I you decide you want to <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_blank" rel="noopener noreferrer">rename</a> "Walking" to "Running", you only have to make the change in two places: in the animation editor and the global constant. I almost never need use the search &amp; replace function because of this.</li>
 </ul>
-<h3>Picky blindspots (ouch)</h3>
+<h3>Picky blindspots (sorry)</h3>
 <p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
 <ul>
-<li>If you're picking objects and want to pick a single object, make sure that the conditions only pick one. If unsure, add a "pick nth instance" condition with the parameter "0".</li>
+<li>If you only want to pick a single object, make sure that the conditions only pick one. If unsure, add a "pick nth instance" condition with the parameter "0".</li>
 <li>If you're storing UIDs in (instance) variables, make their default value is a negative number (eg. -1) and not 0, since 0 could be a valid UID since it's zero indexed. When you clear the variable, also reset it to a negative number.</li>
 <li>Don't forget that the timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
+<li>Functions and custom actions have a similarly named option: "copy picked" and "copy all picked". If you have a custom action for an object type or family "X" and call it from an event that already picked some instances of "X", those will be passed on to the custom action even if you don't check "copy all picked" (which is for passing other non-"X" instances to the custom action).</li>
 </ul>
             ]]>
         </content>
