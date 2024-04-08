@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Fodi does gamedev",
+    "title": "Fodi makes games",
     "description": "",
     "home_page_url": "https://gamedev.fodi.be",
     "feed_url": "https://gamedev.fodi.be/feed.json",
@@ -9,6 +9,24 @@
         "name": "Fodi"
     },
     "items": [
+        {
+            "id": "https://gamedev.fodi.be/attractaball-hej-2024-march-jam/",
+            "url": "https://gamedev.fodi.be/attractaball-hej-2024-march-jam/",
+            "title": "Attractaball (HEJ 2024 March jam)",
+            "summary": "Our second entry for the Hungarian \"one-game-a-month\" jam bears a passing resemblance to a previous project of mine, Windy Physics.",
+            "content_html": "<p>Our second entry for the Hungarian \"one-game-a-month\" jam bears a passing resemblance to a previous project of mine, Windy Physics. But this time, you are the wind! Sort of.</p>\n<p>In this action platformer (with minor puzzle elements) you (singular... OR plural!) control a whirl (wheel?) of magnetic (magic?) energy, that collides with most things, but not with the small googly eyed balls that spawn on every level. Your task is to guide the little ones to exit portals; sometimes just one, sometimes a whole school of them.</p>\n<p>One of the themes for the jam was \"Rube Goldberg machine\", which we contemplated using at first, but then we abandoned the idea of making something along the lines of The Incredible Machine and shifted towards the second theme, \"weight/crowd\". As in a crowd of bouncy balls with different weights (blue ones are heavier and more stiff, pink ones are lighter and a lot more bouncy).</p>\n<p>The jam version has no touch input support, so you're going to need a trusty mouse and/or a gamepad(s; did I mention it has co-operative multiplayer for up to 3 people?) to control this one, although it's possible that post-jam updates might add touch controls. But at first we want to add some more levels and a few more mechanics; so stay tuned.</p>\n<p>You can find Attractaball on Itch. Don't forget to switch to full screen mode (by pressing F) if you are using mouse input! I kinda forgot to mention that in-game... :)</p>",
+            "image": "https://gamedev.fodi.be/media/posts/51/attractaball.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "Projects",
+                   "2024"
+            ],
+            "date_published": "2024-04-08T17:48:41+02:00",
+            "date_modified": "2024-04-08T21:58:46+02:00"
+        },
         {
             "id": "https://gamedev.fodi.be/tips-for-c3-developers/",
             "url": "https://gamedev.fodi.be/tips-for-c3-developers/",
@@ -22,7 +40,7 @@
             "tags": [
             ],
             "date_published": "2024-04-04T16:56:59+02:00",
-            "date_modified": "2024-04-05T09:25:12+02:00"
+            "date_modified": "2024-04-08T17:48:47+02:00"
         },
         {
             "id": "https://gamedev.fodi.be/links/",
@@ -157,24 +175,6 @@
             ],
             "date_published": "2023-10-29T19:01:06+01:00",
             "date_modified": "2024-03-22T12:17:31+01:00"
-        },
-        {
-            "id": "https://gamedev.fodi.be/bouncy-block-buster/",
-            "url": "https://gamedev.fodi.be/bouncy-block-buster/",
-            "title": "Bouncy Block Buster",
-            "summary": "We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.",
-            "content_html": "<p>We participated in a game jam with Tibor this weekend, made a precision / physics puzzle heavily inspired by BBTAN.</p>\n<p>You can play it <a href=\"https://lasermagnet.itch.io/icojam-2023\" target=\"_blank\" rel=\"noopener noreferrer\">on Itch</a> or <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">on LaserMagnet.com</a> (use the latter if you want to add it to your home screen). We have tons more ideas on how to proceed, hopefully we won't abandon this project anytime soon :)</p>\n<p><strong>Update 1:</strong> I made a time-lapse video of the development process and <a href=\"https://www.youtube.com/watch?v=o56Y4H1mUqs\" target=\"_blank\" rel=\"noopener noreferrer\">uploaded it to YouTube</a>. Check it out if that's your thing!</p>\n<div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/o56Y4H1mUqs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n<p>Also, I fixed a couple of bugs, the post-jam version (1.0.9) can be found <a href=\"https://play.lasermagnet.com/BBB/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>",
-            "image": "https://gamedev.fodi.be/media/posts/36/bbb-itch-cover.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Prototype phase",
-                   "Projects",
-                   "2023"
-            ],
-            "date_published": "2023-07-31T13:27:46+02:00",
-            "date_modified": "2024-03-22T12:17:43+01:00"
         }
     ]
 }
