@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-04-08T21:58:46+02:00</updated>
+    <updated>2024-04-09T13:47:03+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -67,7 +67,7 @@
 <p>The <strong>Values</strong> folder contains exactly 3 sheets that only have global variables or constants in them: <strong>vState</strong> for global game state related variables, <strong>vConstants</strong> for global constants (I prefix those with "C_") and <strong>vMacros</strong> (more on that later).</p>
 <p>A single event sheet at the root level named <strong>Main</strong> (sometimes <strong>Level</strong>) that includes all sheets in the <strong>Events folder</strong> (there's no need to include sheets from the other folders, custom actions, functions and global variables/constants are always available) and nothing else. This sheet is set as the "Event sheet" on all level layouts. For menu screens I usually use a separate layout with its own event sheet.</p>
 <p>I suffix all sheets with emojis (pro tip for Windows devs: press Win + comma to open the emoji panel), so I can spot them quicker when I have a metric crapton of tabs open.</p>
-<p class="msg msg--highlight "><strong>Tangential sidenote</strong><br>Using emojis in names of C3 primitives, and project folders instead of single file (.c3p) projects means that you'll have file names on your filesystem that have emojis in them. This is an issue if you store them in Dropbox, as it will refuse to sync those files. Because of that, I went back to saving my projects in .c3p files and storing those in Dropbox. Dropbox saved my bacon a few times when I've accidentally saved or overwritten a project, as it keeps previous versions of files (as long as it's able to sync them to their server) which you can restore.</p>
+<p class="msg msg--highlight "><strong>Tangential sidenote</strong><br>Using emojis in names of C3 primitives, and project folders instead of single file (.c3p) projects means that you'll have file names on your filesystem that have emojis in them. NTFS on Windows 10 seems to work fine, but your mileage might vary on Linux or Mac. You might also have issues if you store project folders in Dropbox, as it will refuse to sync those files. Because of that, I went back to saving my projects in .c3p files and storing those in Dropbox. Dropbox saved my bacon a few times when I've accidentally saved or overwritten a project, as it keeps previous versions of files (as long as it's able to sync them to their server) which you can restore.</p>
 <h3>Using "macros"</h3>
 <p>I never use literal strings in conditions/actions when referencing animation names, layer names, effects, tags and such: instead, I use "macros", which are just constants I define in my vMacros sheet. Example: if I have a sprite that has an "Idle" and "Walking" animation, I create constants named "ANIM_Idle" and "ANIM_Walking" in the "vMacros" sheet with the values "Idle" and "Walking" respectively, and use those in conditions and actions instead of the string literals "Idle" and "Walking".</p>
 <p>This has a couple of benefits:</p>
