@@ -10,6 +10,24 @@
     },
     "items": [
         {
+            "id": "https://gamedev.fodi.be/untitled-digging-game-trijam-267/",
+            "url": "https://gamedev.fodi.be/untitled-digging-game-trijam-267/",
+            "title": "Untitled Digging Game (TriJam #267)",
+            "summary": "<p>Hello, and welcome back to the latest episode of How (not) to TriJam with your host: me.</p>\n",
+            "content_html": "<p>Hello, and welcome back to the latest episode of How (not) to TriJam with your host: me.</p>\n\n<p>I spent the last weekend of April in decision fatigue land. I wanted make a short jam game, so I did the usual thing on Saturday: I went through the currently running <a href=\"https://itch.io/jams\" target=\"_blank\" rel=\"noopener noreferrer\">jams on Itch.io</a> looking for ones with interesting themes / restrictions and started ideation. By afternoon I was sure that I wasn't going to start actual development, so I figured maybe collecting some assets will help me get started on Sunday.</p>\n<p>It didn't. I couldn't decide on what to make and ended up watching <a href=\"https://www.twitch.tv/2nerdynerds\">2NerdyNerds on Twitch</a> instead (which is my absolute favourite gamedev stream by the way, check them out!). A fun time, but I really wasn't happy about \"skipping gamedev practice\".</p>\n<p>On Monday I woke up around 6 AM and immediately decided I'm going to fix things. I quickly went through my morning routine, made a todo list and cycled to the office with the intention of making a \"last minute\" entry for TriJam, since the deadline is always on Monday at 11 AM. A little after 8 AM I started streaming and did this:</p>\n<p><a href=\"https://www.youtube.com/watch?v=mTdutcB35js\"><div class=\"post__iframe\"><iframe loading=\"lazy\" width=\"560\" height=\"315\" src=\"https://www.youtube-nocookie.com/embed/mTdutcB35js\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\"></iframe></div></a></p>\n<p>The main lesson learned: don't try to innovate if you only have 3 hours to make a game from scratch 😄. Mixing tile-based movement with physics (with no previous relevant experience) was way too ambitious, so by the time I got most features working I only had a few minutes to do level design, which is suboptimal to say the least.</p>\n<p>Still, I can call it a prototype I guess, so ka-ching, I'm incrementing the game counter for <a href=\"https://gamedev.fodi.be/2023-recap-and-a-new-challenge/\">my 2024 challenge</a> with <a href=\"https://fodi.itch.io/trijam-267\" target=\"_blank\" rel=\"noopener noreferrer\">Untitled Digging Game</a>. It's buggy, it's super short, but I learned new things while making it and hopefully I'm getting better at streaming in English too.</p>\n<p>I highly recommend <a href=\"https://trijam.itch.io/\" target=\"_blank\" rel=\"noopener noreferrer\">TriJam</a> to any fellow game developers, it's a hoot, it's on every weekend and the 3-hour limit is more of a recommendation anyway - unless you are literally starting 3 hours before the deadline like I did this time 😁.</p>",
+            "image": "https://gamedev.fodi.be/media/posts/52/udg-2.png",
+            "author": {
+                "name": "Fodi"
+            },
+            "tags": [
+                   "Prototype phase",
+                   "Projects",
+                   "2024"
+            ],
+            "date_published": "2024-05-09T15:24:04+02:00",
+            "date_modified": "2024-05-09T16:56:55+02:00"
+        },
+        {
             "id": "https://gamedev.fodi.be/attractaball-hej-2024-march-jam/",
             "url": "https://gamedev.fodi.be/attractaball-hej-2024-march-jam/",
             "title": "Attractaball (HEJ 2024 March jam)",
@@ -25,7 +43,7 @@
                    "2024"
             ],
             "date_published": "2024-04-08T17:48:41+02:00",
-            "date_modified": "2024-04-08T21:58:46+02:00"
+            "date_modified": "2024-05-09T15:24:09+02:00"
         },
         {
             "id": "https://gamedev.fodi.be/tips-for-c3-developers/",
@@ -157,24 +175,6 @@
             ],
             "date_published": "2023-11-27T11:36:11+01:00",
             "date_modified": "2024-03-22T12:17:09+01:00"
-        },
-        {
-            "id": "https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/",
-            "url": "https://gamedev.fodi.be/hunjam-2023-tower-offense-2000/",
-            "title": "HunJam 2023: Tower Offense 2000",
-            "summary": "Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made&hellip;",
-            "content_html": "<p>Tibor and I attended our first ever offline game jam this weekend and we're quite happy with what we made :)</p>\n<p><a href=\"https://www.facebook.com/events/2037711149909497/\" target=\"_blank\" rel=\"noopener noreferrer\">HunJam 2023</a> was freaking awesome! I might update this post later with a proper post mortem, but right now I'm freaking beat, sitting on the train home, so without further ado, here's what we built this weekend:</p>\n<p>Tower Offense 2000 on Itch: <a href=\"https://lasermagnet.itch.io/hunjam2023\">https://lasermagnet.itch.io/hunjam2023</a></p>\n<p>Or you can also play it here: <a href=\"https://play.lasermagnet.com/HunJam2023/\">https://play.lasermagnet.com/HunJam2023/</a></p>\n<p><strong>Update: turns out <a href=\"https://www.facebook.com/permalink.php?story_fbid=pfbid02t4bbHG2JPeF9BKMJjtqFmiCAyS2izfXGGoPidMCbQ7uKqusuGi1AZ1s38TwtjjZel&amp;id=61550812517788\" target=\"_blank\" rel=\"noopener noreferrer\">the jam judges liked what we cooked up</a> :) we are stoked!</strong></p>",
-            "image": "https://gamedev.fodi.be/media/posts/37/screenshot1.png",
-            "author": {
-                "name": "Fodi"
-            },
-            "tags": [
-                   "Prototype phase",
-                   "Projects",
-                   "2023"
-            ],
-            "date_published": "2023-10-29T19:01:06+01:00",
-            "date_modified": "2024-03-22T12:17:31+01:00"
         }
     ]
 }
