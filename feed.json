@@ -96,15 +96,16 @@
             "id": "https://gamedev.fodi.be/my-videos-on-gamedev/",
             "url": "https://gamedev.fodi.be/my-videos-on-gamedev/",
             "title": "My videos on gamedev",
-            "summary": "For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development&hellip;",
-            "content_html": "<p>For convenience, here's a list of all my gamedev-related videos in reverse chronological order. Archived streams, demos and gameplays, development time-lapses, et cetera.</p>\n<h2>2024</h2>\n<p><a href=\"https://www.youtube.com/watch?v=gr_IzilGUKQ\" target=\"_blank\" rel=\"noopener noreferrer\">Music Miner Marty (jam version) gameplay</a></p>\n<p><a href=\"https://www.youtube.com/watch?v=YMfvmv10Vag\" target=\"_blank\" rel=\"noopener noreferrer\">Rule of Threes development stream (in Hungarian)</a></p>\n<h2>2023</h2>\n<p><a href=\"https://www.youtube.com/watch?v=ak8LVGw3EEc\" target=\"_blank\" rel=\"noopener noreferrer\">Magic Pandemic development stream (in Hungarian)</a></p>\n<p><a href=\"https://www.youtube.com/watch?v=o56Y4H1mUqs\" target=\"_blank\" rel=\"noopener noreferrer\">Bouncy Block Buster development time-lapse</a></p>\n<h2>2022</h2>\n<p><a href=\"https://www.youtube.com/watch?v=FpMWSso46R0\" target=\"_blank\" rel=\"noopener noreferrer\">AruControl for Construct 3 (free template) demo</a></p>\n<p> </p>",
+            "summary": "I made a playlist of all my gamedev-related videos in reverse chronological order. Archived streams, demos, gameplays, time-lapses, et cetera.",
+            "content_html": "<p>I made <a href=\"https://www.youtube.com/playlist?list=PLtv4iUz9fIr3rmIAZ08j0aycTXflSI_e2\" target=\"_blank\" rel=\"noopener noreferrer\">a playlist of all my gamedev-related videos</a> in reverse chronological order. Archived streams, demos, gameplays, time-lapses, et cetera.</p>",
             "author": {
                 "name": "Fodi"
             },
             "tags": [
+                   "Journal"
             ],
             "date_published": "2024-03-12T12:06:49+01:00",
-            "date_modified": "2024-03-12T13:25:40+01:00"
+            "date_modified": "2024-05-09T17:28:40+02:00"
         },
         {
             "id": "https://gamedev.fodi.be/rule-of-threes-trijam-256-2/",
