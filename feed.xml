@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-05-09T17:28:40+02:00</updated>
+    <updated>2024-05-09T18:08:02+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -16,7 +16,7 @@
         </author>
         <link href="https://gamedev.fodi.be/untitled-digging-game-trijam-267/"/>
         <id>https://gamedev.fodi.be/untitled-digging-game-trijam-267/</id>
-        <media:content url="https://gamedev.fodi.be/media/posts/52/udg-2.png" medium="image" />
+        <media:content url="https://gamedev.fodi.be/media/posts/52/udg2.png" medium="image" />
             <category term="Prototype phase"/>
             <category term="Projects"/>
             <category term="2024"/>
@@ -24,14 +24,14 @@
         <updated>2024-05-09T15:24:04+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://gamedev.fodi.be/media/posts/52/udg-2.png" alt="" />
+                        <img src="https://gamedev.fodi.be/media/posts/52/udg2.png" alt="" />
                     <p>Hello, and welcome back to the latest episode of How (not) to TriJam with your host: me.</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://gamedev.fodi.be/media/posts/52/udg-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://gamedev.fodi.be/media/posts/52/udg2.png" class="type:primaryImage" alt="" /></p>
                 <p>Hello, and welcome back to the latest episode of How (not) to TriJam with your host: me.</p>
 
 <p>I spent the last weekend of April in decision fatigue land. I wanted make a short jam game, so I did the usual thing on Saturday: I went through the currently running <a href="https://itch.io/jams" target="_blank" rel="noopener noreferrer">jams on Itch.io</a> looking for ones with interesting themes / restrictions and started ideation. By afternoon I was sure that I wasn't going to start actual development, so I figured maybe collecting some assets will help me get started on Sunday.</p>
