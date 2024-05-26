@@ -3,12 +3,52 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-05-11T19:57:16+02:00</updated>
+    <updated>2024-05-26T23:05:50+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
+    <entry>
+        <title>reCoupage (HEJ 2024 April jam)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://gamedev.fodi.be/recoupage-hej-2024-march-jam/"/>
+        <id>https://gamedev.fodi.be/recoupage-hej-2024-march-jam/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/53/recoupage.jpg" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
+            <category term="2024"/>
+
+        <updated>2024-05-23T18:41:30+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://gamedev.fodi.be/media/posts/53/recoupage.jpg" alt="" />
+                    <p>Our third attempt at HEJ jam was a tiling puzzle game based on famous paintings (that explode!).</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://gamedev.fodi.be/media/posts/53/recoupage.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Our third attempt at HEJ jam was a tiling puzzle game based on famous paintings (that explode!).</p>
+
+<p>A few days before starting the project I did some ground work and tested a few open source JavaScript libraries that I needed to integrate: one for pixel-by-pixel comparison of images (so the game can detect when the player has successfully restored the original painting and can also show a percentage of how close they are at any moment), and one for rectangular bin packing (so the shapes making up the painting could "explode" and move to random positions inside a designated container without overlapping). The "winning" libraries were <a href="https://github.com/mapbox/pixelmatch/" target="_blank" rel="noopener noreferrer">Pixelmatch</a> and <a href="https://github.com/soimy/maxrects-packer" target="_blank" rel="noopener noreferrer">Max Rects Packer</a> respectively, they were both super simple to work with (kudos!). I even made a basic Construct 3 template utilizing Pixelmatch - if anyone is interested, <a href="https://github.com/fodi/construct-3-projects/tree/main/projectfolders" target="_blank" rel="noopener noreferrer">it's available on my GitHub</a>.</p>
+<p>Still cutting it relatively close to the deadline, I started prototyping reCoupage at around 4 PM on the 1st of May, 6 days before the deadline. It was a super fun and productive first session and at 1AM (yep, flow happened) the proof of concept version was done: it had one puzzle based on a constructivist painting by Sándor Bortynik. It looked like this (in the "exploded" state):</p>
+<figure class="post__image"><img loading="lazy"  src="https://gamedev.fodi.be/media/posts/53/recoupage-day1.png" alt="" width="1920" height="1080" sizes="(max-width: 48em) 100vw, 768px" srcset="https://gamedev.fodi.be/media/posts/53/responsive/recoupage-day1-xs.png 300w ,https://gamedev.fodi.be/media/posts/53/responsive/recoupage-day1-sm.png 480w ,https://gamedev.fodi.be/media/posts/53/responsive/recoupage-day1-md.png 768w"></figure>
+<p>The player's task is to move all pieces back to the canvas by dragging them with the mouse and rotating them with right click. To facilitate that, all shapes snap to a fixed grid and rotate in 30 degree angles. For reference, there's a snapshot of the original painting in the bottom right corner.</p>
+<p>I continued development on the 5th of May live on stream, after a lengthy overview I proceeded with feature development, while Tibor was working on new levels:</p>
+<p><a href="https://www.youtube.com/watch?v=IhDGRpxMzj4"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/IhDGRpxMzj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>On the next day I managed to squeeze in another 4 hours of development, and on the day of the jam's deadline another 3 hours on stream</p>
+<p><a href="https://www.youtube.com/watch?v=5GetlJAMvZk"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/5GetlJAMvZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>...and another 4 hours off-stream (mostly taking care of the UI, audio &amp; playtesting). The final result can be played on <a href="https://lasermagnet.itch.io/recoupage" target="_blank" rel="noopener noreferrer">Itch</a> - so far there were a couple of minor post-jam updates based on feedback we received:</p>
+<div class="post__iframe"><iframe loading="lazy" width="552" height="167" frameborder="0" src="https://itch.io/embed/2691508?linkback=true"><a href="https://lasermagnet.itch.io/recoupage">Recoupage by Lasermagnet Games, Fodi, Teebor9</a></iframe></div>
+<p>If you'd prefer just watching how the game works instead of playing it, here's a video of <a href="https://store.steampowered.com/app/2731590/Block_Shop/" target="_blank" rel="noopener noreferrer">fellow game developer</a> and super nice human person <a href="https://www.twitch.tv/foolbox" target="_blank" rel="noopener noreferrer">Foolbox</a> giving it a go:</p>
+<p><a href="https://www.youtube.com/watch?v=hKgWZk51IBY"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/hKgWZk51IBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Untitled Digging Game (TriJam #267)</title>
         <author>
@@ -87,13 +127,15 @@
             <summary>
                 <![CDATA[
                         <img src="https://gamedev.fodi.be/media/posts/50/construct-3-organization-tips.png" alt="Construct 3 project organization tips" />
-                    I came up with / yoinked some practices I usually follow when working on Construct 3 projects. Warning: opinionated content.
+                    <p>I came up with / yoinked some practices I usually follow when working on Construct 3 projects. Warning: opinionated content. I'm not saying these are "best practices" in general, but maybe other C3 gamedevs might some of them useful too, so here goes.</p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://gamedev.fodi.be/media/posts/50/construct-3-organization-tips.png" class="type:primaryImage" alt="Construct 3 project organization tips" /></p>
                 <p>I came up with / yoinked some practices I usually follow when working on Construct 3 projects. Warning: opinionated content. I'm not saying these are "best practices" in general, but maybe other C3 gamedevs might some of them useful too, so here goes.</p>
+
 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
@@ -113,6 +155,7 @@
 <p>A single event sheet at the root level named <strong>Main</strong> (sometimes <strong>Level</strong>) that includes all sheets in the <strong>Events folder</strong> (there's no need to include sheets from the other folders, custom actions, functions and global variables/constants are always available) and nothing else. This sheet is set as the "Event sheet" on all level layouts. For menu screens I usually use a separate layout with its own event sheet.</p>
 <p>I suffix all sheets with emojis (pro tip for Windows devs: press Win + comma to open the emoji panel), so I can spot them quicker when I have a metric crapton of tabs open.</p>
 <p class="msg msg--highlight "><strong>Tangential sidenote</strong><br>Using emojis in names of C3 primitives, and project folders instead of single file (.c3p) projects means that you'll have file names on your filesystem that have emojis in them. NTFS on Windows 10 seems to work fine, but your mileage might vary on Linux or Mac. You might also have issues if you store project folders in Dropbox, as it will refuse to sync those files. Because of that, I went back to saving my projects in .c3p files and storing those in Dropbox. Dropbox saved my bacon a few times when I've accidentally saved or overwritten a project, as it keeps previous versions of files (as long as it's able to sync them to their server) which you can restore.</p>
+<p>If you contemplate giving my organization system a go, you can <a href="https://github.com/fodi/construct-3-projects/tree/main/projectfolders/BlankTemplate" target="_blank" rel="noopener noreferrer">download this template</a> which I almost always use when starting new projects.</p>
 <h2 id="mcetoc_1htk1ijds15">Using "macros"</h2>
 <p>I never use literal strings in conditions/actions when referencing animation names, layer names, effects, tags and such: instead, I use "macros", which are just constants I define in my vMacros sheet. Example: if I have a sprite that has an "Idle" and "Walking" animation, I create constants named "ANIM_Idle" and "ANIM_Walking" in the "vMacros" sheet with the values "Idle" and "Walking" respectively, and use those in conditions and actions instead of the string literals "Idle" and "Walking".</p>
 <p>This has a couple of benefits:</p>
@@ -360,37 +403,6 @@
 <p>At the end of November I tried streaming on <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a> the first time, <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">made a short video game from scratch in three hours</a> for TriJam, which was fun, and it only took me 7 months to muster the courage (just checked, I bought the mic in April). I no longer feel completely terrified of it, so I'm planning on streaming from time to time.</p>
 <p>My new challenge for 2024 is to make at least 12 video game prototypes (not counting paid gigs this time) and at least 12 game development streams / videos, ideally one every month.</p>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Magic Pandemic (Trijam #247)</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://gamedev.fodi.be/magic-pandemic-for-trijam-247/"/>
-        <id>https://gamedev.fodi.be/magic-pandemic-for-trijam-247/</id>
-        <media:content url="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" medium="image" />
-            <category term="Prototype phase"/>
-            <category term="Projects"/>
-            <category term="2023"/>
-
-        <updated>2023-11-27T11:36:11+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" alt="" />
-                    Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, Trijam.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://gamedev.fodi.be/media/posts/38/magicpandemic-screenshot.png" class="type:primaryImage" alt="" /></p>
-                <p>Last Sunday I had my first Twitch stream (in Hungarian), improvising a game for the 3 hour game jam, <a href="https://itch.io/jam/trijam-247" target="_blank" rel="noopener noreferrer">Trijam</a>.</p>
-<p>I was slightly nervous, but in the end I had a lot of fun and will probably do this sort of thing again. It's not my intention to grow a huge follower base and I currently have zero interest in taking streaming seriously, but I figured it could work as a coping strategy to mitigate some of my ADHD-like symptoms, like postponing fun hobby stuff indefinitely all the time. In the last few months I was checking out <a href="https://itch.io/jams" target="_blank" rel="noopener noreferrer">game jams on Itch</a> almost every weekend, writing little notes and ideas for the ones I found interesting, but I either didn't manage to get started on any of them, or if I did, I lost momentum after a few hours. I'm hoping live streaming could help with that, even if basically no one is watching it.</p>
-<p>I'm not sure it's worth anyone's time, but since it wasn't much additional effort, I put the edited stream up on YouTube. On the off chance you speak Hungarian and would like to check it out, it's <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">right here</a>.</p>
-<p><a href="https://www.youtube.com/watch?v=ak8LVGw3EEc"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ak8LVGw3EEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
-<p>The game turned out to be a pretty simple one (no surprise there), partly because I was narrating everything I was doing and because I wanted to stay inside the 3 hour window. You can <a href="https://fodi.itch.io/trijam-247" target="_blank" rel="noopener noreferrer">play Magic Pandemic on Itch</a> if you want, the back story is on the page, instructions and controls are shown in-game. It supports 4 control schemes: gamepad, keyboard, touch and technically mouse as well, but I do not recommend that. It seems to be running okay on mobile devices too, but the text UI glitches a little on my Android phone.</p>
-<p>If you feel the need to follow me on <a href="https://www.youtube.com/@Fodi_be" target="_blank" rel="noopener noreferrer">YouTube</a>, <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a>, <a href="https://fodi.itch.io/" target="_blank" rel="noopener noreferrer">Itch</a>, <a href="https://www.youtube.com/watch?v=1iHG7YRorgM" target="_blank" rel="noopener noreferrer">Tich, Mick, Beaky, Dozy or Dave Dee</a>, please feel to do so! :)</p>
             ]]>
         </content>
     </entry>
