@@ -3,12 +3,52 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-05-29T12:43:37+02:00</updated>
+    <updated>2024-07-29T15:41:58+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
+    <entry>
+        <title>Shortfall (Trijam #270 / HEJ 2024 May jam)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://gamedev.fodi.be/shortfall-trijam-270-hej-2024-april-jam/"/>
+        <id>https://gamedev.fodi.be/shortfall-trijam-270-hej-2024-april-jam/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/54/shortfall-screen2.png" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
+            <category term="2024"/>
+
+        <updated>2024-07-08T14:19:56+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://gamedev.fodi.be/media/posts/54/shortfall-screen2.png" alt="" />
+                    <p>The short story of a 5-hour Trijam game (khmm, overtime) that turned into something bigger.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://gamedev.fodi.be/media/posts/54/shortfall-screen2.png" class="type:primaryImage" alt="" /></p>
+                <p>The short story of a 5-hour Trijam game (khmm, overtime) that turned into something bigger.</p>
+
+<p>Maybe making games similar to Vampire Survivors is cliché nowadays, but I'm not known to give any dangs about such things. So when I saw the theme for <a href="https://itch.io/jam/trijam-270" target="_blank" rel="noopener noreferrer">Trijam #270</a> ("in the zone"), I felt that it was time I've made one.</p>
+<p>Even though I <em>kinda</em> managed to reach the playable state at the 3 hour mark, I opted to go overtime, since I had a bunch of important items on my todo list. This time I streamed the entire development (apart from the "planning" phase which consisted of making a half-assed todo list and gathering some 3rd party assets), the VOD is up on YouTube if anyone's interested in this sort of thing:</p>
+<p><a href="https://www.youtube.com/watch?v=EULOvlYy-aQ"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/EULOvlYy-aQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>What I miserably failed at is naming the game properly (typical Fodi crap, when I get stuck with naming I get <em>really</em> stuck), so the entry was anti-titled <a href="https://fodi.itch.io/trijam-270" target="_blank" rel="noopener noreferrer">Something Something Zones Something</a>, very much reusing the <a href="https://www.youtube.com/watch?v=0oGMbAIcXCQ" target="_blank" rel="noopener noreferrer">Family Guy reference</a> that I already used in a similar situation (for the Ludum Dare jam game <a href="https://lasermagnet.itch.io/ludum-dare-53-jam-version" target="_blank" rel="noopener noreferrer">Something Something Delivery Something</a>). Oh well :)</p>
+<p>After finding the game (both the development and the gameplay) way too much fun, we opted to build upon it and submit the result for the Hungarian <a href="https://itch.io/jam/hej-2024-majus/entries" target="_blank" rel="noopener noreferrer">HEJ (Havi Egy Játék / One Game a Month) jam</a>. That's how Shortfall came to be. I even updated it for like two weeks after the jam based on the enormously useful feedback we received (thanks to everyone who participated!), which is not my usual modus operandi.</p>
+<p>I streamed some of the development on the 2nd of July:</p>
+<p><a href="https://www.youtube.com/watch?v=aCEKdqwr_Kc"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/aCEKdqwr_Kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>And a bit on the 7th as well:</p>
+<p><a href="https://www.youtube.com/watch?v=o9FcpLyk62s"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/o9FcpLyk62s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>I'd also like to say thanks to the amazing <strong>GrafxKid</strong> for amazing free assets I used (Tibor was <a href="https://www.reddit.com/r/HalfLife/comments/1e4wgol/combine_overwatch_soldier_cosplay_self/" target="_blank" rel="noopener noreferrer">very much occupied with other things this month</a>). Be sure to check 'em out on <a href="https://grafxkid.itch.io/" target="_blank" rel="noopener noreferrer">Itch</a>!</p>
+<p>As you may or may not know, my goal for 2024 is to make at least 12 video game prototypes and next year choose one and turn it into an actual full-fledged Steam release. Shortfall is very much on the shortlist (pun intended) for this, along with <a href="https://lasermagnet.itch.io/attractaball" target="_blank" rel="noopener noreferrer">Attractaball</a> and <a href="https://lasermagnet.itch.io/hedges-of-hell" target="_blank" rel="noopener noreferrer">Hedges of Hell</a> which is the topic of my next blog post if I'm not too lazy to write it :)</p>
+<p>You can try the latest build of <a href="https://lasermagnet.itch.io/shortfall" target="_blank" rel="noopener noreferrer">Shortfall on Itch</a> (per usual). It runs okay on mobile and supports gamepad controls too, but I highly recommend using the keyboard + mouse control scheme for first play. One warning though: if you have motion sickness, you might find the turning mechanic a bit uneasy; the game is playable without it, but then again you might as well play Vampire Survivors :D</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>reCoupage (HEJ 2024 April jam)</title>
         <author>
@@ -25,14 +65,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://gamedev.fodi.be/media/posts/53/recoupage.jpg" alt="" />
-                    <p>Our third attempt at HEJ jam was a tiling puzzle game based on famous paintings (that explode!).</p>
+                    <p>Our third HEJ jam game was a tiling puzzle game based on famous paintings (that explode!).</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://gamedev.fodi.be/media/posts/53/recoupage.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Our third attempt at HEJ jam was a tiling puzzle game based on famous paintings (that explode!).</p>
+                <p>Our third HEJ jam game was a tiling puzzle game based on famous paintings (that explode!).</p>
 
 <p>A few days before starting the project I did some ground work and tested a few open source JavaScript libraries that I needed to integrate: one for pixel-by-pixel comparison of images (so the game can detect when the player has successfully restored the original painting and can also show a percentage of how close they are at any moment), and one for rectangular bin packing (so the shapes making up the painting could "explode" and move to random positions inside a designated container without overlapping). The "winning" libraries were <a href="https://github.com/mapbox/pixelmatch/" target="_blank" rel="noopener noreferrer">Pixelmatch</a> and <a href="https://github.com/soimy/maxrects-packer" target="_blank" rel="noopener noreferrer">Max Rects Packer</a> respectively, they were both super simple to work with (kudos!). I even made a basic Construct 3 template utilizing Pixelmatch - if anyone is interested, <a href="https://github.com/fodi/construct-3-projects/tree/main/projectfolders" target="_blank" rel="noopener noreferrer">it's available on my GitHub</a>.</p>
 <p>Still cutting it relatively close to the deadline, I started prototyping reCoupage at around 4 PM on the 1st of May, 6 days before the deadline. It was a super fun and productive first session and at 1AM (yep, flow happened) the proof of concept version was done: it had one puzzle based on a constructivist painting by Sándor Bortynik. It looked like this (in the "exploded" state):</p>
@@ -388,38 +428,6 @@
 <p>Twitch:<br><a href="https://www.twitch.tv/videos/2052004625">https://www.twitch.tv/videos/2052004625</a></p>
 <p>Itch:<br><a href="https://lasermagnet.itch.io/trijam-255">https://lasermagnet.itch.io/trijam-255</a></p>
 <p>Ch:<br>🇨🇭</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>2023 recap and a new challenge</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://gamedev.fodi.be/2023-recap-and-a-new-challenge/"/>
-        <id>https://gamedev.fodi.be/2023-recap-and-a-new-challenge/</id>
-        <media:content url="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" medium="image" />
-            <category term="Journal"/>
-
-        <updated>2024-01-07T11:24:38+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" alt="" />
-                    What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://gamedev.fodi.be/media/posts/42/2023-recap.svg" class="type:primaryImage" alt="" /></p>
-                <div class="post__inner post__entry">
-<p>What happened in 2023 and why did I not make 20 game prototypes like I wanted to? A short postmortem.</p>
-<p>Around the end of January last year <a href="file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/a-brief-intermission-and-a-challenge/index.html">I challenged myself</a> to build 20 video game prototypes in 2023. I only managed to build 8 on my own (some of them with <a href="https://itch.io/profile/teebor9" target="_blank" rel="noopener noreferrer">Tibor</a>), so one could say I failed to reach my target.</p>
-<p>In March I landed my first paid gamedev gig thanks to the guys over at <a href="https://bardtest.gg/" target="_blank" rel="noopener noreferrer">BardTest.gg.</a> They provide tools for members of the esports community with which they can measure and strengthen their skills like hand-eye coordination, multitasking, decision-making under pressure, et cetera. Their users have access to a variety of mini-games (that's where I come in), which feature core mechanics of first-person shooters and MOBAs. After each play session the players are scored and ranked based on how well they did compared to other users and professional players. Last year I finished the development of 14 mini-games for them, out of which 12 are publicly accessible on their platform at the moment. Counting these, I did manage to reach 20 prototypes, although that wasn't exactly my intention when I came up with the challenge back in February.</p>
-<p>My intention was to turn a portion of my ever-increasing idea pile into playable prototypes. One of them was to make a turn-based game that runs on a big screen in a public location that any passerby can control using their phones. I cobbled together the proof of concept for the communication "framework", which worked fine. I became so sure I was going to turn it into an actual game that I bought a used TV and rented an office with a big shop window on a semi-busy street. It worked out great as a new workplace (although I was alone most of the time, so my initial productivity boost dwindled in a few months), but the TV was only collecting dust for 6 months, then my contract was up. We even built a <a href="file:///D:/Dropbox/Projects/Publii/fodis-blog-on-gamedev/preview/bouncy-block-buster/index.html">turn-based physics puzzle</a> for a game jam in July with Tibor, which I could've adapted to this framework... but I didn't. Not sure why.</p>
-<p>In October I moved offices and started working from a small flat with a friend of mine (Viktor) who's also a software developer now. This setup provided a productivity boost that still lasts today, most days we're both in the office working on our separate projects. </p>
-<p>At the end of November I tried streaming on <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">Twitch</a> the first time, <a href="https://www.youtube.com/watch?v=ak8LVGw3EEc" target="_blank" rel="noopener noreferrer">made a short video game from scratch in three hours</a> for TriJam, which was fun, and it only took me 7 months to muster the courage (just checked, I bought the mic in April). I no longer feel completely terrified of it, so I'm planning on streaming from time to time.</p>
-<p>My new challenge for 2024 is to make at least 12 video game prototypes (not counting paid gigs this time) and at least 12 game development streams / videos, ideally one every month.</p>
-</div>
             ]]>
         </content>
     </entry>
