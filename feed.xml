@@ -3,12 +3,45 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-07-30T13:14:18+02:00</updated>
+    <updated>2024-09-10T13:32:30+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
+    <entry>
+        <title>Hedges of Hell (HEJ 2024 June jam)</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://gamedev.fodi.be/hedges-of-hell-hej-2024-june-jam/"/>
+        <id>https://gamedev.fodi.be/hedges-of-hell-hej-2024-june-jam/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/55/hedges-of-hell.png" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
+            <category term="2024"/>
+
+        <updated>2024-09-10T12:38:22+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://gamedev.fodi.be/media/posts/55/hedges-of-hell.png" alt="" />
+                    <p>Fond memories of playing Doom, Heretic and Hexen finally inspired us to make an old school FPS with Doom '16-style lock-in arena mechanics.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://gamedev.fodi.be/media/posts/55/hedges-of-hell.png" class="type:primaryImage" alt="" /></p>
+                <p>Fond memories of playing Doom, Heretic and Hexen finally inspired us to make an old school FPS with Doom '16-style lock-in arena mechanics.</p>
+
+<p>We started working on the project specifically for the HEJ 2024 June jam as the themes "blind" and "navigate" sounded like good fits for an older idea we had: making a top-down dungeon crawler action game where you can only see one room at a time, but you can traverse dungeon walls (doors are boring anyway) to go the the next one, with the possibility of encountering a very sticky situation that you can't possibly anticipate.</p>
+<p>I also thought that this could be a good opportunity to finally utilize the amazing <a href="https://gfredericks.com/things/polyominoes" target="_blank" rel="noopener noreferrer">Polyomino Tiler</a> by Gary Fredericks to generate interesting dungeon layouts using polyominos. I wrote a little <a href="https://gist.github.com/fodi/7383be96b95e97d3fff065c58d2d7e9c" target="_blank" rel="noopener noreferrer">JS snippet</a> that exports the generated tile layout to a JSON string that I could import to Construct and started experimenting. After a while I figured that "static" pre-generated tiled polyomino levels were good, but unifying some of the polyomino shapes randomly every time was even better: this way the level actually changes every time the game is restarted, even though it's always the same polyomino "base map", and sometimes the random unification results in big arenas and/or long corridors, which is quite cool. On an unrelated note I also discovered that changing the field of view has a very cool zoom-like effect.</p>
+<p><a href="https://www.youtube.com/watch?v=hyyhUg9eKpk"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/hyyhUg9eKpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+<p>At one point we made the decision to turn the game into an FPS and use a hedge maze setting, <a href="https://teebor9.itch.io" target="_blank" rel="noopener noreferrer">Tibor</a> started working on the environment and enemy assets and finally <a href="https://lasermagnet.itch.io/hedges-of-hell" target="_blank" rel="noopener noreferrer">Hedges of Hell</a> was born. After the jam's deadline we continued updating the game for a few more weeks, I streamed one of the sessions <a href="https://www.twitch.tv/fodi_gamedev" target="_blank" rel="noopener noreferrer">on my Twitch channel</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=jNSGgB4GE0M"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jNSGgB4GE0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Shortfall (Trijam #270 / HEJ 2024 May jam)</title>
         <author>
@@ -400,34 +433,6 @@
 <p>If you're willing to give it a go despite this, you can find <a href="https://fodi.itch.io/trijam-256" target="_blank" rel="noopener noreferrer">Rule of Threes on tch</a>. I also uploaded the stream archive to <a href="https://www.youtube.com/watch?v=YMfvmv10Vag" target="_blank" rel="noopener noreferrer">YouTube</a> - and yes, it's in Hungarian again. I'm considering doing the next one in English though.</p>
 <p><a href="https://www.youtube.com/watch?v=YMfvmv10Vag"><div class="post__iframe"><iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/YMfvmv10Vag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen"></iframe></div></a></p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>First stream of the year</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://gamedev.fodi.be/first-stream-of-the-year/"/>
-        <id>https://gamedev.fodi.be/first-stream-of-the-year/</id>
-        <media:content url="https://gamedev.fodi.be/media/posts/44/trijam255.png" medium="image" />
-            <category term="Stream"/>
-            <category term="Journal"/>
-
-        <updated>2024-02-03T23:37:17+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://gamedev.fodi.be/media/posts/44/trijam255.png" alt="Our unfinished and untitled prototype for Trijam #255" />
-                    The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://gamedev.fodi.be/media/posts/44/trijam255.png" class="type:primaryImage" alt="Our unfinished and untitled prototype for Trijam #255" /></p>
-                <p>The VOD is up, edited YouTube video is coming soon. Clocked in at 4 hours, a prototype is coming along.</p>
-<p>Twitch:<br><a href="https://www.twitch.tv/videos/2052004625">https://www.twitch.tv/videos/2052004625</a></p>
-<p>Itch:<br><a href="https://lasermagnet.itch.io/trijam-255">https://lasermagnet.itch.io/trijam-255</a></p>
-<p>Ch:<br>🇨🇭</p>
             ]]>
         </content>
     </entry>
