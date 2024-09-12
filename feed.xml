@@ -3,14 +3,14 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-09-11T19:06:43+02:00</updated>
+    <updated>2024-09-12T10:37:56+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
     <entry>
-        <title>M4+5S (HEJ 2024 July jam)</title>
+        <title>M4+H5 (HEJ 2024 July jam)</title>
         <author>
             <name>Fodi</name>
         </author>
@@ -25,14 +25,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://gamedev.fodi.be/media/posts/56/maths.png" alt="" />
-                    <p>M4+5S (or "MATHS") is a very simple puzzle game with addition, subtraction and multiplication. Can you tell if we've struggled with naming again?</p>
+                    <p>M4+H5 (or "MATHS") is a very simple puzzle game with addition, subtraction and multiplication. Can you tell if we've struggled with naming again?</p>
 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://gamedev.fodi.be/media/posts/56/maths.png" class="type:primaryImage" alt="" /></p>
-                <p>M4+5S (or "MATHS") is a very simple puzzle game with addition, subtraction and multiplication. Can you tell if we've struggled with naming again?</p>
+                <p>M4+H5 (or "MATHS") is a very simple puzzle game with addition, subtraction and multiplication. Can you tell if we've struggled with naming again?</p>
 
 <p>Although the themes for the <a href="https://itch.io/jam/hej-2024-julius" target="_blank" rel="noopener noreferrer">HEJ 2024 July jam</a> sounded quite good (based on a movie, 1D+2D+3D, festival), we somehow didn't feel any of them and a few days before the deadline I reached into the idea drawer (mostly Google Keep) and dug out this little number (sorry): a simple maths puzzle, in which the player has to connect numbered tiles to come up with sums (by addition, substraction multiplication) for specified, definitely existing target numbers.</p>
 <p>It's a bit of a stretch, but we figured that by making the level layout customizable (allowing one and two dimensional levels) and adding a fake 3D look would cut it... it's not great, but technically fits the 1D+2D+3D theme.</p>
