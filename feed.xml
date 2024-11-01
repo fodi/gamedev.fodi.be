@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-09-12T10:37:56+02:00</updated>
+    <updated>2024-11-01T13:22:50+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -287,16 +287,22 @@
 </ul>
 <p>I also use some special macros which have no prefixes:</p>
 <ul>
-<li>NOTHING, with the numeric value of -1: whenever I have variables that store UIDs and want to clear them, I set their values to NOTHING. If I want to check if they have been assigned, I compare them to NOTHING.</li>
-<li>YES and NO with the respective numeric values of 1 and 0. This stems from the fact that you can't pass a variable or calculated value to a function or custom action with a boolean parameter: when calling it, you have to use a checkbox to either pass true or false, you cannot write an expression or reference a variable. Because of this I refrain from using boolean parameters in functions and custom actions, instead I use numbers just in case I ever need to do the aforementioned. And when I don't, I pass the YES or NO macro.</li>
+<li><strong>NOTHING</strong>, with the numeric value of -1: whenever I have variables that store UIDs and want to clear them, I set their values to <strong>NOTHING</strong>. If I want to check if they have been assigned, I compare them to <strong>NOTHING</strong>.</li>
+<li><strong>YES</strong> and <strong>NO</strong> with the respective numeric values of 1 and 0. This stems from the fact that you can't pass a variable or calculated value to a function or custom action with a boolean parameter: when calling it, you have to use a checkbox to either pass true or false, you cannot write an expression or reference a variable. Because of this I refrain from using boolean parameters in functions and custom actions, instead I use numbers just in case I ever need to do the aforementioned. And when I don't, I pass the <strong>YES</strong> or <strong>NO</strong> macro.</li>
 </ul>
-<h2 id="mcetoc_1htk1ijds16">Picky blindspots (sorry)</h2>
+<h2 id="mcetoc_1htk1ijds16">Footguns</h2>
+<p>Just like with all platforms / languages, there are some WTF moments in Construct too, or things that some devs (like yours truly) expect to work in a different way.</p>
+<h3>Picking instances</h3>
 <p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
 <ul>
 <li>If you only want to pick a single object, make sure that the conditions only pick one. If unsure, add a "pick nth instance" condition with the parameter "0".</li>
 <li>If you're storing UIDs in (instance) variables, make their default value is a negative number (eg. -1) and not 0, since 0 could be a valid UID since it's zero indexed. When you clear the variable, also reset it to a negative number.</li>
-<li>Don't forget that the timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
+<li>Don't forget that the Timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
 <li>Functions and custom actions have a similarly named option: "copy picked" and "copy all picked". If you have a custom action for an object type or family "X" and call it from an event that already picked some instances of "X", those will be passed on to the custom action even if you don't check "copy all picked" (which is for passing other non-"X" instances to the custom action).</li>
+</ul>
+<h3>Other stuff</h3>
+<ul>
+<li>The int() system expression works like floor() and does not work like parseInt in JavaScript. If you pass it -0.1, it will return -1 instead of 0. There is a related feature request <a href="https://github.com/Scirra/Construct-feature-requests/issues/380" target="_blank" rel="noopener noreferrer">here</a> with more info workarounds.</li>
 </ul>
 <h2 id="mcetoc_1htk33g5r4u">Keyboard shortcuts</h2>
 <p>In event sheets you can do almost everything without touching the mouse. Although I still find myself using it at times, I gained considerable speed by learning <a href="https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts" target="_blank" rel="noopener noreferrer">the handful of shortcuts</a> for creating events, conditions, actions, functions, comments, inline scripts, parameters and variables alone. One thing that is missing at the moment is a keyboard shortcut for creating custom actions, but I have a <a href="https://github.com/Scirra/Construct-feature-requests/issues/208" target="_blank" rel="noopener noreferrer">feature request for that</a> too (I'd sure appreciate some upvotes on it if you have a GitHub account, thanks ;).</p>
@@ -312,7 +318,7 @@
 <li><a href="https://github.com/soimy/maxrects-packer" target="_blank" rel="noopener noreferrer">Max Rects Packer</a> by Soimy for bin packing objects</li>
 <li>The official <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank" rel="noopener noreferrer">YouTube IFrame Player API</a> for controlling YouTube embeds</li>
 </ul>
-<p>And since your projects are JavaScript apps, you can also use the developer tools in your browser, including the console: the stock Browser plugin / object has actions that write to the console, but of course you can use console.log() and friends in code blocks or the code editor as well.</p>
+<p>And since Construct projects are JavaScript apps, you can also use the developer tools in your browser, including the console: the stock Browser plugin / object has actions that write to the console, but of course you can use console.log() and friends in code blocks or the code editor as well.</p>
             ]]>
         </content>
     </entry>
