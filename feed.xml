@@ -3,12 +3,45 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-11-01T13:22:50+01:00</updated>
+    <updated>2024-11-12T15:09:57+01:00</updated>
     <author>
         <name>Fodi</name>
     </author>
     <id>https://gamedev.fodi.be</id>
 
+    <entry>
+        <title>Geospotting</title>
+        <author>
+            <name>Fodi</name>
+        </author>
+        <link href="https://gamedev.fodi.be/geospotting/"/>
+        <id>https://gamedev.fodi.be/geospotting/</id>
+        <media:content url="https://gamedev.fodi.be/media/posts/57/geospotting.jpg" medium="image" />
+            <category term="Prototype phase"/>
+            <category term="Projects"/>
+            <category term="2024"/>
+
+        <updated>2024-11-11T17:32:10+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://gamedev.fodi.be/media/posts/57/geospotting.jpg" alt="" />
+                    <p>A mobile game that is not a jam game, not even a video game, and it requires players to walk around in a real city. Békéscsaba, Hungary to be exact.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://gamedev.fodi.be/media/posts/57/geospotting.jpg" class="type:primaryImage" alt="" /></p>
+                <p>A mobile game that is not a jam game, not even a video game, and it requires players to walk around in a real city. Békéscsaba, Hungary to be exact.</p>
+
+<p>Back in the 2010s I was co-organizer of number of community events aimed at secondary schoolers in my hometown Békéscsaba. In 2017 an event called Rongyoló (hard to translate, but the pun was the inclusion of the word "yolo" in it), a student organized mini festival of sorts with live concerts and various activities across a few days. One of those activities was a game I designed, where small teams had 90 minutes to frantically run around and find real locations in the city based on clues (semi-cryptic titles and photos taken at the target location). Every team had to use an Android app (made with Cordova) running on their phones to view the clues, then they had to plan their route and then finally go to the locations. The app showed the current distance of each target (also a clue in itself) and when a team managed to get within 15 meters of one, a "Found it!" button popped up, which they could press to get points for finding the right place. They also had the option to get an extra clue for hard to find targets by pressing a hint button, but this also meant that they'll only get half of the original point reward for that target if they manage to find it.</p>
+<p>Back then it was less common for every secondary schooler to have mobile Internet connectivity on their phones, so I designed the game to work 100% offline after installation, every asset was included in the initial download. When the 90 minute timer expired, the app switched to an end-game mode, so it wasn't possible to collect more points and every team had to head back to HQ. In this mode the app showed a QR code containing an encrypted array of found targets and their point values, plus the maximum velocity recorded during the hunt (it was forbidden to use motorized vehicles, so I figured why not add this little telemetry). I used a separate app to read &amp; decrypt the contents of the QR codes, then I compiled the end results. Top teams got some small prizes and of course, bragging rights. It was fun to make and according to the participants, fun to play.</p>
+<p>In 2022 I wanted to resurrect the project and rewrote most of the player app using Onsen UI (I figured it should be a PWA instead of an app, so iPhone users can participate as well), but then procrastination got the best of me.</p>
+<p>Then in the spring of 2024 the idea resurfaced and got some traction after I presented it for a local youth club and we decided to make another one-off game event in September 2024. I changed the name to "Geospotting" then rewrote the app in Construct 3 (of course) in August, removed targets that weren't there anymore (hey, it's been 7 years) and with some help of a co-organizer of the event also added some more too. The final version contained 70 targets with one photo and one text clue each, and we allowed bigger teams to participate during the 2 hour "hunt". Teams could also split up this time and use more then one phone, so I wrote a little app that summarized the data by team so it wasn't possible to get points if a team found a clue more then once.</p>
+<p>After the event I made a public version of Geospotting, which you can find on <a href="https://geospotting.net/" target="_blank" rel="noopener noreferrer">geospotting.net</a>. Again, playing it requires visiting my lovely hometown of Békéscsaba, Hungary, but on the off chance that's manageable for you, by all means give the game a go. And if not, you can still look at the picture clues :)</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>M4+H5 (HEJ 2024 July jam)</title>
         <author>
@@ -319,73 +352,6 @@
 <li>The official <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank" rel="noopener noreferrer">YouTube IFrame Player API</a> for controlling YouTube embeds</li>
 </ul>
 <p>And since Construct projects are JavaScript apps, you can also use the developer tools in your browser, including the console: the stock Browser plugin / object has actions that write to the console, but of course you can use console.log() and friends in code blocks or the code editor as well.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Useful links</title>
-        <author>
-            <name>Fodi</name>
-        </author>
-        <link href="https://gamedev.fodi.be/links/"/>
-        <id>https://gamedev.fodi.be/links/</id>
-
-        <updated>2024-03-22T12:40:40+01:00</updated>
-            <summary>
-                <![CDATA[
-                    This is essentially a copy of the contents of my "GameDev" bookmarks folder. Until I figure out a better way&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>This is essentially a copy of the contents of my "GameDev" bookmarks folder. Until I figure out a better way to organize them, here's a slightly chaotic list.</p>
-<h2>Stuff I read / listen to</h2>
-<h3><a href="https://www.bscotch.net/podcast" target="_blank" rel="noopener noreferrer">Coffee with Butterscotch</a></h3>
-<p>A long running <strong>gamedev comedy podcast</strong> by Butterscotch Shenanigans. The perfect mix of entertaining and useful, these folks are essentially my role models.</p>
-<h3><a href="https://gameaccessibilityguidelines.com/" target="_blank" rel="noopener noreferrer">Game accessibility guidelines</a></h3>
-<p>A comprehensive guide to inclusive game design.</p>
-<h3><a href="https://ltpf.ramiismail.com/" target="_blank" rel="noopener noreferrer">Levelling The Playing Field</a></h3>
-<p>Rami Ismail's <strong>blog / newsletter</strong> mostly on the <strong>marketing</strong> side of gamedev.</p>
-<h2>Cheat sheets and resources for programmers</h2>
-<h3><a href="https://www.redblobgames.com/" target="_blank" rel="noopener noreferrer">Red Blob Games</a></h3>
-<p>A great collection of <strong>interactive visual explanations of math and algorithms</strong> on procedural generation, pathfinding and a lots of other topics related to game development.</p>
-<h3><a href="https://easings.net/" target="_blank" rel="noopener noreferrer">Easing functions cheat sheet</a></h3>
-<p>A handy visual <strong>guide to easing functions</strong>.</p>
-<h2>Assets</h2>
-<h3><a href="https://99sounds.org/" target="_blank" rel="noopener noreferrer">99Sounds</a></h3>
-<p>Curated packs of free <strong>sound effects</strong>.</p>
-<h3><a href="https://itch.io/game-assets" target="_blank" rel="noopener noreferrer">Itch.io game assets</a></h3>
-<p>Enormous amounts of <strong>audio and visual assets</strong>, some free, some paid. Here are <a href="https://itch.io/c/2532917/assets-i-like-a-lot" target="_blank" rel="noopener noreferrer">my favourites</a>.</p>
-<h3><a href="https://kenney.nl/" target="_blank" rel="noopener noreferrer">Kenney</a></h3>
-<p>Also known as "Asset Jesus", Kenney Vleugels is a Dutch artist who created a huge amount of high quality <strong>2D, 3D and audio assets</strong> and made them available through this site, all under CC0 license.</p>
-<h3><a href="https://lospec.com/" target="_blank" rel="noopener noreferrer">Lospec</a></h3>
-<p>I'm not a visual artist, so I only use this site to find pleasant <strong>colour palettes</strong> for temporary "programmer art", but it's still awesome. They also have <strong>pixel art tutorials</strong>.</p>
-<h3><a href="https://opengameart.org/" target="_blank" rel="noopener noreferrer">OpenGameArt.org</a></h3>
-<p>Copious amounts of free <strong>audio and visual assets</strong> with various kinds of permissive licenses.</p>
-<h3><a href="https://quaternius.com/" target="_blank" rel="noopener noreferrer">Quaternius</a></h3>
-<p>Not unlike Kenney, Quaternius is a super talented and generous artist specializing in high quality <strong>low-poly 3D assets</strong> made available under a CC0 license.</p>
-<h2>Tools</h2>
-<h3><a href="https://www.eatmy.art/" target="_blank" rel="noopener noreferrer">Arteater</a></h3>
-<p>An awesome <strong>animation tool</strong> for turning hand drawn or painted animations into digital ones. Great for getting kids involved with digital art / gamedev.</p>
-<h3><a href="https://sfbgames.itch.io/chiptone"></a><a href="https://sfbgames.itch.io/chiptone" target="_blank" rel="noopener noreferrer">Chiptone</a></h3>
-<p>An awesome browser based <strong>sound effect generator</strong>. It's very easy to use thanks to the included presets, but it's also very versatile if you want to get your hands dirty.</p>
-<h3><a href="https://www.pmbaty.com/iosbuildenv/">iOS Build Environment for Windows</a></h3>
-<p>A very useful <strong>build tool</strong> for Unity and Cordova projects targeting iOS / iPadOS.</p>
-<h3><a href="https://labbed.net/software/labchirp/" target="_blank" rel="noopener noreferrer">LabChirp</a></h3>
-<p>A downloadable cross-platform <strong>sound effect generator</strong>.</p>
-<h3><a href="https://www.omnicalculator.com/math" target="_blank" rel="noopener noreferrer">Omnicalculator</a></h3>
-<p>A bunch of useful <strong>articles with interactive calculators</strong> if you keep forgetting math and physics equations like me.</p>
-<h2>Useful tools mostly for Construct 3 developers</h2>
-<h3><a href="https://sandbox.babylonjs.com/" target="_blank" rel="noopener noreferrer">Babylon.js sandbox</a></h3>
-<p>An incredibly useful tool for viewing and preparing GLTF/GLB models for use with <a href="https://kindeyegames.itch.io/c3-3dobject-alpha" target="_blank" rel="noopener noreferrer">Mikal's 3D Object plugin</a>.</p>
-<h3><a href="https://mp2.dk/chowdren/#construct" target="_blank" rel="noopener noreferrer">Chowdren</a></h3>
-<p>A 3rd party paid <strong>porting service</strong> utilizing a runtime made in C++ which implements a bunch of Construct 2/3 (and Multimedia Fusion) features. Might be a feasible alternative to the browser based runtime in some cases.</p>
-<h3><a href="https://stmn.itch.io/font2bitmap" target="_blank" rel="noopener noreferrer">Font to sprite font converter</a></h3>
-<p>A great <strong>tool for generating sprite font sheets</strong> and padding data which you can import to your Construct project.</p>
-<h3><a href="https://ondras.github.io/rot.js" target="_blank" rel="noopener noreferrer">ROT.js</a></h3>
-<p>A <strong>JavaScript library</strong> for making traditional <strong>roguelike</strong> development easier. It has features like map generation, pathfinding, et cetera. Can be hooked up with Construct 3 fairly easily.</p>
-<h3><a href="https://github.com/kchapelier/wavefunctioncollapse" target="_blank" rel="noopener noreferrer">WaveFunctionCollapse (JavaScript port)</a></h3>
-<p>A seriously awesome <strong>JavaScript library for procedural generation</strong> based on visual patterns. I used this in our 2021 jam game prototype <a href="https://lasermagnet.itch.io/groundflipper" target="_blank" rel="noopener noreferrer">Groundflipper</a>.</p>
             ]]>
         </content>
     </entry>
