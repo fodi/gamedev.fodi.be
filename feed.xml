@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2024-11-13T17:46:40+01:00</updated>
+    <updated>2025-05-21T19:54:50+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -311,9 +311,15 @@
 <ul>
 <li><a href="#mcetoc_1htk1ijds14">Sheet organization</a></li>
 <li><a href="#mcetoc_1htk1ijds15">Using "macros"</a></li>
-<li><a href="#mcetoc_1htk1ijds16">Picky blindspots (sorry)</a></li>
+<li><a href="#mcetoc_1htk1ijds16">Footguns</a>
+<ul>
+<li><a href="#mcetoc_1irpup50ti">Picking instances</a></li>
+<li><a href="#mcetoc_1irpup50tj">Other stuff</a></li>
+</ul>
+</li>
 <li><a href="#mcetoc_1htk33g5r4u">Keyboard shortcuts</a></li>
 <li><a href="#mcetoc_1htk33g5r4v">Embrace the web platform</a></li>
+<li><a href="#mcetoc_1htk33g5r4v">Useful tools</a></li>
 </ul>
 </div>
 <h2 id="mcetoc_1htk1ijds14">Sheet organization</h2>
@@ -358,15 +364,15 @@
 </ul>
 <h2 id="mcetoc_1htk1ijds16">Footguns</h2>
 <p>Just like with all platforms / languages, there are some WTF moments in Construct too, or things that some devs (like yours truly) expect to work in a different way.</p>
-<h3>Picking instances</h3>
+<h3 id="mcetoc_1irpup50ti">Picking instances</h3>
 <p>A significant amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
 <ul>
 <li>If you only want to pick a single object, make sure that the conditions only pick one. If unsure, add a "pick nth instance" condition with the parameter "0".</li>
 <li>If you're storing UIDs in (instance) variables, make their default value is a negative number (eg. -1) and not 0, since 0 could be a valid UID since it's zero indexed. When you clear the variable, also reset it to a negative number.</li>
-<li>Don't forget that the Timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
+<li>The Timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
 <li>Functions and custom actions have a similarly named option: "copy picked" and "copy all picked". If you have a custom action for an object type or family "X" and call it from an event that already picked some instances of "X", those will be passed on to the custom action even if you don't check "copy all picked" (which is for passing other non-"X" instances to the custom action).</li>
 </ul>
-<h3>Other stuff</h3>
+<h3 id="mcetoc_1irpup50tj">Other stuff</h3>
 <ul>
 <li>The int() system expression works like floor() and does not work like parseInt in JavaScript. If you pass it -0.1, it will return -1 instead of 0. There is a related feature request <a href="https://github.com/Scirra/Construct-feature-requests/issues/380" target="_blank" rel="noopener noreferrer">here</a> with more info workarounds.</li>
 </ul>
@@ -385,6 +391,13 @@
 <li>The official <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank" rel="noopener noreferrer">YouTube IFrame Player API</a> for controlling YouTube embeds</li>
 </ul>
 <p>And since Construct projects are JavaScript apps, you can also use the developer tools in your browser, including the console: the stock Browser plugin / object has actions that write to the console, but of course you can use console.log() and friends in code blocks or the code editor as well.</p>
+<h2 id="mcetoc_1htk33g5r4v">Useful tools</h2>
+<p>Here are a few external tools that you might found useful:</p>
+<ul>
+<li><a href="https://stmn.itch.io/font2bitmap" target="_blank" rel="noopener noreferrer">Font To Bitmap Converter</a>: generates sprite sheets and padding data you can use with the Sprite Font plugin</li>
+<li><a href="https://plugins.buy-instant-html5games.com/tools/construct-3-icons-generator/" target="_blank" rel="noopener noreferrer">Construct 3 Icon Generator</a>: generate all icons for your project from a single image</li>
+<li><a href="https://fodi.github.io/construct-3-projects/ConstructColorConverter/" target="_blank" rel="noopener noreferrer">Construct Color Converter</a>: convert hexadecimal color codes to Constuct's ColorValue format, or global constant declarations you can paste in your project</li>
+</ul>
             ]]>
         </content>
     </entry>
