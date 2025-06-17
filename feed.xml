@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2025-05-27T17:46:15+02:00</updated>
+    <updated>2025-06-17T12:03:44+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -310,10 +310,11 @@
 <h3>Table of Contents</h3>
 <ul>
 <li><a href="#mcetoc_1htk1ijds14">Sheet organization</a></li>
-<li><a href="#mcetoc_1htk1ijds15">Using "macros"</a></li>
-<li><a href="#mcetoc_1htk1ijds16">Footguns</a>
+<li><a href="#mcetoc_1htk1ijds15">Using "names"</a></li>
+<li><a href="#mcetoc_1htk1ijds16">Footguns / quirks</a>
 <ul>
 <li><a href="#mcetoc_1irpup50ti">Picking instances</a></li>
+<li><a href="#mcetoc_1itulge3j3p">Physics behaviour</a></li>
 <li><a href="#mcetoc_1irpup50tj">Other stuff</a></li>
 </ul>
 </li>
@@ -372,8 +373,8 @@
 <li>You can use "Find all references" to find occurrences of these "names".</li>
 <li>If you want to <a href="https://martinfowler.com/bliki/TwoHardThings.html" target="_blank" rel="noopener noreferrer">rename</a> eg. an animation from "Walking" to "Running", you only have to make the change in two places: the animation editor and the "name". This is quicker and less error prone compared to search &amp; replace.</li>
 </ul>
-<h2 id="mcetoc_1htk1ijds16">Footguns</h2>
-<p>Just like with all engines and programming languages, there are a few WTF moments in Construct too, or things that some devs (like yours truly) expect to work in a different way.</p>
+<h2 id="mcetoc_1htk1ijds16">Footguns / quirks</h2>
+<p>Just like with all engines and programming languages, there are a some WTF moments, where something that you might expect to work in a certain way just... doesn't. Here are some of those things I noticed.</p>
 <h3 id="mcetoc_1irpup50ti">Picking instances</h3>
 <p>A good amount of bugs I create are related to screwing up picking conditions: either picking something I don't want to pick, picking the wrong instance or failing to pick something. Here are some suggestions and known footguns related to object instance picking.</p>
 <ul>
@@ -382,9 +383,13 @@
 <li>The Timer behaviour's "On timer" condition might pick multiple instances if those instances reach their time in the same tick and you might need to put in an extra "For each" to run actions on all of them. <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/timer" target="_blank" rel="noopener noreferrer">This is mentioned in a big yellow warning box in the docs by the way.</a></li>
 <li>Functions and custom actions have a similarly named option: "copy picked" and "copy all picked". If you have a custom action for an object type or family "X" and call it from an event that already picked some instances of "X", those will be passed on to the custom action even if you don't check "copy all picked" (which is for passing other non-"X" instances to the custom action). This is by design and makes sense, but can be slightly confusing </li>
 </ul>
+<h3 id="mcetoc_1itulge3j3p">Physics behaviour</h3>
+<p>The Physics behaviour in Construct 3 is powered by the "industry standard" Box2D library and it comes with a few quirks. I highly recommend reading through <a href="https://www.construct.net/en/make-games/manuals/construct-3/behavior-reference/physics" target="_blank" rel="noopener noreferrer">the official docs</a>, especially if you're considering using Physics on objects that might interact with other objects with different movement behaviours, the Solid or Jump-thru behaviours.</p>
+<p>You might also notice that objects with Physics behaviour have a little extra padding around their collision polygon, which is especially noticeable on lower resolutions (eg. a ball might look it's hovering above a surface even though it's "on it").</p>
 <h3 id="mcetoc_1irpup50tj">Other stuff</h3>
 <ul>
 <li>The int() system expression works like floor() and does not work like parseInt in JavaScript. If you pass it -0.1, it will return -1 instead of 0. There is a related feature request <a href="https://github.com/Scirra/Construct-feature-requests/issues/380" target="_blank" rel="noopener noreferrer">here</a> with more info workarounds.</li>
+<li>HTML5 exports can utilize Construct's nifty "offline mode" which uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API" target="_blank" rel="noopener noreferrer">Service Worker API</a> to cache files locally once they are loaded. If your offline-enabled HTML5 export loads from an URL and you update your project (without changing the URL) an additional browser refresh is needed to run the latest version and this is by design. After an update and a refresh, Construct's service worker downloads the new version in the background while loading the old version. The new version will run at the next refresh. Projects hosted on Itch.io are not affected by this, since Itch.io actually hosts every update on a different URL which is embedded in an iframe on your project's Itch.io page.</li>
 </ul>
 <h2 id="mcetoc_1htk33g5r4u">Keyboard shortcuts</h2>
 <p>In event sheets you can do almost everything without touching the mouse. Although I still find myself using it at times, I gained considerable speed by learning <a href="https://www.construct.net/en/make-games/manuals/construct-3/interface/keyboard-shortcuts" target="_blank" rel="noopener noreferrer">the handful of shortcuts</a> for creating events, conditions, (custom) actions, functions, comments, inline scripts, parameters and variables alone.</p>
