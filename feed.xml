@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2025-07-30T12:17:41+02:00</updated>
+    <updated>2025-08-09T13:32:08+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -327,15 +327,15 @@
 <p>I usually have 4 event sheet folders in my projects: <strong>Actions</strong>, <strong>Events</strong>, <strong>Functions</strong> and <strong>Values</strong>.</p>
 <p>The <strong>Actions </strong>folder contains sheets prefixed with the letter "a", eg. <strong>aPlayer</strong>, <strong>aEnemies</strong>, <strong>aPortals. </strong>These sheets only contain custom actions for one object type or family only and are named after the relevant object type or family. Common custom actions include:</p>
 <ul>
-<li><strong>spawn:</strong> to dynamically spawn objects during runtime. This usually contains a "create object" action and then a call to the <strong>init</strong> custom action of the same object / family.</li>
-<li><strong>init:</strong> initialize variables / behaviours of the object right after it's spawned (or later if the object needs to be "reset" at any point). This is similar to _ready in Godot.</li>
+<li><strong>spawn:</strong> to dynamically spawn objects during runtime.</li>
+<li><strong>init:</strong> initialize variables / behaviours of the object right after it's spawned (or later if the object needs to be "reset" at any point). This is similar to _ready in Godot. For objects that not dynamically spawned I usually call <strong>init</strong> from an "on created" event.</li>
 <li><strong>tick:</strong> if an object needs to be constantly "updated", I call this custom action at every tick. This is similar to _process in Godot.</li>
 </ul>
 <p>The <strong>Events </strong>folder contains sheets prefixed with the letter "e". Each sheet only has events with primary conditions of a certain "category". Some examples:</p>
 <ul>
-<li><strong>eCreated:</strong> "on X created" events</li>
-<li><strong>eCollisions:</strong> "on collision with" and "is overlapping" events</li>
-<li><strong>eCycles:</strong> "on start of layout", "every tick" and "every X seconds" events</li>
+<li><strong>eCreated:</strong> "on X created" events (for objects that are on the layout at start)</li>
+<li><strong>eCollisions:</strong> "on collision with" events</li>
+<li><strong>eSystem:</strong> "on start of layout", "every tick" and other system events</li>
 <li><strong>eInput:</strong> keyboard / gamepad / mouse / touch events</li>
 <li><strong>eMovement:</strong> events with conditions of movement behaviours</li>
 </ul>
