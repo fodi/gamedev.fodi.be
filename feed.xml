@@ -3,7 +3,7 @@
     <title>Fodi makes games</title>
     <link href="https://gamedev.fodi.be/feed.xml" rel="self" />
     <link href="https://gamedev.fodi.be" />
-    <updated>2025-08-14T12:04:02+02:00</updated>
+    <updated>2025-09-09T13:12:27+02:00</updated>
     <author>
         <name>Fodi</name>
     </author>
@@ -306,6 +306,7 @@
                     <p><img src="https://gamedev.fodi.be/media/posts/50/construct-3-organization-tips.png" class="type:primaryImage" alt="Construct 3 project organization tips" /></p>
                 <p>I have a growing number of practices I usually follow when working on Construct 3 projects. Some of them I've seen elsewhere, some I came up with. Warning: opinionated content. I'm not saying these are "best practices", but you might find some of them useful.</p>
 
+<p class="msg msg--highlight ">Hi there! This article was getting a bit long, so I created a separate site called <a href="https://advancedconstruct.net" target="_blank" rel="noopener noreferrer">Advanced Construct</a> where you can find even more info. I'll keep this post as-is, but it won't be updated anymore.</p>
 <div class="post__toc">
 <h3>Table of Contents</h3>
 <ul>
